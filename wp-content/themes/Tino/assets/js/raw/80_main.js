@@ -271,9 +271,12 @@ $(document).ready(function () {
             licenseKey:"E375C282-63564B3E-BD04263B-BA5809AD",
             scrollOverflow: true,
             verticalCentered: false,
+            navigation: true,
+            navigationPosition: 'left',
             responsiveWidth: 990,
+            scrollOverflowReset: true,
             onLeave: function(origin, destination, direction){
-                if(direction === 'down'){
+                if((direction === 'down' || direction === 'up') && destination.index !== 0){
                     $('.header').addClass('header-scroll');
                 }
                 if(direction === 'up' && destination.index === 0) {
