@@ -1,0 +1,44 @@
+.tabs-head {
+  margin-bottom: 70px;
+  .tabs-head-inner {
+    display: flex;
+    align-items: center;
+  }
+  .tabs-head-item {
+    & + .tabs-head-item {
+      margin-left: 80px;
+    }
+  }
+  .tab-trigger {
+    background: transparent;
+    display: block;
+    padding: 16px 0;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px transparent solid;
+    cursor: pointer;
+    opacity: .3;
+    font-size: 32px;
+    color: #13112B;
+    letter-spacing: 0;
+    line-height: 32px;
+    font-weight: 700;
+    font-family: CircularStd;
+    transition: all 400ms;
+    &:not(.active) {
+      &:hover {
+        color: $pinkColor;
+        opacity: 1;
+      }
+    }
+    &.active {
+      opacity: 1;
+      border-bottom-color: $blackColor;
+    }
+  }
+}
+.tab-item-wrapper {
+  &:not(.show) {
+    display: none;
+  }
+}

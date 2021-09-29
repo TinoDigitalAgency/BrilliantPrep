@@ -1,0 +1,54 @@
+# Copyright (c) 2021 GoDaddy Operating Company, LLC. All Rights Reserved.
+msgid ""
+msgstr ""
+"Project-Id-Version: MWC Common\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: plugins@godaddy.com\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-09-25T00:24:03+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0\n"
+"X-Domain: mwc-common\n"
+
+#: src/Email/Email.php:59
+msgid "Invalid recipient value to set for email: should be type of string or array, %s given."
+msgstr ""
+
+#: src/Email/Emails.php:41
+msgid "The email does not have content type set"
+msgstr ""
+
+#: src/Email/Emails.php:48
+msgid "The class name for %s must be an instance of EmailServiceContract"
+msgstr ""
+
+#: src/Models/Orders/Statuses/CancelledOrderStatus.php:18
+msgid "Cancelled"
+msgstr ""
+
+#: src/Models/Orders/Statuses/CompletedOrderStatus.php:18
+msgid "Completed"
+msgstr ""
+
+#: src/Models/Orders/Statuses/FailedOrderStatus.php:18
+msgid "Failed"
+msgstr ""
+
+#: src/Models/Orders/Statuses/HeldOrderStatus.php:18
+msgid "Held"
+msgstr ""
+
+#: src/Models/Orders/Statuses/PendingOrderStatus.php:18
+msgid "Pending payment"
+msgstr ""
+
+#: src/Models/Orders/Statuses/ProcessingOrderStatus.php:18
+msgid "Processing"
+msgstr ""
+
+#: src/Models/Orders/Statuses/RefundedOrderStatus.php:18
+msgid "Refunded"
+msgstr ""

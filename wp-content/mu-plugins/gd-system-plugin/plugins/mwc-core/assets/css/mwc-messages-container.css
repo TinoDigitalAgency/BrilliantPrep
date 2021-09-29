@@ -1,0 +1,22 @@
+#mwc-messages-container > div:not(:empty) {
+	margin: 50px 20px 0 2px;
+}
+.toplevel_page_mwc-get-help #mwc-messages-container > div:not(:empty) {
+	margin-bottom: 24px;
+}
+.woocommerce-page #mwc-messages-container > div:not(:empty) {
+	margin: 100px 40px -60px 40px;
+}
+.woocommerce-embed-page #mwc-messages-container > div:not(:empty) {
+	margin: 100px 20px -70px 20px;
+}
+
+/* Rules for WooCommerce 5.2+ */
+.mwc-wc-version-gte-5-2.woocommerce-page #mwc-messages-container > div:not(:empty) {
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+.mwc-wc-version-gte-5-2.woocommerce-embed-page #mwc-messages-container > div:not(:empty) {
+    margin-top: 50px;
+    margin-bottom: 0;
+}

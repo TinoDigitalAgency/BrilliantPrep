@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="29px" height="40px" viewBox="0 0 29 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>pin</title>
+    <desc>Created with Sketch.</desc>
+    <g id="UI-Final" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bp-ui-program-overview" transform="translate(-298.000000, -782.000000)" fill="#DE3C7D" fill-rule="nonzero">
+            <g id="Locations" transform="translate(0.000000, 702.000000)">
+                <g id="1" transform="translate(162.000000, 80.000000)">
+                    <g id="pin" transform="translate(136.000000, 0.000000)">
+                        <path d="M14.5,0 C6.50465682,0 0,6.49860167 0,14.4864239 C0,24.399561 12.9760795,38.9526256 13.5285476,39.5673138 C14.0474688,40.1447364 14.9534696,40.1437208 15.4714524,39.5673138 C16.0239205,38.9526256 29,24.399561 29,14.4864239 C29,6.49860167 22.495265,0 14.5,0 Z M14.5,21.7749484 C10.4773442,21.7749484 7.20476252,18.5053351 7.20476252,14.4864239 C7.20476252,10.4675128 10.4774224,7.19797752 14.5,7.19797752 C18.5225776,7.19797752 21.7951593,10.4675909 21.7951593,14.486502 C21.7951593,18.5054132 18.5225776,21.7749484 14.5,21.7749484 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

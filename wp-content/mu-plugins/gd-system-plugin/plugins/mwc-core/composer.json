@@ -1,0 +1,87 @@
+{
+    "name": "godaddy/mwc-core",
+    "description": "Simplified eCommerce for WordPress by GoDaddy.",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "GoDaddy\\WordPress\\MWC\\Core\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "GoDaddy\\WordPress\\MWC\\Core\\Tests\\": "tests/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:gdcorp-partners/mwc-common.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:gdcorp-partners/mwc-dashboard.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:gdcorp-partners/mwc-payments.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:gdcorp-partners/mwc-shipping.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:gdcorp-partners/mwc-sequential-order-numbers.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:gdcorp-partners/mwc-url-coupons.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:gdcorp-partners/mwc-cost-of-goods.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:gdcorp-partners/mwc-google-analytics.git"
+        }
+    ],
+    "require": {
+        "php": "^7.0|^8.0",
+        "firebase/php-jwt": "dev-master",
+        "godaddy/mwc-common": "^3.4",
+        "godaddy/mwc-dashboard": "dev-main",
+        "godaddy/mwc-payments": "dev-main",
+        "godaddy/mwc-sequential-order-numbers": "dev-main",
+        "godaddy/mwc-shipping": "dev-main",
+        "godaddy/mwc-url-coupons": "dev-main",
+        "godaddy/mwc-cost-of-goods": "dev-main",
+        "godaddy/mwc-google-analytics": "dev-main",
+        "mcaskill/composer-exclude-files": "^2.0"
+    },
+    "require-dev": {
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
+        "dms/phpunit-arraysubset-asserts": "^0.2.1",
+        "godaddy-wordpress/json2po": "^1.0",
+        "godaddy-wordpress/pot2json": "^1.0",
+        "phpcompatibility/php-compatibility": "^9.3.5",
+        "wp-cli/wp-cli-bundle": "^2.4",
+        "phpunit/phpunit": "^9.4",
+        "10up/wp_mock": "0.4.2"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    },
+    "config": {
+        "platform-check": false
+    },
+    "extra": {
+        "__comment__": "Prevent Sentry SDK from autoloading with each request, otherwise, check for system requirements first, see \\Common\\Repositories\\SentryRepository::loadSDK",
+        "exclude-from-files": [
+            "/sentry/sentry/src/functions.php"
+        ]
+    }
+}

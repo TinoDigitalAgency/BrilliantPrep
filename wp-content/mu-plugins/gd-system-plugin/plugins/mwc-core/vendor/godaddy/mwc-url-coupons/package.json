@@ -1,0 +1,16 @@
+{
+  "name": "skyverge-woocommerce-url-coupons",
+  "author": "SkyVerge Team",
+  "homepage": "https://skyverge.com",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gdcorp-partners/woocommerce-url-coupons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gdcorp-partners/woocommerce-url-coupons/issues?state=open"
+  },
+  "devDependencies": {
+    "sake": "github:skyverge/sake"
+  }
+}

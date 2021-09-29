@@ -1,0 +1,36 @@
+{
+  "name": "tino-front",
+  "version": "0.0.1",
+  "description": "Tino project",
+  "main": "gulpfile.js",
+  "private": true,
+  "scripts": {
+    "preinstall": "npx npm-force-resolutions",
+    "start": "gulp"
+  },
+  "author": "An21 <poshchada@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp-concat": "^2.6.1",
+    "gulp-order": "^1.2.0",
+    "graceful-fs": {
+      "version": "^4.2.4"
+    }
+  },
+  "dependencies": {
+    "@babel/core": "^7.13.14",
+    "browser-sync": "^2.26.14",
+    "graceful-fs": {
+      "version": "^4.2.4"
+    },
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify": "^3.0.2",
+    "natives": "^1.1.6"
+  }
+}

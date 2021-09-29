@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="33px" height="25px" viewBox="0 0 33 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>checked</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bp-ui-ACT,-SAT,-CAG-overview-popup" transform="translate(-707.000000, -374.000000)" fill="#DE3C7D" fill-rule="nonzero">
+            <g id="popup" transform="translate(353.000000, 260.000000)">
+                <g id="check-done" transform="translate(331.000000, 90.000000)">
+                    <g id="checked" transform="translate(22.720000, 23.480000)">
+                        <g id="tick" transform="translate(0.280000, 0.520000)">
+                            <path d="M32.452,0.400815387 C31.9483077,-0.120723075 31.1172308,-0.135184613 30.5956923,0.368507694 C30.5847692,0.379046156 30.574,0.389815387 30.5633846,0.400815387 L9.17361538,21.7906615 L2.22484615,14.8418923 C1.70330769,14.3382 0.872230769,14.3526615 0.368538462,14.8742 C-0.122846154,15.3829692 -0.122846154,16.1895077 0.368538462,16.6982769 L8.24546154,24.5752 C8.75815385,25.0877385 9.58915385,25.0877385 10.1017692,24.5752 L32.4196923,2.2572 C32.9412308,1.75343077 32.9556923,0.922353848 32.452,0.400815387 Z" id="Path"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

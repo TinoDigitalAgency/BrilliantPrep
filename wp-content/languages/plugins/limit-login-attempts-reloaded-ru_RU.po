@@ -1,0 +1,276 @@
+# Translation of Plugins - Limit Login Attempts Reloaded - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Limit Login Attempts Reloaded - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-01-15 08:32:45+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Limit Login Attempts Reloaded - Stable (latest release)\n"
+
+#: views/options-page.php:17
+msgid "Settings"
+msgstr "Настройки"
+
+#: views/options-page.php:18
+msgid "Debug"
+msgstr "Отладка"
+
+#: views/tab-settings.php:113
+msgid "Trusted IP Origins"
+msgstr "Надежные IP Origins"
+
+#: views/tab-settings.php:117
+msgid "Specify the origins you trust in order of priority, separated by commas. We strongly recommend that you <b>do not</b> use anything other than REMOTE_ADDR since other origins can be easily faked. Examples: HTTP_X_FORWARDED_FOR, HTTP_CF_CONNECTING_IP, HTTP_X_SUCURI_CLIENTIP"
+msgstr "Укажите источники, которым вы доверяете, в порядке приоритета, разделенные запятыми. Мы настоятельно рекомендуем вам <b>не использовать</b> ничего кроме REMOTE_ADDR поскольку другие источники могут быть легко подделаны. Примеры: HTTP_X_FORWARDED_FOR, HTTP_CF_CONNECTING_IP, HTTP_X_SUCURI_CLIENTIP"
+
+#: core/LimitLoginAttempts.php:1059
+msgid "You can also try <a href=\"%s\">resetting your password</a> and that should help you to log in."
+msgstr "Вы также можете попробовать <a href=\"%s\">сбросить пароль</a> и это поможет вам войти в систему."
+
+#: views/tab-settings.php:73
+msgid "after"
+msgstr "после"
+
+#: views/tab-settings.php:70
+msgid "Email to"
+msgstr "Отправить по email"
+
+#: core/LimitLoginAttempts.php:1377
+msgid "The \""
+msgstr " \""
+
+#: core/LimitLoginAttempts.php:1128
+msgid "<strong>ERROR</strong>: Incorrect email address or password."
+msgstr "<strong>Ошибка</strong>: Неверный email адрес или пароль."
+
+#. Author URI of the plugin
+msgid "https://wpchef.org"
+msgstr "https://wpchef.org"
+
+#. Author of the plugin
+msgid "WPChef"
+msgstr "WPChef"
+
+#: views/tab-settings.php:57
+msgid "this makes the plugin <a href=\"https://gdpr-info.eu/\" target=\"_blank\" >GDPR</a> compliant"
+msgstr "это делает плагин <a href=\"https://gdpr-info.eu/\" target=\"_blank\" >GDPR</a> совместимым"
+
+#: views/tab-settings.php:54
+msgid "GDPR compliance"
+msgstr "GDPR совместимость"
+
+#: views/tab-dashboard.php:66 views/tab-dashboard.php:80
+msgid "One IP or IP range (1.2.3.4-5.6.7.8) per line"
+msgstr "Один IP или IP диапазон (1.2.3.4-5.6.7.8) в строку"
+
+#. Plugin Name of the plugin
+#: views/options-page.php:13
+msgid "Limit Login Attempts Reloaded"
+msgstr "Limit Login Attempts Reloaded"
+
+#: views/tab-dashboard.php:118
+msgid "Gateway"
+msgstr "Шлюз"
+
+#: views/tab-dashboard.php:116
+msgctxt "Internet address"
+msgid "IP"
+msgstr "IP"
+
+#: views/tab-dashboard.php:115
+msgid "Date"
+msgstr "Дата"
+
+#: views/tab-dashboard.php:107
+msgid "Clear Log"
+msgstr "Очистить журнал"
+
+#: views/tab-dashboard.php:77
+msgid "Blacklist"
+msgstr "Черный список"
+
+#: views/tab-dashboard.php:63
+msgid "Whitelist"
+msgstr "Белый список"
+
+#: views/tab-settings.php:108
+msgid "hours until retries are reset"
+msgstr "часов до повторных попыток сброса"
+
+#: views/tab-settings.php:105
+msgid "hours"
+msgstr "часов"
+
+#: views/tab-settings.php:102
+msgid "lockouts increase lockout time to"
+msgstr "блокировки увеличивают время блокировки до"
+
+#: views/tab-settings.php:62
+msgid "Notify on lockout"
+msgstr "Уведомление при блокировке"
+
+#: views/tab-dashboard.php:102
+msgid "Lockout log"
+msgstr "Журнал блокировок"
+
+#: views/tab-settings.php:76
+msgid "lockouts"
+msgstr "блокировки"
+
+#: views/tab-settings.php:98
+msgid "minutes lockout"
+msgstr "минуты блокировки"
+
+#: views/tab-settings.php:94
+msgid "allowed retries"
+msgstr "разрешенные попытки"
+
+#: views/tab-settings.php:89
+msgid "Lockout"
+msgstr "Блокировка"
+
+#: views/tab-settings.php:32
+msgid "Use global settings"
+msgstr "Использовать глобальные настройки"
+
+#: views/tab-settings.php:30
+msgid "If disabled, the global settings will be forcibly applied to the entire network."
+msgstr "Если этот отключено, то глобальные настройки будут принудительно применяться ко всей сети."
+
+#: views/tab-settings.php:29
+msgid "Let network sites use their own settings"
+msgstr "Разрешить сайтам сети использовать свои собственные настройки"
+
+#: views/tab-dashboard.php:51
+msgid "%d IP is currently blocked from trying to log in"
+msgstr "%d в настоящее время IP заблокирован для попыток входа"
+
+#: views/tab-dashboard.php:49
+msgid "Restore Lockouts"
+msgstr "Сбросить блокировки"
+
+#: views/tab-dashboard.php:46
+msgid "Active lockouts"
+msgstr "Активные блокировки"
+
+#: views/tab-dashboard.php:39
+msgid "No lockouts yet"
+msgstr "Блокировок пока нет"
+
+#: views/tab-dashboard.php:37
+msgid "%d lockout since last reset"
+msgid_plural "%d lockouts since last reset"
+msgstr[0] "%d блокировка с момента последнего сброса"
+msgstr[1] "%d блокировки с момента последнего сброса"
+msgstr[2] "%d блокировок с момента последнего сброса"
+
+#: views/tab-dashboard.php:35
+msgid "Reset Counter"
+msgstr "Сбросить Счетчик"
+
+#: views/tab-dashboard.php:31
+msgid "Total lockouts"
+msgstr "Всего блокировок"
+
+#: views/tab-dashboard.php:26
+msgid "Statistics"
+msgstr "Статистика"
+
+#: core/LimitLoginAttempts.php:1343
+msgid "Cleared current lockouts"
+msgstr "Очистить текущие блокировки"
+
+#: core/LimitLoginAttempts.php:1336
+msgid "Reset lockout count"
+msgstr "Сбросить счетчик блокировок"
+
+#: core/LimitLoginAttempts.php:1329
+msgid "Cleared IP log"
+msgstr "Очистить журнал IP"
+
+#: core/LimitLoginAttempts.php:1154
+msgid "WC Error"
+msgstr "Ошибки WC"
+
+#: core/LimitLoginAttempts.php:1130
+msgid "<strong>ERROR</strong>: Incorrect username or password."
+msgstr "<strong>ОШИБКА</strong>: Неверный логин или пароль."
+
+#: core/LimitLoginAttempts.php:1056
+msgid "Please try again in %d minute."
+msgid_plural "Please try again in %d minutes."
+msgstr[0] "Пожалуйста, повторите попытку через %d минуту."
+msgstr[1] "Пожалуйста, повторите попытку через %d минуты."
+msgstr[2] "Пожалуйста, повторите попытку через %d минут."
+
+#: core/LimitLoginAttempts.php:1054
+msgid "Please try again in %d hour."
+msgid_plural "Please try again in %d hours."
+msgstr[0] "Пожалуйста, повторите попытку через %d час."
+msgstr[1] "Пожалуйста, повторите попытку через %d часа."
+msgstr[2] "Пожалуйста, повторите попытку через %d часов."
+
+#: core/LimitLoginAttempts.php:1046
+msgid "Please try again later."
+msgstr "Пожалуйста, повторите попытку позднее"
+
+#: core/LimitLoginAttempts.php:1038
+msgid "<strong>ERROR</strong>: Too many failed login attempts."
+msgstr "<strong>ОШИБКА</strong>: Очень много неудачных попыток входа."
+
+#: core/LimitLoginAttempts.php:820
+msgid "IP was blocked for %s"
+msgstr "IP был заблокирован для %s"
+
+#: core/LimitLoginAttempts.php:818
+msgid "IP was NOT blocked because of external whitelist."
+msgstr "IP НЕ был заблокирован из-за внешнего белого списка."
+
+#: core/LimitLoginAttempts.php:814
+msgid "Last user attempted: %s"
+msgstr "Последняя попытка пользователя: %s"
+
+#: core/LimitLoginAttempts.php:810
+msgid "%d failed login attempts (%d lockout(s)) from IP: %s"
+msgstr "%d неудачных попыток входа в систему (%d блокировки(ок)) с IP: %s"
+
+#: core/LimitLoginAttempts.php:805
+msgid "[%s] Too many failed login attempts"
+msgstr "[%s] Слишком много неудачных попыток входа"
+
+#: core/LimitLoginAttempts.php:801
+msgid "[%s] Failed login attempts from whitelisted IP"
+msgstr "[%s] Неудачные попытки входа с белого IP"
+
+#: core/LimitLoginAttempts.php:794
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d минута"
+msgstr[1] "%d минуты"
+msgstr[2] "%d минут"
+
+#: core/LimitLoginAttempts.php:788
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d час"
+msgstr[1] "%d часа"
+msgstr[2] "%d часов"
+
+#: core/LimitLoginAttempts.php:399 core/LimitLoginAttempts.php:1213
+msgid "<strong>%d</strong> attempt remaining."
+msgid_plural "<strong>%d</strong> attempts remaining."
+msgstr[0] "<strong>%d</strong> оставшаяся попытка."
+msgstr[1] "<strong>%d</strong> оставшиеся попытки."
+msgstr[2] "<strong>%d</strong> оставшихся попыток."
+
+#: views/tab-dashboard.php:117
+msgid "Tried to log in as"
+msgstr "Попытка входа как"
+
+#: views/tab-dashboard.php:70 views/tab-dashboard.php:84
+msgid "One Username per line"
+msgstr "Одно имя пользователя на строку"

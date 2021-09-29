@@ -1,0 +1,61 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 22px 37px;
+  border: 2px transparent solid;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 20px;
+  color: $blueColor;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 16px;
+  font-family: CircularStd;
+  transition: all 400ms;
+  &-border {
+    border-color: $blueColor;
+    &:hover {
+      background: $blueColor;
+      color: #fff;
+    }
+  }
+  &-pink {
+    background: $pinkColor;
+    border-color: $pinkColor;
+    color: $whiteColor;
+    &:hover {
+      background: $whiteColor;
+      //background: darken(#075DA7,6%);
+      //background: lighten(#075DA7,6%);
+      //color: #fff;
+      color: $pinkColor;
+    }
+  }
+  &-blue {
+    background: #2D8EF6;
+    color: $whiteColor;
+    border-color: #2D8EF6;
+    &:hover {
+      background: #fff;
+      color: #2D8EF6;
+    }
+  }
+  &-large {
+    padding: 22px 75px;
+    font-size: 20px;
+    line-height: 20px;
+  }
+  &-link {
+    padding: 10px 0 !important;
+    border: none !important;
+    font-weight: 500;
+    font-size: 16px;
+    color: $blueColor;
+    letter-spacing: 0;
+    line-height: 16px;
+    &:hover {
+      color: $pinkColor;
+    }
+  }
+}

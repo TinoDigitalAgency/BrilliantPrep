@@ -1,0 +1,22 @@
+.section-location {
+  .section-inner {
+    padding: 80px 0;
+  }
+}
+.location-block {
+  text-align: center;
+  .location-marker {
+    text-align: center;
+    & + .h3 {
+      margin-top: 24px;
+    }
+  }
+  .address {
+    margin-top: 16px;
+    font-size: 20px;
+    color: $blackColor;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 28px;
+  }
+}

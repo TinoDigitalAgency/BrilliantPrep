@@ -1,0 +1,101 @@
+.section-achievers {
+  .section-inner {
+    padding: 130px 0 66px 0;
+    @media (max-width: 575px) {
+      padding: 80px 0 40px 0;
+    }
+  }
+  .title-block {
+    max-width: 925px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.arciver-col {
+  margin-bottom: 64px;
+  @media (max-width: 990px) {
+    //flex: 0 0 100%;
+    //max-width: 100%;
+    margin-bottom: 40px;
+  }
+  @media (max-width: 575px) {
+    flex: 0 0 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+.archive-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  .archive-avatar {
+    flex: 0 0 220px;
+    max-width: 220px;
+    height: 220px;
+    .avatar {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 4px $pinkColor solid;
+      padding: 10px;
+      .round-image {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        overflow: hidden;
+      }
+      img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+  .archive-info {
+    flex: 0 0 calc(100% - 220px);
+    max-width: calc(100% - 220px);
+    padding-left: 32px;
+    @media (max-width: 990px) {
+      flex: 0 0 100%;
+      max-width: 100%;
+      padding-left: 20px;
+      margin-top: 20px;
+    }
+    .name {
+      padding: 8px 0;
+    }
+    .school {
+      font-size: 18px;
+      p {
+        & + p {
+          margin-top: 8px;
+        }
+      }
+    }
+    .arch-stat {
+      margin-top: 8px;
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: -12px;
+      margin-right: -12px;
+      .arch-stat-item {
+        padding: 12px 8px;
+        flex: 0 0 auto;
+        font-weight: 700;
+        font-size: 24px;
+        color: #C04079;
+        letter-spacing: 0;
+        line-height: 28px;
+        .lbl {
+          font-weight: 400;
+          color: $blackColor;
+        }
+      }
+
+    }
+  }
+}

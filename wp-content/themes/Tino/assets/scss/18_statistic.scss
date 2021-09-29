@@ -1,0 +1,112 @@
+.section-statistic {
+  .section-inner {
+    padding: 120px 0;
+    position: relative;
+    &::before {
+      content: '';
+      width: 640px;
+      height: 217px;
+      position: absolute;
+      top: -20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: url(../images/src/elements.png) center center no-repeat;
+      background-size: 100%;
+    }
+  }
+  .container {
+    position: relative;
+    z-index: 2;
+  }
+}
+.main-statistic-infographic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 80px;
+  &-image {
+    flex: 0 0 145px;
+    max-width: 145px;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  &-title {
+    padding-left: 32px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    color: #13112B;
+    max-width: 250px;
+  }
+}
+.statistic-block {
+  .statistic-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .subcount {
+    font-size: 20px;
+    color: $blackColor;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 28px;
+    margin-top: 24px;
+  }
+  .count {
+    font-size: 56px;
+    color: $blackColor;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 64px;
+    margin-top: 16px;
+    font-weight: 700;
+  }
+}
+.round-icon {
+  width: 110px;
+  height: 110px;
+  background: $pinkColor;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    max-width: 80px;
+    max-height: 50px;
+  }
+}
+
+.sidebar-statistic-item {
+  text-align: center;
+  max-width: 270px;
+  .sidebar-statistic-icon {
+    margin-bottom: 32px;
+  }
+  .sidebar-statistic-title {
+    font-weight: 700;
+    font-size: 32px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 32px;
+  }
+  .sidebar-statistic-subtitle {
+    font-size: 20px;
+    color: #13112B;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 28px;
+    margin-top: 16px;
+  }
+  & + .sidebar-statistic-item {
+    margin-top: 80px;
+  }
+}
+
+.sidebar-statistic {
+  position: sticky;
+  top: 140px;
+
+}

@@ -1,0 +1,28 @@
+.section-logo {
+  .section-inner {
+    padding: 80px 0 130px 0;
+  }
+}
+.row-logos {
+  justify-content: center;
+}
+.logo-block {
+  .logo-image {
+    display: flex;
+    height: 104px;
+    padding: 12.5px 0;
+    align-items: center;
+    justify-content: center;
+    img {
+     max-height: 100%;
+      max-width: 100%;
+      width: auto;
+      height: auto;
+    }
+  }
+}
+
+.row-logos-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+}

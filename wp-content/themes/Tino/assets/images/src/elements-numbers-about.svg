@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1014px" height="169px" viewBox="0 0 1014 169" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>elements-numbers</title>
+    <desc>Created with Sketch.</desc>
+    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bp-ui-About-Us" transform="translate(-208.000000, -2756.000000)">
+            <g id="about" transform="translate(0.000000, 2750.000000)">
+                <g id="elements-numbers" transform="translate(195.000000, 0.000000)">
+                    <rect id="Mask" fill="#FD6B3F" x="518" y="160" width="15" height="15" rx="7.5"></rect>
+                    <rect id="Mask" fill="#B84FEA" x="657" y="48" width="15" height="15" rx="7.5"></rect>
+                    <polygon id="Triangle" fill="#2D8EF6" transform="translate(1013.000000, 69.000000) rotate(62.000000) translate(-1013.000000, -69.000000) " points="1013 54 1028 84 998 84"></polygon>
+                    <polygon id="Triangle" fill="#DE3C7D" transform="translate(379.000000, 18.000000) rotate(-78.000000) translate(-379.000000, -18.000000) " points="379 3 394 33 364 33"></polygon>
+                    <polygon id="Triangle" fill="#FFC654" transform="translate(21.000000, 118.000000) rotate(-30.000000) translate(-21.000000, -118.000000) " points="21 103 36 133 6 133"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
