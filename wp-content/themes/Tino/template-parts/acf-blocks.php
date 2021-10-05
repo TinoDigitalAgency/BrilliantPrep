@@ -7,7 +7,7 @@ if( have_rows('blocks_content') ): ?>
             <?php if ( get_row_layout() == 'fullpage_slider_wrapper_start' ) { ?>
                 <div id="fullpage" class="<?php the_sub_field('custom_class'); ?>">
             <?php } elseif( get_row_layout() == 'fullpage_slider_item_start' ) { ?>
-                <div class="section <?php the_sub_field('custom_class'); ?>">
+                <div class="section <?php the_sub_field('custom_class'); ?>" <?php if(get_sub_field('tooltip_slide')) { ?>data-tooltip = "<?php the_sub_field('tooltip_slide'); ?>"<?php } ?>>
             <?php } elseif( get_row_layout() == 'hero_section' ) { ?>
 				<section class="section-hero <?php if(get_sub_field('show_benefits')) { echo 'has-benefits'; } ?>">
 					<?php get_template_part('template-parts/blocks/hero-section'); ?>

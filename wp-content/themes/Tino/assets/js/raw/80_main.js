@@ -273,6 +273,7 @@ $(document).ready(function () {
             verticalCentered: false,
             navigation: true,
             navigationPosition: 'left',
+            // navigationTooltips: ['Hero', 'Courses', 'Our Advice', 'Outshine Your Competition'],
             responsiveWidth: 990,
             scrollOverflowReset: true,
             onLeave: function(origin, destination, direction){
@@ -326,7 +327,7 @@ $(document).ready(function () {
             } else if (this.isDeleting && this.txt === '') {
                 this.isDeleting = false;
                 this.loopNum++;
-                delta = 500;
+                delta = 100;
             }
 
             setTimeout(function() {

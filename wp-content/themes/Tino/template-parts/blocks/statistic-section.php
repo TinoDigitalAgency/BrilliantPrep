@@ -13,37 +13,70 @@
             $mainStatisticTitle = get_sub_field('main_infographic_text');
         ?>
         <?php if($mainStatisticImage && $mainStatisticTitle) { ?>
-            <div class="main-statistic-infographic">
-                <div class="main-statistic-infographic-image">
-                    <img src="<?php echo $mainStatisticImage['url']; ?>" alt="">
-                </div>
-                <div class="main-statistic-infographic-title"><?php echo $mainStatisticTitle; ?></div>
-            </div>
-        <?php } ?>
-		<?php if( have_rows('statistic_row') ): ?>
-			<div class="row row-statistic">
-				<?php while ( have_rows('statistic_row') ) : the_row(); ?>
-					<div class="col-3 item-statistic">
-						<div class="statistic-block">
-							<?php $statisticImage = get_sub_field('statistic_icon'); ?>
-							<?php if($statisticImage) { ?>
-								<div class="statistic-icon">
-									<div class="round-icon">
-										<img src="<?php echo $statisticImage['url']; ?>" alt="<?php the_sub_field('benefit_title'); ?>">
-									</div>
-								</div>
-							<?php } ?>
-							<?php if(get_sub_field('statistic_title')) { ?>
-								<div class="subcount"><?php the_sub_field('statistic_title'); ?></div>
-							<?php } ?>
+                <div class="row row-statistic-with-percent">
+                    <div class="col-4 main-statistic-infographic">
+                        <div class="main-statistic-infographic-image">
+                            <img src="<?php echo $mainStatisticImage['url']; ?>" alt="">
+                        </div>
+                        <div class="main-statistic-infographic-title"><?php echo $mainStatisticTitle; ?></div>
+                    </div>
+	                <?php if( have_rows('statistic_row') ): ?>
+                        <div class="col-8">
+                            <div class="row row-statistic">
+		                        <?php while ( have_rows('statistic_row') ) : the_row(); ?>
+                                    <div class="col-6 item-statistic ">
+                                        <div class="statistic-block statistic-block-horizontal">
+					                        <?php $statisticImage = get_sub_field('statistic_icon'); ?>
+					                        <?php if($statisticImage) { ?>
+                                                <div class="statistic-icon">
+                                                    <div class="round-icon">
+                                                        <img src="<?php echo $statisticImage['url']; ?>" alt="<?php the_sub_field('benefit_title'); ?>">
+                                                    </div>
+                                                </div>
+					                        <?php } ?>
+                                            <div class="info">
+	                                            <?php if(get_sub_field('statistic_title')) { ?>
+                                                    <div class="subcount"><?php the_sub_field('statistic_title'); ?></div>
+	                                            <?php } ?>
 
-							<?php if(get_sub_field('statistic_description')) { ?>
-								<div class="count"><?php the_sub_field('statistic_description'); ?></div>
-							<?php } ?>
-						</div>
-					</div>
-				<?php endwhile; ?>
-			</div>
-		<?php endif; ?>
+	                                            <?php if(get_sub_field('statistic_description')) { ?>
+                                                    <div class="count"><?php the_sub_field('statistic_description'); ?></div>
+	                                            <?php } ?>
+                                            </div>
+                                        </div>
+                                    </div>
+		                        <?php endwhile; ?>
+                            </div>
+                        </div>
+	                <?php endif; ?>
+
+                </div>
+        <?php } else { ?>
+	        <?php if( have_rows('statistic_row') ): ?>
+                <div class="row row-statistic">
+			        <?php while ( have_rows('statistic_row') ) : the_row(); ?>
+                        <div class="col-3 item-statistic">
+                            <div class="statistic-block">
+						        <?php $statisticImage = get_sub_field('statistic_icon'); ?>
+						        <?php if($statisticImage) { ?>
+                                    <div class="statistic-icon">
+                                        <div class="round-icon">
+                                            <img src="<?php echo $statisticImage['url']; ?>" alt="<?php the_sub_field('benefit_title'); ?>">
+                                        </div>
+                                    </div>
+						        <?php } ?>
+						        <?php if(get_sub_field('statistic_title')) { ?>
+                                    <div class="subcount"><?php the_sub_field('statistic_title'); ?></div>
+						        <?php } ?>
+
+						        <?php if(get_sub_field('statistic_description')) { ?>
+                                    <div class="count"><?php the_sub_field('statistic_description'); ?></div>
+						        <?php } ?>
+                            </div>
+                        </div>
+			        <?php endwhile; ?>
+                </div>
+	        <?php endif; ?>
+        <?php } ?>
 	</div>
 </div>

@@ -10,6 +10,10 @@
     section {
       @media (min-width: 990px) {
         padding: 0;
+        &.section-hero {
+          padding-bottom: 200px;
+          position: relative;
+        }
         &.section-statistic {
           .section-inner {
             padding: 200px 0 75px 0;
@@ -18,6 +22,14 @@
 
             margin-bottom: 56px;
           }
+        }
+      }
+      @media (max-width: 990px) {
+        &.section-hero {
+          padding-bottom: 0;
+        }
+        &.section-courses {
+          padding-top: 0;
         }
       }
       &.section-course-carousel {
@@ -45,7 +57,73 @@
         }
       }
     }
-
+  }
+}
+#fp-nav ul li {
+  .fp-tooltip {
+    background: #fff;
+    padding: 20px 25px;
+    //width: auto;
+    max-width: 300px;
+    width: 300px;
+    color: #13112B;
+    font-size: 16px;
+    line-height: 25px;
+    white-space: nowrap;
+    pointer-events: none;
+    //font-family: ;
+  }
+  &:hover {
+    .fp-tooltip {
+      //width: 300px;
+    }
+  }
+}
+#fp-nav.fp-left {
+  ul {
+    li {
+      width: 4px;
+      height: 25px;
+      margin: 0;
+      &:last-child {
+        display: none;
+      }
+      & + li {
+        margin-top: 10px;
+      }
+      a {
+        display: block;
+        span {
+          width: 4px;
+          height: 25px;
+          background: rgba(#383373, .1);
+          border-radius: 2px;
+          margin: 0 !important;
+          &.fp-sr-only {
+           display: none;
+          }
+          &:not(.fp-sr-only) {
+            display: block;
+          }
+        }
+        &.active {
+          span {
+            width: 4px;
+            height: 25px;
+            background: rgba(#383373, 1);
+            border-radius: 2px;
+          }
+        }
+        &:hover {
+          span {
+            width: 4px;
+            height: 25px;
+            background: rgba(#383373, 1);
+            border-radius: 2px;
+          }
+        }
+      }
+    }
   }
 }
 

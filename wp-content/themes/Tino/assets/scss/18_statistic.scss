@@ -19,26 +19,58 @@
     z-index: 2;
   }
 }
+.row-statistic-with-percent {
+  .col-8,
+  .col-4 {
+    @media (max-width: 990px) {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+
+  }
+  .main-statistic-infographic {
+    @media (max-width: 990px) {
+      margin-bottom: 40px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .col-6 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+}
 .main-statistic-infographic {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 80px;
+  position: relative;
+
+  //margin-bottom: 80px;
   &-image {
-    flex: 0 0 145px;
-    max-width: 145px;
     img {
       width: 100%;
       height: auto;
     }
   }
   &-title {
-    padding-left: 32px;
-    font-weight: bold;
-    font-size: 24px;
     line-height: 24px;
-    color: #13112B;
+    color: #2D8EF6;
     max-width: 250px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: 400;
+    span {
+      display: block;
+      font-size: 56px;
+      line-height: 64px;
+      font-weight: 500;
+    }
   }
 }
 .statistic-block {
@@ -64,6 +96,55 @@
     margin-top: 16px;
     font-weight: 700;
   }
+  &-horizontal {
+    @media (max-width: 575px) {
+      .info {
+        .subcount {
+          min-height: 0;
+        }
+      }
+    }
+    @media (max-width: 990px) {
+      margin-bottom: 40px;
+    }
+    @media (min-width: 767px) {
+
+      display: flex;
+      flex-direction: row;
+      .statistic-icon {
+        flex:  0 0 60px;
+        max-width: 60px;
+        .round-icon {
+          width: 60px;
+          height: 60px;
+          img  {
+            max-width: 32px;
+            max-height: 25px;
+          }
+        }
+      }
+      .info {
+        flex: 0 0 calc(100% - 60px);
+        max-width: calc(100% - 60px);
+        padding-left: 32px;
+        text-align: left;
+        .subcount {
+          font-size: 20px;
+          line-height: 28px;
+          margin-bottom: 8px;
+          text-align: left;
+          margin-top: 0;
+        }
+        .count {
+          font-size: 24px;
+          line-height: 24px;
+          text-align: left;
+          margin-top: 0;
+        }
+      }
+    }
+    }
+
 }
 .round-icon {
   width: 110px;

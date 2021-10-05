@@ -34,7 +34,7 @@
 <!--                        --><?php //} ?>
                     <div class="h1 text" style="color:<?php the_sub_field('hero_title__subtitle_color'); ?>"><?php the_sub_field('hero_title'); ?> <?php if(get_sub_field('hero_title_text_typing')) { ?><span
                                 class="txt-rotate"
-                                data-period="2000"
+                                data-period="3000"
                                 data-rotate='["SATs & ACTs", "academic courses", "college applications"]'></span><?php } ?></div>
 	            <?php } ?>
 	            <?php if(get_sub_field('hero_subtitle')) { ?>

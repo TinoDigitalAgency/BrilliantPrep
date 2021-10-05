@@ -75,6 +75,10 @@
     .phone-col {
       padding: 0 24px;
       @media (max-width: 1450px) {
+
+        padding: 0 10px;
+      }
+      @media (max-width: 1400px) {
         display: none;
       }
       @media (max-width: 990px) {
@@ -93,6 +97,13 @@
     }
     .user-col {
       padding: 0 24px;
+      @media (max-width: 1500px) {
+        padding: 0 10px;
+        .menu-primary .menu-item-has-children {
+          padding-left: 0;
+          padding-right: 0;
+        }
+      }
       a {
         font-size: 16px;
         color: $blueColor;
@@ -119,6 +130,9 @@
     }
     .cta-col {
       padding: 0 0 0 24px;
+      @media (max-width: 1500px) {
+        padding-left: 10px;
+      }
       @media (max-width: 1200px) {
         display: none;
       }
