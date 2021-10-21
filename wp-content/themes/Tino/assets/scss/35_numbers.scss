@@ -1,0 +1,30 @@
+.section-numbers {
+  .section-inner {
+    padding: 120px 0;
+  }
+}
+.number-list {
+  text-align: center;
+  .number-list-icon {
+    margin-bottom: 24px;
+    img {
+      max-height: 110px;
+    }
+  }
+  .number-list-small-text {
+    font-size: 20px;
+    color: $blackColor;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 28px;
+    margin-bottom: 26px;
+  }
+  .number-list-big-text {
+    font-size: 56px;
+    color: $blackColor;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 64px;
+    font-weight: 700;
+  }
+}

@@ -1,0 +1,1011 @@
+msgid ""
+msgstr ""
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/project\n"
+"POT-Creation-Date: 2021-07-19T22:08:18+00:00\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: json2po\n"
+
+#. Plugin Name of the plugin
+msgid "NextGen"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.godaddy.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "Next Generation WordPress Experience"
+msgstr "Nästa generations WordPress-upplevelse"
+
+#. Author of the plugin
+msgid "GoDaddy"
+msgstr ""
+
+#: includes/class-edit-site.php:45
+msgid "Setting to disable or enable NextGen administration dashboard shortcut."
+msgstr ""
+"Inställning till genväg för att inaktivera eller aktivera NextGen-adminpanel."
+
+#: includes/class-edit-site.php:91
+msgid "Headline"
+msgstr "Rubrik"
+
+#: includes/class-edit-site.php:92
+msgid "Text"
+msgstr ""
+
+#: includes/class-edit-site.php:93
+msgid "List"
+msgstr "Lista"
+
+#: includes/class-edit-site.php:94
+msgid "Image"
+msgstr "Bild"
+
+#: includes/class-edit-site.php:95
+msgid "Gallery"
+msgstr "Galleri"
+
+#: includes/class-edit-site.php:96
+msgid "Contact"
+msgstr "Kontakt"
+
+#: includes/class-edit-site.php:97
+msgid "Call To Action"
+msgstr "Uppmaning till handling"
+
+#: includes/class-layout-selector.php:84
+msgid "Generic"
+msgstr "Generisk"
+
+#: includes/class-layout-selector.php:110
+msgid "Image category."
+msgstr "Bildkategori."
+
+#: includes/class-publish-guide.php:131
+msgid "Display Publish Guide."
+msgstr "Visa publiceringsguide."
+
+#: includes/class-site-design.php:344
+msgid "Error processing your request."
+msgstr "Fel uppstod när din begäran skulle behandlas."
+
+#: includes/class-site-design.php:368
+msgid "A design_style must be passed."
+msgstr "En design_style måste skickas."
+
+#: includes/class-site-design.php:380
+msgid "An available design_style must be passed."
+msgstr "En tillgänglig design_style måste skickas."
+
+#. translators: %s: GoDaddy.
+#: includes/class-wp-admin.php:91
+msgid "Go by %s"
+msgstr "Go från %s"
+
+#: build/common.js:1 packages/common/src/tooltip/index.js:28
+msgid "Info"
+msgstr ""
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:17
+msgid "Would you like to keep using the GoDaddy Site Editor?"
+msgstr "Vill du fortsätta använda GoDaddy webbplatsredigerare?"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:20
+msgid ""
+"We want to make sure you have the right tools to build your site. You are "
+"currently using the GoDaddy Site editor, which gives you all of WordPress "
+"plus a way to customize your design, edit your pages, and manage your pages, "
+"all from one place."
+msgstr ""
+"Vi vill se till att du har rätt verktyg när du ska bygga upp din webbplats. "
+"För närvarande använder du GoDaddy webbplatsredigerare som ger dig hela "
+"WordPress plus ett sätt att anpassa din design, redigera dina sidor och "
+"hantera dina sidor, allt från ett och samma ställe"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:25
+#: packages/editor-preference-modal/src/workflows/feedback.js:24
+msgid "Yes, keep using it"
+msgstr "Ja, fortsätt använda"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:29
+#: packages/editor-preference-modal/src/workflows/feedback.js:28
+msgid "No, I want to see other options"
+msgstr "Nej, jag vill se andra alternativ"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:37
+msgid "We’re sorry this wasn’t the right fit for you"
+msgstr "Vad tråkigt att det här inte uppfyllde dina behov"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:40
+msgid "Could you tell us why?"
+msgstr "Vill du berätta vad det beror på?"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:43
+msgid "Tell us why this wasn’t the right fit for you…"
+msgstr "Berätta varför det här inte var bästa alternativet för dig..."
+
+#: build/editorPreferenceModal.js:1 build/wpAdmin.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:52
+#: packages/editor-preference-modal/src/workflows/default.js:105
+#: packages/editor-preference-modal/src/workflows/default.js:136
+#: packages/editor-preference-modal/src/workflows/default.js:165
+#: packages/editor-preference-modal/src/workflows/default.js:198
+#: packages/editor-preference-modal/src/workflows/default.js:225
+#: packages/editor-preference-modal/src/workflows/feedback.js:40
+#: packages/wp-admin/src/themes-optout-modal/index.js:68
+msgid "Go Back"
+msgstr "Gå tillbaka"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:59
+msgid "Skip"
+msgstr "Hoppa över"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:66
+msgid "Continue"
+msgstr "Fortsätt"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:78
+msgid "Let’s find you a better fit"
+msgstr "Vi kan hjälpa dig att hitta ett bättre alternativ"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:80
+msgid "Here are some other options to explore:"
+msgstr "Det här är några alternativ att titta närmare på:"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:84
+msgid "Switch to the default WordPress editor"
+msgstr "Byte till standardredigeraren för WordPress"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:89
+msgid "Switch to a 3rd party page builder"
+msgstr "Byte till sidbyggare från tredje part"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:94
+msgid "Talk to someone about my options"
+msgstr "Prata med någon om olika alternativ"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:99
+msgid "Hire our experts to build your site for you"
+msgstr "Anlita våra experter att bygga en webbplats åt dig"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:109
+#: packages/editor-preference-modal/src/workflows/default.js:232
+msgid "Learn More"
+msgstr "Läs mer"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:119
+msgid "Switching to the default WordPress editor"
+msgstr "Byter till standardredigeraren för WordPress"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:122
+msgid "You should switch to the default WordPress editor if:"
+msgstr "Du kan byta till standardredigeraren för WordPress om:"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:124
+msgid "You want to use a different theme"
+msgstr "Du vill använda ett annat tema"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:125
+msgid "You are familiar with and/or prefer to use default WordPress"
+msgstr ""
+"Du är van vid och/eller föredrar att använda WordPress-redigeraren som "
+"standard"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:129
+#: packages/editor-preference-modal/src/workflows/default.js:158
+msgid ""
+"Once you switch, this site will no longer work with the GoDaddy Site Editor, "
+"so you won’t be able to come back."
+msgstr ""
+"När du bytt kommer den här webbplatsen inte längre att fungera med GoDaddy "
+"webbplatsredigerare, så du kan inte komma tillbaka."
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:131
+msgid "Ready to switch this site to the default WordPress editor?"
+msgstr ""
+"Är du redo att byta den här webbplatsen till standardredigeraren för "
+"WordPress?"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:140
+msgid "Switch to Default"
+msgstr "Byt till standard"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:152
+msgid "Switching to a 3rd Party Page Builder"
+msgstr "Byter till sidbyggare från tredje part"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:155
+msgid ""
+"A 3rd party page builder is a WordPress plugin that you install on your "
+"site, that allows you to build and design pages."
+msgstr ""
+"En sidbyggare från tredje part är ett tillägg från WordPress som du "
+"installerar på din webbplats, och som gör att du kan bygga och designa sidor."
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:160
+msgid "Ready to switch this site to a 3rd party page builder?"
+msgstr "Redo att byta till en sidbyggare från tredje part?"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:169
+msgid "View Plugins"
+msgstr "Visa tillägg"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:184
+msgid "Expert help is on the way"
+msgstr "Experthjälp är på väg"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:193
+msgid "Contact our GoDaddy guides to get started."
+msgstr "Kontakta våra GoDaddy-guider för att komma igång."
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:202
+msgid "Contact Us"
+msgstr "Kontakta oss"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:219
+msgid ""
+"We'll build a stunning professional website, custom tailored to your business"
+msgstr ""
+"Vi bygger en fantastisk och professionell webbplats, skräddarsydd för din "
+"verksamhet"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:247
+msgid "Redirecting you to the WordPress Admin…"
+msgstr "Du omdirigeras till WordPress-administration..."
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:257
+msgid "Redirecting you to WordPress plugins…"
+msgstr "Du omdirigeras till WordPress-tillägg..."
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/feedback.js:19
+msgid ""
+"We appreciate your feedback and want to make sure you have the right tools "
+"to build your site. You are currently using the GoDaddy Site editor, which "
+"gives you all of WordPress plus a way to customize your design, edit your "
+"pages, and manage your pages, all from one place."
+msgstr ""
+"Vi uppskattar din feedback och vill se till att du har rätt verktyg när du "
+"ska bygga upp din webbplats. För närvarande använder du GoDaddy "
+"webbplatsredigerare som ger dig hela WordPress plus ett sätt att anpassa din "
+"design, redigera dina sidor och hantera dina sidor, allt från ett och samma "
+"ställe"
+
+#. translators: Default label for the Document sidebar tab, not selected.
+#: build/editSite.js:16
+#: packages/edit-site/src/components/sidebar/settings-header/index.js:33
+msgid "Document"
+msgstr "Dokument"
+
+#. translators: ARIA label for the Document sidebar tab, selected. %s Document label.
+#: build/editSite.js:17
+#: packages/edit-site/src/components/sidebar/settings-header/index.js:40
+msgid "%s (selected)"
+msgstr "%s (valt)"
+
+#. translators: ARIA label for the Block Settings Sidebar tab, selected.
+#: build/editSite.js:18
+#: packages/edit-site/src/components/sidebar/settings-header/index.js:47
+msgid "Block (selected)"
+msgstr "Block (valt)"
+
+#. translators: ARIA label for the Block Settings Sidebar tab, not selected.
+#. translators: Text label for the Block Settings Sidebar tab.
+#. translators: Data label for the Block Settings Sidebar tab.
+#: build/editSite.js:19 build/editSite.js:20
+#: packages/edit-site/src/components/sidebar/settings-header/index.js:49
+#: packages/edit-site/src/components/sidebar/settings-header/index.js:70
+#: packages/edit-site/src/components/sidebar/settings-header/index.js:74
+msgid "Block"
+msgstr "Blockera"
+
+#. translators: Text label for the Block Settings Sidebar tab.
+#: build/editSite.js:20
+#: packages/edit-site/src/components/sidebar/post-visibility/index.js:17
+msgid "Visibility"
+msgstr "Synlighet"
+
+#: build/editSite.js:20
+#: packages/edit-site/src/components/sidebar/post-schedule/index.js:16
+msgid "Publish"
+msgstr "Publicera"
+
+#: build/editSite.js:20 build/siteContent.js:15
+#: packages/edit-site/src/components/sidebar/post-trash/index.js:60
+#: packages/site-content/src/post-menu-actions.js:122
+msgid "Really delete?"
+msgstr "Ta bort?"
+
+#: build/editSite.js:20
+#: packages/edit-site/src/components/sidebar/post-trash/index.js:65
+msgid "Delete this page"
+msgstr "Ta bort den här sidan"
+
+#: build/editSite.js:20
+#: packages/edit-site/src/components/sidebar/post-title/index.js:37
+msgid "Title"
+msgstr "Titel"
+
+#: build/editSite.js:20
+#: packages/edit-site/src/components/sidebar/post-title/index.js:42
+msgid "Display on page"
+msgstr "Visa på sida"
+
+#: build/editSite.js:20
+#: packages/edit-site/src/components/sidebar/post-status/index.js:23
+msgid "Page details"
+msgstr "Siddetaljer"
+
+#: build/editSite.js:20
+#: packages/edit-site/src/components/sidebar/featured-image/index.js:31
+msgid "Featured image"
+msgstr "Utvald bild"
+
+#: build/editSite.js:20 packages/edit-site/src/components/sidebar/index.js:49
+#: packages/edit-site/src/components/sidebar/index.js:50
+#: packages/edit-site/src/components/sidebar/index.js:54
+msgid "Settings"
+msgstr "Inställningar"
+
+#: build/editSite.js:20 packages/edit-site/src/components/sidebar/index.js:57
+msgid "Close settings"
+msgstr "Stäng inställningar"
+
+#: build/editSite.js:20
+#: packages/edit-site/src/components/header/more-menu/index.js:36
+msgid "Plugins"
+msgstr "Tillägg"
+
+#: build/editSite.js:20
+#: packages/edit-site/src/components/header/more-menu/index.js:54
+#: packages/edit-site/src/components/header/more-menu/index.js:76
+#: packages/edit-site/src/components/header/more-menu/index.js:77
+#: packages/edit-site/src/components/header/more-menu/index.js:87
+msgid "More"
+msgstr "Mer"
+
+#: build/editSite.js:20
+#: packages/edit-site/src/components/header/more-menu/index.js:57
+msgid "More tools & options"
+msgstr "Fler verktyg och alternativ"
+
+#: build/editSite.js:20
+#: packages/edit-site/src/components/mobile-nav/index.js:40
+msgid "Add"
+msgstr "Lägg till"
+
+#: build/feedbackModal.js:1
+#: packages/feedback-modal/src/feedback-modal-comment.js:25
+msgid "Tell us about your experience… (optional)"
+msgstr "Berätta om din upplevelse… (valfritt)"
+
+#: build/feedbackModal.js:1
+#: packages/feedback-modal/src/feedback-modal-comment.js:32
+msgid "Send"
+msgstr "Skicka"
+
+#: build/feedbackModal.js:1
+#: packages/feedback-modal/src/feedback-modal-success.js:15
+msgid "Thank you for sharing your feedback with us"
+msgstr "Tack för din feedback"
+
+#: build/feedbackModal.js:1
+#: packages/feedback-modal/src/feedback-modal-success.js:21
+msgid "Close"
+msgstr "Stäng"
+
+#. translators: %1$s is a placeholder for the site's url.
+#: build/feedbackModal.js:1 build/publishGuide.js:16
+#: packages/feedback-modal/src/index.js:113
+#: packages/feedback-modal/src/index.js:124
+#: packages/publish-guide/src/success-view.js:120
+msgid "Give feedback"
+msgstr "Ge feedback"
+
+#: build/feedbackModal.js:1 packages/feedback-modal/src/index.js:125
+msgid "How would you rate your experience?"
+msgstr "Vilket betyg skulle du ge din upplevelse?"
+
+#: build/layoutSelector.js:1
+#: packages/layout-selector/src/image-category-defaults.js:5
+msgid "Fashion"
+msgstr "Mode"
+
+#: build/layoutSelector.js:1
+#: packages/layout-selector/src/image-category-defaults.js:9
+msgid "Home Decor"
+msgstr "Heminredning"
+
+#: build/layoutSelector.js:1
+#: packages/layout-selector/src/image-category-defaults.js:13
+msgid "Coffee"
+msgstr "Kaffe"
+
+#: build/layoutSelector.js:1
+#: packages/layout-selector/src/image-category-defaults.js:17
+msgid "Construction"
+msgstr "Bygg"
+
+#: build/layoutSelector.js:1
+#: packages/layout-selector/src/image-category-defaults.js:21
+msgid "Art"
+msgstr "Konst"
+
+#: build/layoutSelector.js:1
+#: packages/layout-selector/src/image-category-defaults.js:25
+msgid "Baking"
+msgstr "Bakning"
+
+#: build/layoutSelector.js:1
+#: packages/layout-selector/src/image-category-defaults.js:29
+msgid "Fitness"
+msgstr "Träning"
+
+#: build/layoutSelector.js:1
+#: packages/layout-selector/src/image-category-defaults.js:33
+msgid "Landscaping"
+msgstr "Trädgårdsarkitektur"
+
+#: build/layoutSelector.js:1 packages/layout-selector/src/search.js:171
+msgid "Search"
+msgstr "Sök"
+
+#: build/layoutSelector.js:1
+#: packages/layout-selector/src/image-categories.js:23
+msgid "My site is about:"
+msgstr "Min webbplats handlar om:"
+
+#. translators: accessibility text for the footer landmark region.
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:65
+msgid "Cache cleared"
+msgstr "Cachen har rensats"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:86
+msgid "Site Editor"
+msgstr "Webbplatsredigerare"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:116
+msgid "Main menu"
+msgstr "Huvudmeny"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:154
+msgid "WordPress Management"
+msgstr "WordPress-hantering"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:159
+msgid "Manage Plugins"
+msgstr "Hantera insticksprogram"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:165
+msgid "Manage Site Menus"
+msgstr "Hantera webbplatsmenyer"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:171
+msgid "Customize Site Design"
+msgstr "Anpassa webbplatsdesign"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:177
+msgid "Manage Users"
+msgstr "Hantera användare"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:183
+msgid "Manage Comments"
+msgstr "Hantera kommentarer"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:190
+msgid "WordPress Admin"
+msgstr "WordPress-administratör"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:196
+msgid "Hosting"
+msgstr "Värdtjänster"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:203
+msgid "Hosting Overview"
+msgstr "Översikt över värdtjänster"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:212
+msgid "Hosting Settings"
+msgstr "Inställningar för värdtjänster"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:218
+msgid "Tools"
+msgstr "Verktyg"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:227
+msgid "Editor Preference"
+msgstr "Redigerarpreferens"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:231
+msgid "Is this editor right for you?"
+msgstr "Är den här redigeraren rätt för dig?"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:232
+msgid "Learn about other WordPress site building options here."
+msgstr "Ta reda på mer om andra alternativ för WordPress-webbplatser här."
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:240
+msgid "Flush Cache"
+msgstr "Rensa cache"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:247
+msgid "Connection Management"
+msgstr "Hantering av anslutningen"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:251
+msgid "Support"
+msgstr ""
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:260
+msgid "Give Feedback"
+msgstr "Ge feedback"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:269
+msgid "Help & Support"
+msgstr "Hjälp och support"
+
+#. translators: accessibility text for the footer landmark region.
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-design.js:20
+msgid "Make the design your own"
+msgstr "Gör designen till din egen"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-design.js:21
+msgid "Update the colors, fonts and change the look and feel of your site."
+msgstr "Uppdatera färger, typsnitt och anpassa utseendet på din webbplats."
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-design.js:31
+msgid "Customize"
+msgstr "Anpassa"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-content.js:20
+msgid "Review and add pages"
+msgstr "Granska och lägg till sidor"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-content.js:21
+msgid "We got you started with a few. Add more pages and content."
+msgstr "Vi har börjat med några åt dig. Lägg till fler sidor och innehåll."
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-content.js:32
+msgid "Manage pages"
+msgstr "Hantera sidor"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-info.js:131
+msgid "website logo"
+msgstr "webbplatslogotyp"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-info.js:136
+msgid "Add your site info & brand"
+msgstr "Lägg till webbplatsinfo och varumärke"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-info.js:137
+msgid ""
+"What’s the name of your site and what’s it’s purpose? Add a logo if you have "
+"one."
+msgstr ""
+"Vad ska webbplatsen heta och vad är den till för? Lägg till logotyp om du "
+"har det."
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-info.js:147
+msgid "Edit"
+msgstr "Redigera"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-info.js:153
+msgid "Site title"
+msgstr "Webbplatsrubrik"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-info.js:159
+msgid "Site description"
+msgstr "Webbplatsbeskrivning"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-info.js:169
+#: packages/publish-guide/src/publish-guide-items/site-info.js:183
+#: packages/publish-guide/src/publish-guide-items/site-info.js:187
+#: packages/publish-guide/src/publish-guide-items/site-info.js:200
+msgid "Upload site logo"
+msgstr "Ladda upp webbplatslogotyp"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-info.js:205
+msgid "Replace Logo"
+msgstr "Byt ut logotyp"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-info.js:215
+msgid "Remove Logo"
+msgstr "Ta bort logotyp"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-info.js:237
+msgid "Save"
+msgstr "Spara"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-info.js:244
+msgid "Do this later"
+msgstr "Gör det här senare"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/add-domain.js:27
+msgid "Add your domain"
+msgstr "Lägg till din domän"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/add-domain.js:28
+msgid ""
+"Look more professional and make it easier for customers to find your website."
+msgstr ""
+"Visa din proffsiga sida och gör det enklare för kunderna att hitta din "
+"webbplats."
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/add-domain.js:47
+msgid "Add domain"
+msgstr "Lägg till domän"
+
+#: build/publishGuide.js:15 packages/publish-guide/src/success-view.js:44
+msgid "Your site is live on"
+msgstr "Din webbplats är live på"
+
+#: build/publishGuide.js:15 packages/publish-guide/src/success-view.js:57
+msgid "Time to celebrate and"
+msgstr "Dags att fira och"
+
+#: build/publishGuide.js:15 packages/publish-guide/src/success-view.js:57
+msgid "share the great news."
+msgstr "dela de goda nyheterna."
+
+#: build/publishGuide.js:15 packages/publish-guide/src/success-view.js:70
+#: packages/publish-guide/src/success-view.js:84
+#: packages/publish-guide/src/success-view.js:99
+msgid "Check out my new website!"
+msgstr "Jag har en ny webbplats!"
+
+#. translators: %1$s is a placeholder for the site's url.
+#: build/publishGuide.js:16 packages/publish-guide/src/success-view.js:102
+msgid ""
+"I just published my website at %1$s, come check it out and let me know what "
+"you think!"
+msgstr ""
+"Jag har precis publicerat min webbplats på %1$s, kolla in den och berätta "
+"vad du tycker!"
+
+#: build/publishGuide.js:16 packages/publish-guide/src/success-view.js:129
+msgid "Hide this guide"
+msgstr "Dölj den här guiden"
+
+#: build/publishGuide.js:16
+msgid "Design Customizer"
+msgstr "Designanpassare"
+
+#: build/publishGuide.js:16
+msgid "Click here to update your colors, fonts and feel of your site."
+msgstr ""
+"Klicka här för att uppdatera färger, typsnitt och utseende på din webbplats."
+
+#: build/publishGuide.js:16
+msgid "Site Contents"
+msgstr "Webbplatsinnehåll"
+
+#: build/publishGuide.js:16
+msgid "Click here to add and manage the pages for your site."
+msgstr "Klicka här för att lägga till och hantera sidorna för din webbplats."
+
+#: build/publishGuide.js:16
+msgid "Getting Started Guide"
+msgstr "Starthandbok"
+
+#: build/publishGuide.js:16
+msgid ""
+"Once you're done selecting your site style and colors, click here to "
+"continue publishing your site."
+msgstr ""
+"När du har valt stil och färger till din webbplats klickar du här för att "
+"fortsätta med publiceringen av webbplatsen."
+
+#: build/publishGuide.js:16
+msgid "Publish Guide"
+msgstr "Publiceringsguide"
+
+#. translators: accessibility text for the footer landmark region.
+#: build/siteContent.js:15 packages/site-content/src/post-menu-actions.js:51
+msgid "Select an action"
+msgstr "Välj åtgärd"
+
+#: build/siteContent.js:15 packages/site-content/src/post-menu-actions.js:68
+msgid "Rename"
+msgstr "Byt namn"
+
+#: build/siteContent.js:15 packages/site-content/src/post-menu-actions.js:80
+msgid "Really set as homepage?"
+msgstr "Vill du verkligen ange den som startsida?"
+
+#: build/siteContent.js:15 packages/site-content/src/post-menu-actions.js:91
+msgid "Set as homepage"
+msgstr "Ange som startsida"
+
+#: build/siteContent.js:15 packages/site-content/src/post-menu-actions.js:101
+msgid "Unpin post"
+msgstr "Ta bort fäst inlägg"
+
+#: build/siteContent.js:15 packages/site-content/src/post-menu-actions.js:101
+msgid "Pin post"
+msgstr "Fäst inlägg"
+
+#: build/siteContent.js:15 packages/site-content/src/post-menu-actions.js:111
+msgid "Duplicate"
+msgstr "Duplicera"
+
+#: build/siteContent.js:15 packages/site-content/src/post-menu-actions.js:133
+msgid "Delete Page"
+msgstr "Radera sida"
+
+#: build/siteContent.js:15 packages/site-content/src/post-menu-actions.js:133
+msgid "Delete Post"
+msgstr "Radera inlägg"
+
+#. translators: %s is the page title.
+#: build/siteContent.js:16
+msgid "\"%s\" set as the homepage."
+msgstr "”%s” är konfigurerat som startsida."
+
+#. translators: %s is the page title.
+#: build/siteContent.js:16
+msgid "(no title)"
+msgstr "(ingen rubrik)"
+
+#. translators: %s is the post title.
+#: build/siteContent.js:17
+msgid "\"%s\" has been deleted."
+msgstr "”%s” har tagits bort."
+
+#. translators: %s is the post title.
+#: build/siteContent.js:17
+msgid "Undo"
+msgstr "Ångra"
+
+#: build/siteContent.js:17
+msgid "Trashing failed"
+msgstr "Det gick inte att slänga"
+
+#. translators: %s is the post title.
+#: build/siteContent.js:18
+msgid "\"%s\" has been duplicated."
+msgstr "”%s” har duplicerats."
+
+#. translators: %s is the post title.
+#: build/siteContent.js:18
+msgid "Duplication failed"
+msgstr "Duplicering misslyckades"
+
+#. translators: %s is the post type's name.
+#: build/siteContent.js:19
+msgid "A new %s has been created."
+msgstr "Ny %s har skapats."
+
+#. translators: %s is the post type's name.
+#: build/siteContent.js:20
+msgid "Could not create a new %s."
+msgstr "Det gick inte att skapa ny %s."
+
+#. translators: %s is the post type's name.
+#: build/siteContent.js:20
+msgid "Drafts"
+msgstr "Utkast"
+
+#: build/siteContent.js:20
+msgid "Site contents"
+msgstr "Webbplatsinnehåll"
+
+#: build/siteContent.js:20
+msgid "Site"
+msgstr "Webbplats"
+
+#. translators: accessibility text for the footer landmark region.
+#: build/siteDesign.js:15 packages/site-design/src/color-palette-preview.js:86
+msgid "Colors"
+msgstr "Färger"
+
+#: build/siteDesign.js:15 packages/site-design/src/color-palette-preview.js:98
+msgid "Color Palettes"
+msgstr "Färgpaletter"
+
+#: build/siteDesign.js:15 packages/site-design/src/color-palette-preview.js:103
+#: packages/site-design/src/font-preview.js:85
+msgid "Custom"
+msgstr "Egna"
+
+#: build/siteDesign.js:15 packages/site-design/src/design-preview.js:58
+msgid "Design Styles"
+msgstr "Designstilar"
+
+#: build/siteDesign.js:15 packages/site-design/src/design-preview.js:62
+msgid ""
+"Easily explore curated design styles, then customize your colors and fonts "
+"to get the perfect fit."
+msgstr ""
+"Utforska enkelt utvalda designstilar och anpassa sedan färger och typsnitt "
+"till önskat resultat."
+
+#: build/siteDesign.js:15 packages/site-design/src/font-size-picker.js:38
+msgid "Small"
+msgstr "Litet"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-size-picker.js:43
+msgid "Normal"
+msgstr ""
+
+#: build/siteDesign.js:15 packages/site-design/src/font-size-picker.js:48
+msgid "Large"
+msgstr "Stort"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-size-picker.js:93
+msgid "Base size"
+msgstr "Basens storlek"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-size-picker.js:98
+msgid "Font size"
+msgstr "Typsnittsstorlek"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-size-picker.js:125
+msgid "Heading Scale"
+msgstr "Rubrikskala"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-advanced.js:50
+msgid "Custom Font Options"
+msgstr "Anpassade typsnittsalternativ"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-advanced.js:57
+msgid "HEADING"
+msgstr "RUBRIK"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-advanced.js:59
+#: packages/site-design/src/font-advanced.js:101
+msgid "Font"
+msgstr "Typsnitt"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-advanced.js:72
+#: packages/site-design/src/font-advanced.js:115
+msgid "Weight"
+msgstr "Vikt"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-advanced.js:85
+#: packages/site-design/src/font-advanced.js:128
+msgid "Size"
+msgstr "Storlek"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-advanced.js:98
+msgid "Heading font size"
+msgstr "Typsnittsstorlek rubrik"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-advanced.js:99
+msgid "BODY"
+msgstr "BRÖDTEXT"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-preview.js:123
+msgid "The quick brown fox jumped over the lazy dog."
+msgstr "Flygande bäckasiner söka hwila på mjuka tuvor."
+
+#: build/siteDesign.js:15 packages/site-design/src/font-preview.js:131
+msgid "Hide font sizes"
+msgstr "Dölj typsnittsstorlekar"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-preview.js:131
+msgid "Edit font sizes"
+msgstr "Redigera typsnittsstorlekar"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-preview.js:43
+msgid "Fonts"
+msgstr "Typsnitt"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-preview.js:49
+msgid "Font Pairings"
+msgstr "Teckensnittspar"
+
+#: build/siteDesign.js:15 packages/site-design/src/index.js:154
+msgid "Site design"
+msgstr "Webbplatsdesign"
+
+#: build/siteDesign.js:15 packages/site-design/src/index.js:165
+msgid "Design"
+msgstr ""
+
+#: build/updateDependency.js:1
+#: packages/update-dependency/src/hooks/useWorkflow.js:52
+msgid "Update completed."
+msgstr "Uppdatering slutförd."
+
+#: build/updateDependency.js:1 packages/update-dependency/src/index.js:28
+msgid "Updating to the latest and greatest"
+msgstr "Uppdaterar till det senaste och bästa"
+
+#: build/updateDependency.js:1 packages/update-dependency/src/index.js:31
+msgid "Please wait while we apply the latest update to your editor."
+msgstr "Vänta medan vi tillämpar den senaste uppdateringen på din redigerare."
+
+#: build/updateDependency.js:1 packages/update-dependency/src/index.js:32
+msgid "This shouldn't take long."
+msgstr "Detta bör inte ta lång tid."
+
+#: build/wpAdmin.js:1 packages/wp-admin/src/themes-optout-modal/index.js:52
+msgid "This will change your site editor, too"
+msgstr "Det här kommer även att ändra din webbplatsredigerare"
+
+#: build/wpAdmin.js:1 packages/wp-admin/src/themes-optout-modal/index.js:54
+msgid ""
+"You are currently using the GoDaddy Site Editor with the Go theme, which "
+"gives you all of WordPress plus a way to customize your design, edit your "
+"pages and manage your pages, all from one place."
+msgstr ""
+"För närvarande använder du GoDaddy webbplatsredigerare med Go-tema som ger "
+"dig hela WordPress plus ett sätt att anpassa din design, redigera dina sidor "
+"och hantera dina sidor, allt från ett och samma ställe."
+
+#: build/wpAdmin.js:1 packages/wp-admin/src/themes-optout-modal/index.js:58
+msgid ""
+"Once you activate a new theme, this site will no longer work with the "
+"GoDaddy Site Editor. Your site will switch to the default WordPress Editor "
+"instead."
+msgstr ""
+"När du aktiverat det nya temat kommer den här webbplatsen inte längre "
+"fungera tillsammans med GoDaddy-webbplatsredigeraren. Webbplatsen kommer att "
+"byta till standardredigeraren för WordPress istället."
+
+#: build/wpAdmin.js:1 packages/wp-admin/src/themes-optout-modal/index.js:61
+msgid ""
+"Ready to activate a new theme and switch to the default WordPress editor?"
+msgstr ""
+"Är du redo att aktivera ett nytt tema och byta till standardredigeraren för "
+"WordPress?"
+
+#: build/wpAdmin.js:1 packages/wp-admin/src/themes-optout-modal/index.js:74
+msgid "Activate"
+msgstr "Aktivera"

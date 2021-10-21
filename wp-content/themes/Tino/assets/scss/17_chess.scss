@@ -1,0 +1,182 @@
+.section-chess {
+  .section-inner {
+    padding: 80px 0;
+  }
+  .title-block {
+    margin-bottom: 8px;
+  }
+}
+.chess-main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  .chess-image {
+    max-width: 457px;
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+  }
+  .chess-side {
+    position: absolute;
+    width: 50%;
+    top: 0;
+    height: 100%;
+    .chess-item {
+      position: absolute;
+      text-align: right;
+      .chess-item__title {
+        font-size: 24px;
+        color: $blackColor;
+        font-weight: 700;
+        letter-spacing: 0;
+        //text-align: right;
+        line-height: 24px;
+        white-space: nowrap;
+        //overflow: hidden;
+        //text-overflow: ellipsis;
+      }
+      .chess-item__description {
+        font-size: 16px;
+        color: $blackColor;
+        letter-spacing: 0;
+        //text-align: right;
+        line-height: 22px;
+        margin-top: 16px;
+      }
+    }
+    &.chess-left {
+      left: 0;
+      text-align: right;
+      .chess-item {
+        width: 100%;
+        padding-right: 170px;
+        &::before {
+          content: '';
+          width: 100px;
+          position: absolute;
+          top: 12px;
+          height: 0;
+          border-top: 1px dashed transparent;
+          right: 0;
+        }
+        &::after {
+          content: '';
+          width: 12px;
+          height: 12px;
+          border-radius: 50%;
+          border: 3px solid transparent;
+          position: absolute;
+          top: 6px;
+        }
+        &:nth-child(1) {
+          padding-right: 170px;
+          top: 140px;
+          right: 210px;
+          max-width: calc(100% - 210px);
+          &::after {
+            border-color: #FFC654;
+            right: 128px;
+          }
+          &::before {
+            border-top-color: #FFC654;
+            width: 130px;
+          }
+        }
+        &:nth-child(2) {
+          top: 50%;
+
+          right: 210px;
+          max-width: calc(100% - 210px);
+          &::after {
+            border-color: #2D8EF6;
+            right: 128px;
+          }
+          &::before {
+            border-top-color: #2D8EF6;
+            width: 130px;
+          }
+        }
+        &:nth-child(3) {
+          bottom: 60px;
+          right: 210px;
+          max-width: calc(100% - 210px);
+          &::after {
+            border-color: #5AC8F7;
+            right: 128px;
+          }
+          &::before {
+            border-top-color: #5AC8F7;
+            right: 40px;
+            width: 90px;
+          }
+        }
+      }
+    }
+    &.chess-right {
+      left: 50%;
+      .chess-item {
+        width: 100%;
+        padding-left: 170px;
+        padding-right: 0;
+        text-align: left;
+        left: 210px;
+        max-width: calc(100% - 210px);
+        &::before {
+          content: '';
+          width: 100px;
+          position: absolute;
+          top: 12px;
+          height: 0;
+          border-top: 1px dashed transparent;
+          right: calc(100% - 130px);
+        }
+        &::after {
+          content: '';
+          width: 12px;
+          height: 12px;
+          border-radius: 50%;
+          border: 3px solid transparent;
+          position: absolute;
+          top: 6px;
+          right: calc(100% - 140px);
+        }
+        &:nth-child(1) {
+          top: 180px;
+          &::after {
+            border-color: #2D8EF6;
+          }
+          &::before {
+            border-top-color: #2D8EF6;
+            width: 115px;
+          }
+        }
+        &:nth-child(2) {
+          top: 55%;
+          &::after {
+            border-color: #FD6B3F;
+          }
+          &::before {
+            border-top-color: #FD6B3F;
+            width: 142px;
+          }
+        }
+        &:nth-child(3) {
+          bottom: 0;
+          &::after {
+            border-color: #DE3C7D;
+          }
+          &::before {
+            border-top-color: #DE3C7D;
+            width: 90px;
+          }
+        }
+      }
+    }
+
+  }
+}

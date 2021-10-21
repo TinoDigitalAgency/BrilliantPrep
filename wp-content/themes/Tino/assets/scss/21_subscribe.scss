@@ -1,0 +1,121 @@
+.section-subscribe {
+  .section-inner {
+    padding: 80px 0;
+  }
+  .title-block {
+    margin-bottom: 0;
+  }
+}
+.form-block {
+  .subscribe-input {
+    width: 70%;
+    flex: 0 0 calc(100% - 235px);
+    max-width: calc(100% - 235px);
+    padding-right: 10px;
+    padding-left: 15px;
+  }
+  .subscribe-btn {
+    width: 235px;
+    max-width: 235px;
+    padding-right: 15px;
+    flex: 0 0 235px;
+    .btn {
+      white-space: nowrap;
+    }
+  }
+  .form-row {
+    //flex-wrap: nowrap;
+  }
+}
+span.wpcf7-not-valid-tip {
+  padding: 8px 8px  8px 26px;
+  font-size: 14px;
+  color: #DE3C3C;
+  letter-spacing: 0;
+  line-height: 20px;
+  border: none !important;
+  background: url(../images/src/error.svg) left center no-repeat;
+}
+div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
+  font-size: 16px;
+  color: #13112B;
+  letter-spacing: 0;
+  line-height: 22px;
+  border: none !important;
+  margin: 0;
+  width: 100%;
+  text-align: left;
+  padding: 0 7px;
+}
+.wpcf7-not-valid {
+  box-shadow: 0px 0px 0px 1px rgba(222,60,60,1);
+
+}
+
+.success-form-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+  display: none;
+  .success-form-inner {
+    background: rgba($blackColor,.75);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    opacity: 0;
+  }
+  .success-form-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .success-form-content-inner {
+    background: $whiteColor;
+    padding: 90px;
+    text-align: center;
+  }
+  .success-icon-form {
+    display: inline-block;
+    width: 72px;
+    height: 72px;
+    border: 1px $pinkColor solid;
+    border-radius: 50%;
+    background: url(../images/src/checked.svg) center center no-repeat;
+    margin-bottom: 40px;
+  }
+  .h3 {
+    margin-bottom: 16px;
+
+  }
+  p {
+    font-size: 20px;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 28px;
+  }
+  .btn {
+    margin-top: 40px;
+    min-width: 210px;
+  }
+}
+.sent {
+  .success-form-wrapper {
+    display: block;
+  }
+  .success-form-inner {
+    animation: 700ms fadeIn forwards;
+    animation-delay: .1s;
+  }
+  .success-form-content {
+    animation: 700ms fadeInDown forwards;
+    animation-delay: .1s;
+  }
+}
+div.wpcf7-mail-sent-ok {
+  display: none !important;
+}

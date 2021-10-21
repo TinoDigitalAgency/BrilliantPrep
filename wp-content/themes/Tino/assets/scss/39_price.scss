@@ -1,0 +1,23 @@
+.section-price {
+  .section-inner {
+    padding: 80px 0;
+  }
+}
+.price-block {
+  display: flex;
+  align-items: center;
+  .price-image {
+    flex: 0 0 110px;
+    max-width: 110px;
+  }
+  .price-content {
+    flex: 0 0 calc(100% - 110px);
+    max-width: calc(100% - 110px);
+    padding-left: 40px;
+  }
+  .price-content-title {
+    & + .price-content-text {
+      margin-top: 16px;
+    }
+  }
+}

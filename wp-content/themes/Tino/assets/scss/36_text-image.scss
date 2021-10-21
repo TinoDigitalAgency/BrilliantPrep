@@ -1,0 +1,21 @@
+.section-text-image {
+  .section-inner {
+    padding: 40px 0 120px 0;
+  }
+  .image-col {
+    padding-right: 50px;
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+  }
+  .wrap-reverce {
+    flex-wrap: wrap-reverse;
+    .image-col {
+      order: 2;
+      padding-right: 15px;
+      padding-left: 50px;
+    }
+  }
+}

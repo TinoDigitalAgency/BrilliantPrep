@@ -1,0 +1,115 @@
+.title-block {
+  margin-bottom: 48px;
+  .title {
+    margin: 0;
+    & + .subtitle {
+      margin-top: 24px;
+    }
+  }
+  .subtitle {
+    font-size: 20px;
+    //color: $blackColor;
+    letter-spacing: 0;
+    line-height: 28px;
+    p {
+      & + p {
+        margin-top: 26px;
+      }
+    }
+    a {
+      color: $blackColor;
+      text-decoration: underline;
+      &:hover {
+        color: $pinkColor;
+      }
+    }
+  }
+  .title-icon {
+    margin-bottom: 56px;
+  }
+  &.title-block-with-arrow {
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .cource-carousel-navs {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    .slider-button {
+      position: static;
+      transform: translateY(0);
+      & + .slider-button {
+        margin-left: 40px;
+      }
+      &.swiper-button-disabled {
+        opacity: .3;
+      }
+    }
+  }
+  //background-size: revert ;
+  &.title-block-bg {
+    position: relative;
+    .subtitle,
+    .title {
+      position: relative;
+      z-index: 2;
+    }
+    &::before {
+      content: '';
+      width: 1034px;
+      height: 175px;
+      background: url(../images/src/elements-numbers-about.png) center center no-repeat;
+      -webkit-background-size: 100% auto;
+      background-size: 100% auto;
+      position: absolute;
+      left: 50%;
+      top: -70px;
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
+    }
+  }
+}
+
+.title-with-tab {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.shortcode-tab-head {
+  display: flex;
+  align-items: center;
+  .shortcode-tab-head-item {
+    &:first-child {
+      a {
+        padding-left: 0;
+      }
+
+    }
+    &:last-child {
+      a {
+        padding-right: 0;
+      }
+    }
+  }
+  .shortcode-tab-link {
+    font-size: 20px;
+    color: $blackColor;
+    letter-spacing: 0;
+    line-height: 28px;
+    padding: 10px 20px;
+    &:hover {
+      color: $pinkColor;
+    }
+    &.active {
+      color: $pinkColor;
+    }
+  }
+}
+
+a[disabled] {
+  opacity: .8;
+  pointer-events: none;
+}

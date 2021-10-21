@@ -1,0 +1,1009 @@
+msgid ""
+msgstr ""
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/project\n"
+"POT-Creation-Date: 2021-07-19T22:08:18+00:00\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: json2po\n"
+
+#. Plugin Name of the plugin
+msgid "NextGen"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.godaddy.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "Next Generation WordPress Experience"
+msgstr "Интерфейс WordPress следующего поколения"
+
+#. Author of the plugin
+msgid "GoDaddy"
+msgstr ""
+
+#: includes/class-edit-site.php:45
+msgid "Setting to disable or enable NextGen administration dashboard shortcut."
+msgstr ""
+"Ярлык настройки для отключения или включения панели управления "
+"администратора NextGen."
+
+#: includes/class-edit-site.php:91
+msgid "Headline"
+msgstr "Колонтитул"
+
+#: includes/class-edit-site.php:92
+msgid "Text"
+msgstr "Текст"
+
+#: includes/class-edit-site.php:93
+msgid "List"
+msgstr "Список"
+
+#: includes/class-edit-site.php:94
+msgid "Image"
+msgstr "Изображение"
+
+#: includes/class-edit-site.php:95
+msgid "Gallery"
+msgstr "Галерея"
+
+#: includes/class-edit-site.php:96
+msgid "Contact"
+msgstr "Контакт"
+
+#: includes/class-edit-site.php:97
+msgid "Call To Action"
+msgstr "Призыв к действию"
+
+#: includes/class-layout-selector.php:84
+msgid "Generic"
+msgstr "Общий"
+
+#: includes/class-layout-selector.php:110
+msgid "Image category."
+msgstr "Категория изображения."
+
+#: includes/class-publish-guide.php:131
+msgid "Display Publish Guide."
+msgstr "Показать руководство по публикации."
+
+#: includes/class-site-design.php:344
+msgid "Error processing your request."
+msgstr "Возникла ошибка при обработке вашего запроса."
+
+#: includes/class-site-design.php:368
+msgid "A design_style must be passed."
+msgstr "design_style должен быть принят."
+
+#: includes/class-site-design.php:380
+msgid "An available design_style must be passed."
+msgstr "Доступный design_style должен быть принят."
+
+#. translators: %s: GoDaddy.
+#: includes/class-wp-admin.php:91
+msgid "Go by %s"
+msgstr "Тема Go от %s"
+
+#: build/common.js:1 packages/common/src/tooltip/index.js:28
+msgid "Info"
+msgstr "Информация"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:17
+msgid "Would you like to keep using the GoDaddy Site Editor?"
+msgstr "Вы хотите продолжить использование Редактора сайтов GoDaddy?"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:20
+msgid ""
+"We want to make sure you have the right tools to build your site. You are "
+"currently using the GoDaddy Site editor, which gives you all of WordPress "
+"plus a way to customize your design, edit your pages, and manage your pages, "
+"all from one place."
+msgstr ""
+"Мы хотим убедиться, что у вас есть подходящие инструменты для создания "
+"сайта. В данный момент вы используете Редактор сайтов GoDaddy со всеми "
+"опциями WordPress и дополнительными возможностями настройки дизайна, "
+"редактирования и управления страницами в единой системе."
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:25
+#: packages/editor-preference-modal/src/workflows/feedback.js:24
+msgid "Yes, keep using it"
+msgstr "Да, продолжить использовать этот"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:29
+#: packages/editor-preference-modal/src/workflows/feedback.js:28
+msgid "No, I want to see other options"
+msgstr "Нет, я хочу увидеть другие варианты"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:37
+msgid "We’re sorry this wasn’t the right fit for you"
+msgstr "Сожалеем, что вам не подошло"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:40
+msgid "Could you tell us why?"
+msgstr "Можно узнать причины?"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:43
+msgid "Tell us why this wasn’t the right fit for you…"
+msgstr "Расскажите, почему вам не подошло..."
+
+#: build/editorPreferenceModal.js:1 build/wpAdmin.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:52
+#: packages/editor-preference-modal/src/workflows/default.js:105
+#: packages/editor-preference-modal/src/workflows/default.js:136
+#: packages/editor-preference-modal/src/workflows/default.js:165
+#: packages/editor-preference-modal/src/workflows/default.js:198
+#: packages/editor-preference-modal/src/workflows/default.js:225
+#: packages/editor-preference-modal/src/workflows/feedback.js:40
+#: packages/wp-admin/src/themes-optout-modal/index.js:68
+msgid "Go Back"
+msgstr "Назад"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:59
+msgid "Skip"
+msgstr "Пропустить"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:66
+msgid "Continue"
+msgstr "Продолжить"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:78
+msgid "Let’s find you a better fit"
+msgstr "Позвольте найти вам более подходящий инструмент"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:80
+msgid "Here are some other options to explore:"
+msgstr "Предлагаем ознакомиться с другими вариантами:"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:84
+msgid "Switch to the default WordPress editor"
+msgstr "Перейти на стандартный редактор WordPress"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:89
+msgid "Switch to a 3rd party page builder"
+msgstr "Перейти на сторонний конструктор веб-страниц"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:94
+msgid "Talk to someone about my options"
+msgstr "Поговорить со специалистом о подходящих мне вариантах"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:99
+msgid "Hire our experts to build your site for you"
+msgstr "Привлеките наших экспертов для разработки вашего сайта"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:109
+#: packages/editor-preference-modal/src/workflows/default.js:232
+msgid "Learn More"
+msgstr "Подробнее"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:119
+msgid "Switching to the default WordPress editor"
+msgstr "Выполняется переход на стандартный редактор WordPress"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:122
+msgid "You should switch to the default WordPress editor if:"
+msgstr "Вам стоит перейти на стандартный редактор WordPress, если:"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:124
+msgid "You want to use a different theme"
+msgstr "Вы хотите использовать другую тему"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:125
+msgid "You are familiar with and/or prefer to use default WordPress"
+msgstr ""
+"Вы знакомы и/или предпочитаете использовать стандартный редактор WordPress"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:129
+#: packages/editor-preference-modal/src/workflows/default.js:158
+msgid ""
+"Once you switch, this site will no longer work with the GoDaddy Site Editor, "
+"so you won’t be able to come back."
+msgstr ""
+"Как только вы перейдете на другой редактор, этот сайт больше не будет "
+"работать с Редактором сайтов GoDaddy, то есть вы не можете вернуться в "
+"редактор и продолжить."
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:131
+msgid "Ready to switch this site to the default WordPress editor?"
+msgstr "Готовы перевести свой сайт на стандартный редактор WordPress?"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:140
+msgid "Switch to Default"
+msgstr "Перейти в стандартный редактор"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:152
+msgid "Switching to a 3rd Party Page Builder"
+msgstr "Выполняется переход на сторонний конструктор веб-страниц"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:155
+msgid ""
+"A 3rd party page builder is a WordPress plugin that you install on your "
+"site, that allows you to build and design pages."
+msgstr ""
+"Сторонний конструктор веб-страниц – это плагин WordPress, который вы "
+"устанавливаете на своем сайте для создания и настройки страниц."
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:160
+msgid "Ready to switch this site to a 3rd party page builder?"
+msgstr "Готовы перевести этот сайт на сторонний конструктор веб-страниц?"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:169
+msgid "View Plugins"
+msgstr "Просмотреть плагины"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:184
+msgid "Expert help is on the way"
+msgstr "Наши эксперты готовы помочь"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:193
+msgid "Contact our GoDaddy guides to get started."
+msgstr "Свяжитесь со Знатоками GoDaddy, чтобы начать."
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:202
+msgid "Contact Us"
+msgstr "Связаться с нами"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:219
+msgid ""
+"We'll build a stunning professional website, custom tailored to your business"
+msgstr ""
+"Мы создадим потрясающий профессиональный сайт специально для вашего бизнеса"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:247
+msgid "Redirecting you to the WordPress Admin…"
+msgstr "Переадресовываем вас на аккаунт Администратора WordPress..."
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:257
+msgid "Redirecting you to WordPress plugins…"
+msgstr "Выполняется переход на плагины WordPress..."
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/feedback.js:19
+msgid ""
+"We appreciate your feedback and want to make sure you have the right tools "
+"to build your site. You are currently using the GoDaddy Site editor, which "
+"gives you all of WordPress plus a way to customize your design, edit your "
+"pages, and manage your pages, all from one place."
+msgstr ""
+"Мы ценим ваше мнение и хотим убедиться, что у вас есть подходящие "
+"инструменты для создания сайта. В данный момент вы используете Редактор "
+"сайтов GoDaddy со всеми опциями WordPress и дополнительными возможностями "
+"настройки дизайна, редактирования и управления страницами в единой системе."
+
+#. translators: Default label for the Document sidebar tab, not selected.
+#: build/editSite.js:16
+#: packages/edit-site/src/components/sidebar/settings-header/index.js:33
+msgid "Document"
+msgstr "Документ"
+
+#. translators: ARIA label for the Document sidebar tab, selected. %s Document label.
+#: build/editSite.js:17
+#: packages/edit-site/src/components/sidebar/settings-header/index.js:40
+msgid "%s (selected)"
+msgstr "Выбрано: %s"
+
+#. translators: ARIA label for the Block Settings Sidebar tab, selected.
+#: build/editSite.js:18
+#: packages/edit-site/src/components/sidebar/settings-header/index.js:47
+msgid "Block (selected)"
+msgstr "Блок (выбрано)"
+
+#. translators: ARIA label for the Block Settings Sidebar tab, not selected.
+#. translators: Text label for the Block Settings Sidebar tab.
+#. translators: Data label for the Block Settings Sidebar tab.
+#: build/editSite.js:19 build/editSite.js:20
+#: packages/edit-site/src/components/sidebar/settings-header/index.js:49
+#: packages/edit-site/src/components/sidebar/settings-header/index.js:70
+#: packages/edit-site/src/components/sidebar/settings-header/index.js:74
+msgid "Block"
+msgstr "Блокировка"
+
+#. translators: Text label for the Block Settings Sidebar tab.
+#: build/editSite.js:20
+#: packages/edit-site/src/components/sidebar/post-visibility/index.js:17
+msgid "Visibility"
+msgstr "Видимость"
+
+#: build/editSite.js:20
+#: packages/edit-site/src/components/sidebar/post-schedule/index.js:16
+msgid "Publish"
+msgstr "Опубликовать"
+
+#: build/editSite.js:20 build/siteContent.js:15
+#: packages/edit-site/src/components/sidebar/post-trash/index.js:60
+#: packages/site-content/src/post-menu-actions.js:122
+msgid "Really delete?"
+msgstr "Действительно хотите удалить?"
+
+#: build/editSite.js:20
+#: packages/edit-site/src/components/sidebar/post-trash/index.js:65
+msgid "Delete this page"
+msgstr "Удалить эту страницу"
+
+#: build/editSite.js:20
+#: packages/edit-site/src/components/sidebar/post-title/index.js:37
+msgid "Title"
+msgstr "Заголовок"
+
+#: build/editSite.js:20
+#: packages/edit-site/src/components/sidebar/post-title/index.js:42
+msgid "Display on page"
+msgstr "Отобразить на странице"
+
+#: build/editSite.js:20
+#: packages/edit-site/src/components/sidebar/post-status/index.js:23
+msgid "Page details"
+msgstr "Детали страницы"
+
+#: build/editSite.js:20
+#: packages/edit-site/src/components/sidebar/featured-image/index.js:31
+msgid "Featured image"
+msgstr "Рекомендуемое изображение"
+
+#: build/editSite.js:20 packages/edit-site/src/components/sidebar/index.js:49
+#: packages/edit-site/src/components/sidebar/index.js:50
+#: packages/edit-site/src/components/sidebar/index.js:54
+msgid "Settings"
+msgstr "Настройки"
+
+#: build/editSite.js:20 packages/edit-site/src/components/sidebar/index.js:57
+msgid "Close settings"
+msgstr "Закрыть настройки"
+
+#: build/editSite.js:20
+#: packages/edit-site/src/components/header/more-menu/index.js:36
+msgid "Plugins"
+msgstr "Плагины"
+
+#: build/editSite.js:20
+#: packages/edit-site/src/components/header/more-menu/index.js:54
+#: packages/edit-site/src/components/header/more-menu/index.js:76
+#: packages/edit-site/src/components/header/more-menu/index.js:77
+#: packages/edit-site/src/components/header/more-menu/index.js:87
+msgid "More"
+msgstr "Подробнее"
+
+#: build/editSite.js:20
+#: packages/edit-site/src/components/header/more-menu/index.js:57
+msgid "More tools & options"
+msgstr "Еще инструменты и опции"
+
+#: build/editSite.js:20
+#: packages/edit-site/src/components/mobile-nav/index.js:40
+msgid "Add"
+msgstr "Добавить"
+
+#: build/feedbackModal.js:1
+#: packages/feedback-modal/src/feedback-modal-comment.js:25
+msgid "Tell us about your experience… (optional)"
+msgstr "Поделитесь своим опытом... (необязательно)"
+
+#: build/feedbackModal.js:1
+#: packages/feedback-modal/src/feedback-modal-comment.js:32
+msgid "Send"
+msgstr "Отправить"
+
+#: build/feedbackModal.js:1
+#: packages/feedback-modal/src/feedback-modal-success.js:15
+msgid "Thank you for sharing your feedback with us"
+msgstr "Благодарим, что поделились с нами своим мнением"
+
+#: build/feedbackModal.js:1
+#: packages/feedback-modal/src/feedback-modal-success.js:21
+msgid "Close"
+msgstr "Закрыть"
+
+#. translators: %1$s is a placeholder for the site's url.
+#: build/feedbackModal.js:1 build/publishGuide.js:16
+#: packages/feedback-modal/src/index.js:113
+#: packages/feedback-modal/src/index.js:124
+#: packages/publish-guide/src/success-view.js:120
+msgid "Give feedback"
+msgstr "Поделиться мнением"
+
+#: build/feedbackModal.js:1 packages/feedback-modal/src/index.js:125
+msgid "How would you rate your experience?"
+msgstr "Как бы вы оценили ваш опыт?"
+
+#: build/layoutSelector.js:1
+#: packages/layout-selector/src/image-category-defaults.js:5
+msgid "Fashion"
+msgstr "Мода"
+
+#: build/layoutSelector.js:1
+#: packages/layout-selector/src/image-category-defaults.js:9
+msgid "Home Decor"
+msgstr "Декор для дома"
+
+#: build/layoutSelector.js:1
+#: packages/layout-selector/src/image-category-defaults.js:13
+msgid "Coffee"
+msgstr "Кофе"
+
+#: build/layoutSelector.js:1
+#: packages/layout-selector/src/image-category-defaults.js:17
+msgid "Construction"
+msgstr "Строительство"
+
+#: build/layoutSelector.js:1
+#: packages/layout-selector/src/image-category-defaults.js:21
+msgid "Art"
+msgstr "Искусство"
+
+#: build/layoutSelector.js:1
+#: packages/layout-selector/src/image-category-defaults.js:25
+msgid "Baking"
+msgstr "Выпечка"
+
+#: build/layoutSelector.js:1
+#: packages/layout-selector/src/image-category-defaults.js:29
+msgid "Fitness"
+msgstr "Фитнес"
+
+#: build/layoutSelector.js:1
+#: packages/layout-selector/src/image-category-defaults.js:33
+msgid "Landscaping"
+msgstr "Ландшафтная архитектура"
+
+#: build/layoutSelector.js:1 packages/layout-selector/src/search.js:171
+msgid "Search"
+msgstr "Поиск"
+
+#: build/layoutSelector.js:1
+#: packages/layout-selector/src/image-categories.js:23
+msgid "My site is about:"
+msgstr "Цель работы моего сайта:"
+
+#. translators: accessibility text for the footer landmark region.
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:65
+msgid "Cache cleared"
+msgstr "Кэш очищен"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:86
+msgid "Site Editor"
+msgstr "Редактор сайта"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:116
+msgid "Main menu"
+msgstr "Главное меню"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:154
+msgid "WordPress Management"
+msgstr "Управление WordPress"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:159
+msgid "Manage Plugins"
+msgstr "Управление плагинами"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:165
+msgid "Manage Site Menus"
+msgstr "Управление меню сайта"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:171
+msgid "Customize Site Design"
+msgstr "Пользовательская настройка сайта"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:177
+msgid "Manage Users"
+msgstr "Управление пользователями"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:183
+msgid "Manage Comments"
+msgstr "Управление комментариями"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:190
+msgid "WordPress Admin"
+msgstr "Администратор WordPress"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:196
+msgid "Hosting"
+msgstr "Хостинг"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:203
+msgid "Hosting Overview"
+msgstr "Обзор хостинга"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:212
+msgid "Hosting Settings"
+msgstr "Настройки хостинга"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:218
+msgid "Tools"
+msgstr "Инструменты"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:227
+msgid "Editor Preference"
+msgstr "Настройки редактора"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:231
+msgid "Is this editor right for you?"
+msgstr "Этот редактор вам подходит?"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:232
+msgid "Learn about other WordPress site building options here."
+msgstr "Ознакомьтесь с другими вариантами создания сайтов на WordPress здесь."
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:240
+msgid "Flush Cache"
+msgstr "Очистка кэша"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:247
+msgid "Connection Management"
+msgstr "Управление соединением"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:251
+msgid "Support"
+msgstr "Поддержка"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:260
+msgid "Give Feedback"
+msgstr "Поделиться мнением"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:269
+msgid "Help & Support"
+msgstr "Справка и поддержка"
+
+#. translators: accessibility text for the footer landmark region.
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-design.js:20
+msgid "Make the design your own"
+msgstr "Пусть дизайн станет вашим"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-design.js:21
+msgid "Update the colors, fonts and change the look and feel of your site."
+msgstr "Обновите цвета, шрифты и измените дизайн и впечатление о вашем сайте."
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-design.js:31
+msgid "Customize"
+msgstr "Настроить"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-content.js:20
+msgid "Review and add pages"
+msgstr "Просмотреть и добавить страницы"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-content.js:21
+msgid "We got you started with a few. Add more pages and content."
+msgstr ""
+"Для начала мы создали для вас несколько готовых. Добавьте еще страницы и "
+"контент."
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-content.js:32
+msgid "Manage pages"
+msgstr "Управление страницами"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-info.js:131
+msgid "website logo"
+msgstr "логотип сайта"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-info.js:136
+msgid "Add your site info & brand"
+msgstr "Добавьте данные о вашем сайте и бренде"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-info.js:137
+msgid ""
+"What’s the name of your site and what’s it’s purpose? Add a logo if you have "
+"one."
+msgstr ""
+"Уточните название вашего сайта и цель его создания Если у вас есть логотип, "
+"добавьте его."
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-info.js:147
+msgid "Edit"
+msgstr "Редактировать"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-info.js:153
+msgid "Site title"
+msgstr "Название сайта"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-info.js:159
+msgid "Site description"
+msgstr "Описание сайта"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-info.js:169
+#: packages/publish-guide/src/publish-guide-items/site-info.js:183
+#: packages/publish-guide/src/publish-guide-items/site-info.js:187
+#: packages/publish-guide/src/publish-guide-items/site-info.js:200
+msgid "Upload site logo"
+msgstr "Загрузить логотип сайта"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-info.js:205
+msgid "Replace Logo"
+msgstr "Замена логотипа"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-info.js:215
+msgid "Remove Logo"
+msgstr "Удалить лототип"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-info.js:237
+msgid "Save"
+msgstr "Сохранить"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-info.js:244
+msgid "Do this later"
+msgstr "Сделать это позже"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/add-domain.js:27
+msgid "Add your domain"
+msgstr "Добавьте свой домен"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/add-domain.js:28
+msgid ""
+"Look more professional and make it easier for customers to find your website."
+msgstr ""
+"Создайте впечатление о своем бизнесе с помощью профессиональных "
+"инструментов, и клиентам будет проще найти ваш сайт."
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/add-domain.js:47
+msgid "Add domain"
+msgstr "Добавить домен"
+
+#: build/publishGuide.js:15 packages/publish-guide/src/success-view.js:44
+msgid "Your site is live on"
+msgstr "Ваш сайт опубликован на"
+
+#: build/publishGuide.js:15 packages/publish-guide/src/success-view.js:57
+msgid "Time to celebrate and"
+msgstr "Время праздновать и"
+
+#: build/publishGuide.js:15 packages/publish-guide/src/success-view.js:57
+msgid "share the great news."
+msgstr "делиться отличными новостями."
+
+#: build/publishGuide.js:15 packages/publish-guide/src/success-view.js:70
+#: packages/publish-guide/src/success-view.js:84
+#: packages/publish-guide/src/success-view.js:99
+msgid "Check out my new website!"
+msgstr "Оцените мой новый сайт!"
+
+#. translators: %1$s is a placeholder for the site's url.
+#: build/publishGuide.js:16 packages/publish-guide/src/success-view.js:102
+msgid ""
+"I just published my website at %1$s, come check it out and let me know what "
+"you think!"
+msgstr ""
+"Мы только что опубликовали наш новый сайт на %1$s. Оцените его и поделитесь "
+"своим мнением."
+
+#: build/publishGuide.js:16 packages/publish-guide/src/success-view.js:129
+msgid "Hide this guide"
+msgstr "Спрятать это руководство"
+
+#: build/publishGuide.js:16
+msgid "Design Customizer"
+msgstr "Настройщик дизайна"
+
+#: build/publishGuide.js:16
+msgid "Click here to update your colors, fonts and feel of your site."
+msgstr "Нажмите здесь, чтобы обновить цвета, шрифты и интерфейс вашего сайта."
+
+#: build/publishGuide.js:16
+msgid "Site Contents"
+msgstr "Содержание сайта"
+
+#: build/publishGuide.js:16
+msgid "Click here to add and manage the pages for your site."
+msgstr "Нажмите здесь, чтобы добавлять и управлять страницами вашего сайта."
+
+#: build/publishGuide.js:16
+msgid "Getting Started Guide"
+msgstr "Руководство по началу работы"
+
+#: build/publishGuide.js:16
+msgid ""
+"Once you're done selecting your site style and colors, click here to "
+"continue publishing your site."
+msgstr ""
+"Когда вы закончите выбор стиля и цвета своего сайта, нажмите здесь, чтобы "
+"опубликовать его."
+
+#: build/publishGuide.js:16
+msgid "Publish Guide"
+msgstr "Руководство по публикации"
+
+#. translators: accessibility text for the footer landmark region.
+#: build/siteContent.js:15 packages/site-content/src/post-menu-actions.js:51
+msgid "Select an action"
+msgstr "Выбрать действие"
+
+#: build/siteContent.js:15 packages/site-content/src/post-menu-actions.js:68
+msgid "Rename"
+msgstr "Переименовать"
+
+#: build/siteContent.js:15 packages/site-content/src/post-menu-actions.js:80
+msgid "Really set as homepage?"
+msgstr "Действительно хотите сделать главной страницей?"
+
+#: build/siteContent.js:15 packages/site-content/src/post-menu-actions.js:91
+msgid "Set as homepage"
+msgstr "Сделать главной"
+
+#: build/siteContent.js:15 packages/site-content/src/post-menu-actions.js:101
+msgid "Unpin post"
+msgstr "Открепить запись"
+
+#: build/siteContent.js:15 packages/site-content/src/post-menu-actions.js:101
+msgid "Pin post"
+msgstr "Прикрепить запись"
+
+#: build/siteContent.js:15 packages/site-content/src/post-menu-actions.js:111
+msgid "Duplicate"
+msgstr "Дублировать"
+
+#: build/siteContent.js:15 packages/site-content/src/post-menu-actions.js:133
+msgid "Delete Page"
+msgstr "Удалить страницу"
+
+#: build/siteContent.js:15 packages/site-content/src/post-menu-actions.js:133
+msgid "Delete Post"
+msgstr "Удалить публикацию"
+
+#. translators: %s is the page title.
+#: build/siteContent.js:16
+msgid "\"%s\" set as the homepage."
+msgstr "Страница \"%s\" является главной."
+
+#. translators: %s is the page title.
+#: build/siteContent.js:16
+msgid "(no title)"
+msgstr "(без названия)"
+
+#. translators: %s is the post title.
+#: build/siteContent.js:17
+msgid "\"%s\" has been deleted."
+msgstr "\"%s\" удалено."
+
+#. translators: %s is the post title.
+#: build/siteContent.js:17
+msgid "Undo"
+msgstr "Отменить"
+
+#: build/siteContent.js:17
+msgid "Trashing failed"
+msgstr "Не удалось удалить в корзину"
+
+#. translators: %s is the post title.
+#: build/siteContent.js:18
+msgid "\"%s\" has been duplicated."
+msgstr "\"%s\" продублировано."
+
+#. translators: %s is the post title.
+#: build/siteContent.js:18
+msgid "Duplication failed"
+msgstr "Не удалось продублировать"
+
+#. translators: %s is the post type's name.
+#: build/siteContent.js:19
+msgid "A new %s has been created."
+msgstr "Создан новый %s."
+
+#. translators: %s is the post type's name.
+#: build/siteContent.js:20
+msgid "Could not create a new %s."
+msgstr "Не удалось создать новый %s."
+
+#. translators: %s is the post type's name.
+#: build/siteContent.js:20
+msgid "Drafts"
+msgstr "Черновики"
+
+#: build/siteContent.js:20
+msgid "Site contents"
+msgstr "Содержание сайта"
+
+#: build/siteContent.js:20
+msgid "Site"
+msgstr "Сайт"
+
+#. translators: accessibility text for the footer landmark region.
+#: build/siteDesign.js:15 packages/site-design/src/color-palette-preview.js:86
+msgid "Colors"
+msgstr "Цвета"
+
+#: build/siteDesign.js:15 packages/site-design/src/color-palette-preview.js:98
+msgid "Color Palettes"
+msgstr "Цветовые палитры"
+
+#: build/siteDesign.js:15 packages/site-design/src/color-palette-preview.js:103
+#: packages/site-design/src/font-preview.js:85
+msgid "Custom"
+msgstr "Настраиваемый"
+
+#: build/siteDesign.js:15 packages/site-design/src/design-preview.js:58
+msgid "Design Styles"
+msgstr "Дизайн стилей"
+
+#: build/siteDesign.js:15 packages/site-design/src/design-preview.js:62
+msgid ""
+"Easily explore curated design styles, then customize your colors and fonts "
+"to get the perfect fit."
+msgstr ""
+"Изучайте тщательно подобранные нами варианты дизайна, настраивайте цвета и "
+"шрифты, чтобы выбрать идеальное сочетание."
+
+#: build/siteDesign.js:15 packages/site-design/src/font-size-picker.js:38
+msgid "Small"
+msgstr "Малый"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-size-picker.js:43
+msgid "Normal"
+msgstr "Нормальный"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-size-picker.js:48
+msgid "Large"
+msgstr "Крупный"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-size-picker.js:93
+msgid "Base size"
+msgstr "Базовый размер"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-size-picker.js:98
+msgid "Font size"
+msgstr "Размер шрифта"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-size-picker.js:125
+msgid "Heading Scale"
+msgstr "Масштаб заголовка"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-advanced.js:50
+msgid "Custom Font Options"
+msgstr "Пользовательские опции шрифтов"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-advanced.js:57
+msgid "HEADING"
+msgstr "ЗАГОЛОВОК"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-advanced.js:59
+#: packages/site-design/src/font-advanced.js:101
+msgid "Font"
+msgstr "Шрифт"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-advanced.js:72
+#: packages/site-design/src/font-advanced.js:115
+msgid "Weight"
+msgstr "Насыщенность"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-advanced.js:85
+#: packages/site-design/src/font-advanced.js:128
+msgid "Size"
+msgstr "Размер"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-advanced.js:98
+msgid "Heading font size"
+msgstr "Размер шрифта заголовка"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-advanced.js:99
+msgid "BODY"
+msgstr "ОСНОВНОЙ ТЕКСТ"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-preview.js:123
+msgid "The quick brown fox jumped over the lazy dog."
+msgstr ""
+"Здесь фабула объять не может всех эмоций — шепелявый скороход в юбке тащит "
+"горячий мёд."
+
+#: build/siteDesign.js:15 packages/site-design/src/font-preview.js:131
+msgid "Hide font sizes"
+msgstr "Спрятать размеры шрифтов"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-preview.js:131
+msgid "Edit font sizes"
+msgstr "Редактировать размеры шрифтов"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-preview.js:43
+msgid "Fonts"
+msgstr "Шрифты"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-preview.js:49
+msgid "Font Pairings"
+msgstr "Сочетания шрифтов"
+
+#: build/siteDesign.js:15 packages/site-design/src/index.js:154
+msgid "Site design"
+msgstr "Дизайн сайта"
+
+#: build/siteDesign.js:15 packages/site-design/src/index.js:165
+msgid "Design"
+msgstr "Дизайн"
+
+#: build/updateDependency.js:1
+#: packages/update-dependency/src/hooks/useWorkflow.js:52
+msgid "Update completed."
+msgstr "Обновление завершено."
+
+#: build/updateDependency.js:1 packages/update-dependency/src/index.js:28
+msgid "Updating to the latest and greatest"
+msgstr "Выполняется обновление до последней версии"
+
+#: build/updateDependency.js:1 packages/update-dependency/src/index.js:31
+msgid "Please wait while we apply the latest update to your editor."
+msgstr "Подождите, пока мы выполним обновление вашего редактора."
+
+#: build/updateDependency.js:1 packages/update-dependency/src/index.js:32
+msgid "This shouldn't take long."
+msgstr "Это не займет много времени."
+
+#: build/wpAdmin.js:1 packages/wp-admin/src/themes-optout-modal/index.js:52
+msgid "This will change your site editor, too"
+msgstr "Ваш редактор сайта тоже изменится"
+
+#: build/wpAdmin.js:1 packages/wp-admin/src/themes-optout-modal/index.js:54
+msgid ""
+"You are currently using the GoDaddy Site Editor with the Go theme, which "
+"gives you all of WordPress plus a way to customize your design, edit your "
+"pages and manage your pages, all from one place."
+msgstr ""
+"В данный момент вы используете Редактор сайтов GoDaddy с темой Go, которая "
+"включает все опции WordPress и дополнительными возможностями настройки "
+"дизайна, редактирования и управления страницами в единой системе."
+
+#: build/wpAdmin.js:1 packages/wp-admin/src/themes-optout-modal/index.js:58
+msgid ""
+"Once you activate a new theme, this site will no longer work with the "
+"GoDaddy Site Editor. Your site will switch to the default WordPress Editor "
+"instead."
+msgstr ""
+"После активации новой темы этот сайт перестанет работать с редактором сайтов "
+"GoDaddy. Вы перейдете на стандартный редактор WordPress."
+
+#: build/wpAdmin.js:1 packages/wp-admin/src/themes-optout-modal/index.js:61
+msgid ""
+"Ready to activate a new theme and switch to the default WordPress editor?"
+msgstr ""
+"Готовы активировать новую тему и перейти на редактор WordPress по умолчанию?"
+
+#: build/wpAdmin.js:1 packages/wp-admin/src/themes-optout-modal/index.js:74
+msgid "Activate"
+msgstr "Активировать"

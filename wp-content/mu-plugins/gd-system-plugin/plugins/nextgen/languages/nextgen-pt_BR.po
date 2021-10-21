@@ -1,0 +1,1007 @@
+msgid ""
+msgstr ""
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/project\n"
+"POT-Creation-Date: 2021-07-19T22:08:18+00:00\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: json2po\n"
+
+#. Plugin Name of the plugin
+msgid "NextGen"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.godaddy.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "Next Generation WordPress Experience"
+msgstr "Experiência WordPress de última geração"
+
+#. Author of the plugin
+msgid "GoDaddy"
+msgstr ""
+
+#: includes/class-edit-site.php:45
+msgid "Setting to disable or enable NextGen administration dashboard shortcut."
+msgstr ""
+"Atalho de configuração para ativar ou desativar o painel de administração do "
+"NextGen."
+
+#: includes/class-edit-site.php:91
+msgid "Headline"
+msgstr "Título"
+
+#: includes/class-edit-site.php:92
+msgid "Text"
+msgstr "Texto"
+
+#: includes/class-edit-site.php:93
+msgid "List"
+msgstr "Lista"
+
+#: includes/class-edit-site.php:94
+msgid "Image"
+msgstr "Imagem"
+
+#: includes/class-edit-site.php:95
+msgid "Gallery"
+msgstr "Galeria"
+
+#: includes/class-edit-site.php:96
+msgid "Contact"
+msgstr "contato"
+
+#: includes/class-edit-site.php:97
+msgid "Call To Action"
+msgstr "Chamada para ação"
+
+#: includes/class-layout-selector.php:84
+msgid "Generic"
+msgstr "Genérico"
+
+#: includes/class-layout-selector.php:110
+msgid "Image category."
+msgstr "Categoria de imagem."
+
+#: includes/class-publish-guide.php:131
+msgid "Display Publish Guide."
+msgstr "Exibir o guia de publicação."
+
+#: includes/class-site-design.php:344
+msgid "Error processing your request."
+msgstr "Erro ao processar sua solicitação."
+
+#: includes/class-site-design.php:368
+msgid "A design_style must be passed."
+msgstr "O design_style precisa ser aprovado."
+
+#: includes/class-site-design.php:380
+msgid "An available design_style must be passed."
+msgstr "O design_style disponível precisa ser aprovado."
+
+#. translators: %s: GoDaddy.
+#: includes/class-wp-admin.php:91
+msgid "Go by %s"
+msgstr "Go de %s"
+
+#: build/common.js:1 packages/common/src/tooltip/index.js:28
+msgid "Info"
+msgstr "Informações"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:17
+msgid "Would you like to keep using the GoDaddy Site Editor?"
+msgstr "Você quer continuar usando o Editor de site da GoDaddy?"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:20
+msgid ""
+"We want to make sure you have the right tools to build your site. You are "
+"currently using the GoDaddy Site editor, which gives you all of WordPress "
+"plus a way to customize your design, edit your pages, and manage your pages, "
+"all from one place."
+msgstr ""
+"Queremos garantir que você tenha as ferramentas certas para criar seu site. "
+"Você está usando o Editor de site da GoDaddy, com acesso a todo o WordPress "
+"e possibilita personalizar seu layout, editar e gerenciar suas páginas, tudo "
+"em um só lugar."
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:25
+#: packages/editor-preference-modal/src/workflows/feedback.js:24
+msgid "Yes, keep using it"
+msgstr "Sim, quero continuar usando"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:29
+#: packages/editor-preference-modal/src/workflows/feedback.js:28
+msgid "No, I want to see other options"
+msgstr "Não, quero ver outras opções"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:37
+msgid "We’re sorry this wasn’t the right fit for you"
+msgstr ""
+"Sentimos muito que o Editor de site não tenha sido a melhor solução para "
+"você!"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:40
+msgid "Could you tell us why?"
+msgstr "Você pode nos explicar por quê?"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:43
+msgid "Tell us why this wasn’t the right fit for you…"
+msgstr "Conte-nos por que o Editor de site não foi a melhor solução para você."
+
+#: build/editorPreferenceModal.js:1 build/wpAdmin.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:52
+#: packages/editor-preference-modal/src/workflows/default.js:105
+#: packages/editor-preference-modal/src/workflows/default.js:136
+#: packages/editor-preference-modal/src/workflows/default.js:165
+#: packages/editor-preference-modal/src/workflows/default.js:198
+#: packages/editor-preference-modal/src/workflows/default.js:225
+#: packages/editor-preference-modal/src/workflows/feedback.js:40
+#: packages/wp-admin/src/themes-optout-modal/index.js:68
+msgid "Go Back"
+msgstr "Voltar"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:59
+msgid "Skip"
+msgstr "Ignorar"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:66
+msgid "Continue"
+msgstr "Continuar"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:78
+msgid "Let’s find you a better fit"
+msgstr "Vamos encontrar uma solução melhor"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:80
+msgid "Here are some other options to explore:"
+msgstr "Aqui estão algumas opções:"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:84
+msgid "Switch to the default WordPress editor"
+msgstr "Usar o editor padrão do WordPress"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:89
+msgid "Switch to a 3rd party page builder"
+msgstr "Usar um criador de sites de terceiros"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:94
+msgid "Talk to someone about my options"
+msgstr "Quero conversar com alguém sobre minhas opções"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:99
+msgid "Hire our experts to build your site for you"
+msgstr "Contrate nossos especialistas para criar seu site"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:109
+#: packages/editor-preference-modal/src/workflows/default.js:232
+msgid "Learn More"
+msgstr "Saiba mais"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:119
+msgid "Switching to the default WordPress editor"
+msgstr "Mudando para o editor padrão do WordPress..."
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:122
+msgid "You should switch to the default WordPress editor if:"
+msgstr "Opte pelo editor padrão do WordPress se você:"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:124
+msgid "You want to use a different theme"
+msgstr "Quiser usar um tema diferente"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:125
+msgid "You are familiar with and/or prefer to use default WordPress"
+msgstr "Estiver familiarizado com ele e/ou preferir usá-lo"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:129
+#: packages/editor-preference-modal/src/workflows/default.js:158
+msgid ""
+"Once you switch, this site will no longer work with the GoDaddy Site Editor, "
+"so you won’t be able to come back."
+msgstr ""
+"Após a troca, este site não funcionará mais com o Editor de site da GoDaddy "
+"e você não poderá reverter a ação."
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:131
+msgid "Ready to switch this site to the default WordPress editor?"
+msgstr ""
+"Você tem certeza de que deseja trocar para o editor padrão do WordPress?"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:140
+msgid "Switch to Default"
+msgstr "Usar o editor padrão"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:152
+msgid "Switching to a 3rd Party Page Builder"
+msgstr "Mudando para um criador de sites de terceiros..."
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:155
+msgid ""
+"A 3rd party page builder is a WordPress plugin that you install on your "
+"site, that allows you to build and design pages."
+msgstr ""
+"Um criador de sites de terceiros é um plugin instalado no site que permite "
+"criar páginas."
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:160
+msgid "Ready to switch this site to a 3rd party page builder?"
+msgstr ""
+"Você tem certeza de que deseja trocar para um criador de sites de terceiros?"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:169
+msgid "View Plugins"
+msgstr "Ver plugins"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:184
+msgid "Expert help is on the way"
+msgstr "Nossos especialistas estão prontos para ajudar você"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:193
+msgid "Contact our GoDaddy guides to get started."
+msgstr ""
+"Entre em contato com nossos Guias de orientação da GoDaddy para começar."
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:202
+msgid "Contact Us"
+msgstr "Fale conosco"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:219
+msgid ""
+"We'll build a stunning professional website, custom tailored to your business"
+msgstr ""
+"Nós criaremos um incrível site profissional para você, totalmente "
+"personalizado para atender ao seu negócio"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:247
+msgid "Redirecting you to the WordPress Admin…"
+msgstr "Redirecionando você para o painel de administração do WordPress..."
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:257
+msgid "Redirecting you to WordPress plugins…"
+msgstr "Redirecionando você para os plugins do WordPress..."
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/feedback.js:19
+msgid ""
+"We appreciate your feedback and want to make sure you have the right tools "
+"to build your site. You are currently using the GoDaddy Site editor, which "
+"gives you all of WordPress plus a way to customize your design, edit your "
+"pages, and manage your pages, all from one place."
+msgstr ""
+"Seu feedback é muito importante para nós. Queremos garantir que você tenha "
+"as ferramentas certas para criar seu site. Você está usando o Editor de site "
+"da GoDaddy, com acesso a todo o WordPress e possibilita personalizar seu "
+"layout, editar e gerenciar suas páginas, tudo em um só lugar."
+
+#. translators: Default label for the Document sidebar tab, not selected.
+#: build/editSite.js:16
+#: packages/edit-site/src/components/sidebar/settings-header/index.js:33
+msgid "Document"
+msgstr "Documento"
+
+#. translators: ARIA label for the Document sidebar tab, selected. %s Document label.
+#: build/editSite.js:17
+#: packages/edit-site/src/components/sidebar/settings-header/index.js:40
+msgid "%s (selected)"
+msgstr "%s (selecionados)"
+
+#. translators: ARIA label for the Block Settings Sidebar tab, selected.
+#: build/editSite.js:18
+#: packages/edit-site/src/components/sidebar/settings-header/index.js:47
+msgid "Block (selected)"
+msgstr "Bloquear (selecionados)"
+
+#. translators: ARIA label for the Block Settings Sidebar tab, not selected.
+#. translators: Text label for the Block Settings Sidebar tab.
+#. translators: Data label for the Block Settings Sidebar tab.
+#: build/editSite.js:19 build/editSite.js:20
+#: packages/edit-site/src/components/sidebar/settings-header/index.js:49
+#: packages/edit-site/src/components/sidebar/settings-header/index.js:70
+#: packages/edit-site/src/components/sidebar/settings-header/index.js:74
+msgid "Block"
+msgstr "Bloquear"
+
+#. translators: Text label for the Block Settings Sidebar tab.
+#: build/editSite.js:20
+#: packages/edit-site/src/components/sidebar/post-visibility/index.js:17
+msgid "Visibility"
+msgstr "Visibilidade"
+
+#: build/editSite.js:20
+#: packages/edit-site/src/components/sidebar/post-schedule/index.js:16
+msgid "Publish"
+msgstr "Publicar"
+
+#: build/editSite.js:20 build/siteContent.js:15
+#: packages/edit-site/src/components/sidebar/post-trash/index.js:60
+#: packages/site-content/src/post-menu-actions.js:122
+msgid "Really delete?"
+msgstr "Excluir?"
+
+#: build/editSite.js:20
+#: packages/edit-site/src/components/sidebar/post-trash/index.js:65
+msgid "Delete this page"
+msgstr "Excluir esta página"
+
+#: build/editSite.js:20
+#: packages/edit-site/src/components/sidebar/post-title/index.js:37
+msgid "Title"
+msgstr "Título"
+
+#: build/editSite.js:20
+#: packages/edit-site/src/components/sidebar/post-title/index.js:42
+msgid "Display on page"
+msgstr "Exibir na página"
+
+#: build/editSite.js:20
+#: packages/edit-site/src/components/sidebar/post-status/index.js:23
+msgid "Page details"
+msgstr "Detalhes da página"
+
+#: build/editSite.js:20
+#: packages/edit-site/src/components/sidebar/featured-image/index.js:31
+msgid "Featured image"
+msgstr "Imagem destacada"
+
+#: build/editSite.js:20 packages/edit-site/src/components/sidebar/index.js:49
+#: packages/edit-site/src/components/sidebar/index.js:50
+#: packages/edit-site/src/components/sidebar/index.js:54
+msgid "Settings"
+msgstr "Configurações"
+
+#: build/editSite.js:20 packages/edit-site/src/components/sidebar/index.js:57
+msgid "Close settings"
+msgstr "Fechar as configurações"
+
+#: build/editSite.js:20
+#: packages/edit-site/src/components/header/more-menu/index.js:36
+msgid "Plugins"
+msgstr ""
+
+#: build/editSite.js:20
+#: packages/edit-site/src/components/header/more-menu/index.js:54
+#: packages/edit-site/src/components/header/more-menu/index.js:76
+#: packages/edit-site/src/components/header/more-menu/index.js:77
+#: packages/edit-site/src/components/header/more-menu/index.js:87
+msgid "More"
+msgstr "Mais"
+
+#: build/editSite.js:20
+#: packages/edit-site/src/components/header/more-menu/index.js:57
+msgid "More tools & options"
+msgstr "Mais ferramentas e opções"
+
+#: build/editSite.js:20
+#: packages/edit-site/src/components/mobile-nav/index.js:40
+msgid "Add"
+msgstr "Adicionar"
+
+#: build/feedbackModal.js:1
+#: packages/feedback-modal/src/feedback-modal-comment.js:25
+msgid "Tell us about your experience… (optional)"
+msgstr "Conte-nos sua experiência (opcional)"
+
+#: build/feedbackModal.js:1
+#: packages/feedback-modal/src/feedback-modal-comment.js:32
+msgid "Send"
+msgstr "Enviar"
+
+#: build/feedbackModal.js:1
+#: packages/feedback-modal/src/feedback-modal-success.js:15
+msgid "Thank you for sharing your feedback with us"
+msgstr "Agradecemos por compartilhar seu feedback conosco"
+
+#: build/feedbackModal.js:1
+#: packages/feedback-modal/src/feedback-modal-success.js:21
+msgid "Close"
+msgstr "Fechar"
+
+#. translators: %1$s is a placeholder for the site's url.
+#: build/feedbackModal.js:1 build/publishGuide.js:16
+#: packages/feedback-modal/src/index.js:113
+#: packages/feedback-modal/src/index.js:124
+#: packages/publish-guide/src/success-view.js:120
+msgid "Give feedback"
+msgstr "Dar feedback"
+
+#: build/feedbackModal.js:1 packages/feedback-modal/src/index.js:125
+msgid "How would you rate your experience?"
+msgstr "Como você classifica sua experiência?"
+
+#: build/layoutSelector.js:1
+#: packages/layout-selector/src/image-category-defaults.js:5
+msgid "Fashion"
+msgstr "Moda"
+
+#: build/layoutSelector.js:1
+#: packages/layout-selector/src/image-category-defaults.js:9
+msgid "Home Decor"
+msgstr "Decoração para casa"
+
+#: build/layoutSelector.js:1
+#: packages/layout-selector/src/image-category-defaults.js:13
+msgid "Coffee"
+msgstr "Café"
+
+#: build/layoutSelector.js:1
+#: packages/layout-selector/src/image-category-defaults.js:17
+msgid "Construction"
+msgstr "Construção"
+
+#: build/layoutSelector.js:1
+#: packages/layout-selector/src/image-category-defaults.js:21
+msgid "Art"
+msgstr "Arte"
+
+#: build/layoutSelector.js:1
+#: packages/layout-selector/src/image-category-defaults.js:25
+msgid "Baking"
+msgstr "Assados"
+
+#: build/layoutSelector.js:1
+#: packages/layout-selector/src/image-category-defaults.js:29
+msgid "Fitness"
+msgstr "Academia"
+
+#: build/layoutSelector.js:1
+#: packages/layout-selector/src/image-category-defaults.js:33
+msgid "Landscaping"
+msgstr "Paisagismo"
+
+#: build/layoutSelector.js:1 packages/layout-selector/src/search.js:171
+msgid "Search"
+msgstr "Pesquisar"
+
+#: build/layoutSelector.js:1
+#: packages/layout-selector/src/image-categories.js:23
+msgid "My site is about:"
+msgstr "Meu site é relacionado a:"
+
+#. translators: accessibility text for the footer landmark region.
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:65
+msgid "Cache cleared"
+msgstr "Limpeza de cache realizada"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:86
+msgid "Site Editor"
+msgstr "Editor de site"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:116
+msgid "Main menu"
+msgstr "Menu principal"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:154
+msgid "WordPress Management"
+msgstr "Gerenciamento WordPress"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:159
+msgid "Manage Plugins"
+msgstr "Gerenciar plugins"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:165
+msgid "Manage Site Menus"
+msgstr "Gerenciar os menus do site"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:171
+msgid "Customize Site Design"
+msgstr "Personalizar o layout do site"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:177
+msgid "Manage Users"
+msgstr "Gerenciar usuários"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:183
+msgid "Manage Comments"
+msgstr "Gerenciar os comentários"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:190
+msgid "WordPress Admin"
+msgstr "Administrador do WordPress"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:196
+msgid "Hosting"
+msgstr "Hospedagem"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:203
+msgid "Hosting Overview"
+msgstr "Visão geral da hospedagem"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:212
+msgid "Hosting Settings"
+msgstr "Configurações do host"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:218
+msgid "Tools"
+msgstr "Ferramentas"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:227
+msgid "Editor Preference"
+msgstr "Preferência de editor"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:231
+msgid "Is this editor right for you?"
+msgstr "Este é o editor certo para você?"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:232
+msgid "Learn about other WordPress site building options here."
+msgstr "Conheça as outras opções de criação de sites do WordPress aqui."
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:240
+msgid "Flush Cache"
+msgstr "Liberar cache"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:247
+msgid "Connection Management"
+msgstr "Gerenciamento de conexão"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:251
+msgid "Support"
+msgstr "Suporte"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:260
+msgid "Give Feedback"
+msgstr "Fornecer feedback"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:269
+msgid "Help & Support"
+msgstr "Ajuda e suporte"
+
+#. translators: accessibility text for the footer landmark region.
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-design.js:20
+msgid "Make the design your own"
+msgstr "Crie um design próprio"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-design.js:21
+msgid "Update the colors, fonts and change the look and feel of your site."
+msgstr "Personalize as cores, fontes e aparência do seu site."
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-design.js:31
+msgid "Customize"
+msgstr "Personalizar"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-content.js:20
+msgid "Review and add pages"
+msgstr "Revisar e adicionar páginas"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-content.js:21
+msgid "We got you started with a few. Add more pages and content."
+msgstr "Já adicionamos algumas. Adicione outras e conteúdo."
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-content.js:32
+msgid "Manage pages"
+msgstr "Gerenciar páginas"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-info.js:131
+msgid "website logo"
+msgstr "logotipo do site"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-info.js:136
+msgid "Add your site info & brand"
+msgstr "Adicione informações e sua marca"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-info.js:137
+msgid ""
+"What’s the name of your site and what’s it’s purpose? Add a logo if you have "
+"one."
+msgstr ""
+"Qual é o nome do seu site e qual é a finalidade dele? Adicione um logotipo, "
+"se você tiver."
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-info.js:147
+msgid "Edit"
+msgstr "Editar"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-info.js:153
+msgid "Site title"
+msgstr "Título do site"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-info.js:159
+msgid "Site description"
+msgstr "Descrição do site"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-info.js:169
+#: packages/publish-guide/src/publish-guide-items/site-info.js:183
+#: packages/publish-guide/src/publish-guide-items/site-info.js:187
+#: packages/publish-guide/src/publish-guide-items/site-info.js:200
+msgid "Upload site logo"
+msgstr "Faça upload do logotipo do site"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-info.js:205
+msgid "Replace Logo"
+msgstr "Substituir logotipo"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-info.js:215
+msgid "Remove Logo"
+msgstr "Remover logotipo"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-info.js:237
+msgid "Save"
+msgstr "Salvar"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-info.js:244
+msgid "Do this later"
+msgstr "Mais tarde"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/add-domain.js:27
+msgid "Add your domain"
+msgstr "Adicione seu domínio"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/add-domain.js:28
+msgid ""
+"Look more professional and make it easier for customers to find your website."
+msgstr ""
+"Passe uma imagem mais profissional e facilite para os clientes encontrarem "
+"seu site."
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/add-domain.js:47
+msgid "Add domain"
+msgstr "Adicionar domínio"
+
+#: build/publishGuide.js:15 packages/publish-guide/src/success-view.js:44
+msgid "Your site is live on"
+msgstr "Seu site foi publicado em"
+
+#: build/publishGuide.js:15 packages/publish-guide/src/success-view.js:57
+msgid "Time to celebrate and"
+msgstr "Chegou a hora de comemorar e"
+
+#: build/publishGuide.js:15 packages/publish-guide/src/success-view.js:57
+msgid "share the great news."
+msgstr "compartilhar a novidade."
+
+#: build/publishGuide.js:15 packages/publish-guide/src/success-view.js:70
+#: packages/publish-guide/src/success-view.js:84
+#: packages/publish-guide/src/success-view.js:99
+msgid "Check out my new website!"
+msgstr "Confira meu novo site!"
+
+#. translators: %1$s is a placeholder for the site's url.
+#: build/publishGuide.js:16 packages/publish-guide/src/success-view.js:102
+msgid ""
+"I just published my website at %1$s, come check it out and let me know what "
+"you think!"
+msgstr "Publiquei meu site em %1$s. Confira e me diga o que achou."
+
+#: build/publishGuide.js:16 packages/publish-guide/src/success-view.js:129
+msgid "Hide this guide"
+msgstr "Ocultar esse guia"
+
+#: build/publishGuide.js:16
+msgid "Design Customizer"
+msgstr "Personalização de design"
+
+#: build/publishGuide.js:16
+msgid "Click here to update your colors, fonts and feel of your site."
+msgstr "Clique aqui para atualizar as cores, fontes e estilo do seu site."
+
+#: build/publishGuide.js:16
+msgid "Site Contents"
+msgstr "Conteúdos do site"
+
+#: build/publishGuide.js:16
+msgid "Click here to add and manage the pages for your site."
+msgstr "Clique aqui para adicionar e gerenciar as páginas de seu site."
+
+#: build/publishGuide.js:16
+msgid "Getting Started Guide"
+msgstr "Guia de introdução"
+
+#: build/publishGuide.js:16
+msgid ""
+"Once you're done selecting your site style and colors, click here to "
+"continue publishing your site."
+msgstr ""
+"Quando terminar de selecionar o estilo e as cores do seu site, clique aqui "
+"para concluir a publicação."
+
+#: build/publishGuide.js:16
+msgid "Publish Guide"
+msgstr "Publicar Guia"
+
+#. translators: accessibility text for the footer landmark region.
+#: build/siteContent.js:15 packages/site-content/src/post-menu-actions.js:51
+msgid "Select an action"
+msgstr "Selecione uma ação"
+
+#: build/siteContent.js:15 packages/site-content/src/post-menu-actions.js:68
+msgid "Rename"
+msgstr "Renomear"
+
+#: build/siteContent.js:15 packages/site-content/src/post-menu-actions.js:80
+msgid "Really set as homepage?"
+msgstr "Você tem certeza de que deseja definir como página inicial?"
+
+#: build/siteContent.js:15 packages/site-content/src/post-menu-actions.js:91
+msgid "Set as homepage"
+msgstr "Definir como página inicial"
+
+#: build/siteContent.js:15 packages/site-content/src/post-menu-actions.js:101
+msgid "Unpin post"
+msgstr "Desmarcar publicação"
+
+#: build/siteContent.js:15 packages/site-content/src/post-menu-actions.js:101
+msgid "Pin post"
+msgstr "Marcar publicação"
+
+#: build/siteContent.js:15 packages/site-content/src/post-menu-actions.js:111
+msgid "Duplicate"
+msgstr "Duplicar"
+
+#: build/siteContent.js:15 packages/site-content/src/post-menu-actions.js:133
+msgid "Delete Page"
+msgstr "Excluir página"
+
+#: build/siteContent.js:15 packages/site-content/src/post-menu-actions.js:133
+msgid "Delete Post"
+msgstr "Excluir publicação"
+
+#. translators: %s is the page title.
+#: build/siteContent.js:16
+msgid "\"%s\" set as the homepage."
+msgstr "“%s” confirmada como página inicial."
+
+#. translators: %s is the page title.
+#: build/siteContent.js:16
+msgid "(no title)"
+msgstr "(sem título)"
+
+#. translators: %s is the post title.
+#: build/siteContent.js:17
+msgid "\"%s\" has been deleted."
+msgstr "“%s” foi excluído(a)."
+
+#. translators: %s is the post title.
+#: build/siteContent.js:17
+msgid "Undo"
+msgstr "Desfazer"
+
+#: build/siteContent.js:17
+msgid "Trashing failed"
+msgstr "Falha na exclusão"
+
+#. translators: %s is the post title.
+#: build/siteContent.js:18
+msgid "\"%s\" has been duplicated."
+msgstr "“%s” foi duplicado(a)."
+
+#. translators: %s is the post title.
+#: build/siteContent.js:18
+msgid "Duplication failed"
+msgstr "Falha na duplicação"
+
+#. translators: %s is the post type's name.
+#: build/siteContent.js:19
+msgid "A new %s has been created."
+msgstr "Uma nova %s foi criada."
+
+#. translators: %s is the post type's name.
+#: build/siteContent.js:20
+msgid "Could not create a new %s."
+msgstr "Não foi possível criar uma nova %s."
+
+#. translators: %s is the post type's name.
+#: build/siteContent.js:20
+msgid "Drafts"
+msgstr "Rascunhos"
+
+#: build/siteContent.js:20
+msgid "Site contents"
+msgstr "Conteúdos do site"
+
+#: build/siteContent.js:20
+msgid "Site"
+msgstr ""
+
+#. translators: accessibility text for the footer landmark region.
+#: build/siteDesign.js:15 packages/site-design/src/color-palette-preview.js:86
+msgid "Colors"
+msgstr "Cores"
+
+#: build/siteDesign.js:15 packages/site-design/src/color-palette-preview.js:98
+msgid "Color Palettes"
+msgstr "Paletas de cores"
+
+#: build/siteDesign.js:15 packages/site-design/src/color-palette-preview.js:103
+#: packages/site-design/src/font-preview.js:85
+msgid "Custom"
+msgstr "Personalizado"
+
+#: build/siteDesign.js:15 packages/site-design/src/design-preview.js:58
+msgid "Design Styles"
+msgstr "Estilos de design"
+
+#: build/siteDesign.js:15 packages/site-design/src/design-preview.js:62
+msgid ""
+"Easily explore curated design styles, then customize your colors and fonts "
+"to get the perfect fit."
+msgstr ""
+"Explore os estilos de design disponíveis e personalize-os com suas cores e "
+"fontes."
+
+#: build/siteDesign.js:15 packages/site-design/src/font-size-picker.js:38
+msgid "Small"
+msgstr "Pequeno"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-size-picker.js:43
+msgid "Normal"
+msgstr ""
+
+#: build/siteDesign.js:15 packages/site-design/src/font-size-picker.js:48
+msgid "Large"
+msgstr "Grande"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-size-picker.js:93
+msgid "Base size"
+msgstr "Tamanho base"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-size-picker.js:98
+msgid "Font size"
+msgstr "Tamanho da fonte"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-size-picker.js:125
+msgid "Heading Scale"
+msgstr "Escala do título"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-advanced.js:50
+msgid "Custom Font Options"
+msgstr "Opções de fontes personalizadas"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-advanced.js:57
+msgid "HEADING"
+msgstr "TÍTULO"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-advanced.js:59
+#: packages/site-design/src/font-advanced.js:101
+msgid "Font"
+msgstr "Fonte"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-advanced.js:72
+#: packages/site-design/src/font-advanced.js:115
+msgid "Weight"
+msgstr "Peso"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-advanced.js:85
+#: packages/site-design/src/font-advanced.js:128
+msgid "Size"
+msgstr "Tamanho"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-advanced.js:98
+msgid "Heading font size"
+msgstr "Tamanho da fonte do título"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-advanced.js:99
+msgid "BODY"
+msgstr "CORPO DO TEXTO"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-preview.js:123
+msgid "The quick brown fox jumped over the lazy dog."
+msgstr "Bancos fúteis pagavam-lhe queijo, whisky e xadrez."
+
+#: build/siteDesign.js:15 packages/site-design/src/font-preview.js:131
+msgid "Hide font sizes"
+msgstr "Ocultar o tamanho da fonte"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-preview.js:131
+msgid "Edit font sizes"
+msgstr "Editar o tamanho da fonte"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-preview.js:43
+msgid "Fonts"
+msgstr "Fontes"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-preview.js:49
+msgid "Font Pairings"
+msgstr "Pares de fontes"
+
+#: build/siteDesign.js:15 packages/site-design/src/index.js:154
+msgid "Site design"
+msgstr "Design do site"
+
+#: build/siteDesign.js:15 packages/site-design/src/index.js:165
+msgid "Design"
+msgstr "Projeto"
+
+#: build/updateDependency.js:1
+#: packages/update-dependency/src/hooks/useWorkflow.js:52
+msgid "Update completed."
+msgstr "Atualização concluída."
+
+#: build/updateDependency.js:1 packages/update-dependency/src/index.js:28
+msgid "Updating to the latest and greatest"
+msgstr "Atualizando para a versão mais recente e avançada"
+
+#: build/updateDependency.js:1 packages/update-dependency/src/index.js:31
+msgid "Please wait while we apply the latest update to your editor."
+msgstr "Aguarde enquanto aplicamos a atualização mais recente ao seu editor."
+
+#: build/updateDependency.js:1 packages/update-dependency/src/index.js:32
+msgid "This shouldn't take long."
+msgstr "Isso não vai demorar."
+
+#: build/wpAdmin.js:1 packages/wp-admin/src/themes-optout-modal/index.js:52
+msgid "This will change your site editor, too"
+msgstr "Seu editor de sites também será alterado."
+
+#: build/wpAdmin.js:1 packages/wp-admin/src/themes-optout-modal/index.js:54
+msgid ""
+"You are currently using the GoDaddy Site Editor with the Go theme, which "
+"gives you all of WordPress plus a way to customize your design, edit your "
+"pages and manage your pages, all from one place."
+msgstr ""
+"Você está usando o Editor de site da GoDaddy com o tema Go, que dá acesso "
+"total ao WordPress e possibilita personalizar seu layout, editar e gerenciar "
+"suas páginas, tudo em um só lugar."
+
+#: build/wpAdmin.js:1 packages/wp-admin/src/themes-optout-modal/index.js:58
+msgid ""
+"Once you activate a new theme, this site will no longer work with the "
+"GoDaddy Site Editor. Your site will switch to the default WordPress Editor "
+"instead."
+msgstr ""
+"Assim que você ativar um novo tema, este site não funcionará mais com o "
+"Editor de site da GoDaddy. Ele passará a usar o editor padrão do WordPress."
+
+#: build/wpAdmin.js:1 packages/wp-admin/src/themes-optout-modal/index.js:61
+msgid ""
+"Ready to activate a new theme and switch to the default WordPress editor?"
+msgstr ""
+"Quer mesmo ativar um novo tema e mudar para o editor padrão do WordPress?"
+
+#: build/wpAdmin.js:1 packages/wp-admin/src/themes-optout-modal/index.js:74
+msgid "Activate"
+msgstr "Ativar"

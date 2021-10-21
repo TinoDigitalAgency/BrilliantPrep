@@ -1,0 +1,985 @@
+msgid ""
+msgstr ""
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/project\n"
+"POT-Creation-Date: 2021-07-19T22:08:18+00:00\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: json2po\n"
+
+#. Plugin Name of the plugin
+msgid "NextGen"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.godaddy.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "Next Generation WordPress Experience"
+msgstr "次世代 WordPress 體驗"
+
+#. Author of the plugin
+msgid "GoDaddy"
+msgstr ""
+
+#: includes/class-edit-site.php:45
+msgid "Setting to disable or enable NextGen administration dashboard shortcut."
+msgstr "設定停用或啟用 NextGen 管理儀表板捷徑。"
+
+#: includes/class-edit-site.php:91
+msgid "Headline"
+msgstr "標題"
+
+#: includes/class-edit-site.php:92
+msgid "Text"
+msgstr "文字"
+
+#: includes/class-edit-site.php:93
+msgid "List"
+msgstr "清單"
+
+#: includes/class-edit-site.php:94
+msgid "Image"
+msgstr "圖片"
+
+#: includes/class-edit-site.php:95
+msgid "Gallery"
+msgstr "圖庫"
+
+#: includes/class-edit-site.php:96
+msgid "Contact"
+msgstr "聯絡人"
+
+#: includes/class-edit-site.php:97
+msgid "Call To Action"
+msgstr "行動呼籲"
+
+#: includes/class-layout-selector.php:84
+msgid "Generic"
+msgstr "通用類"
+
+#: includes/class-layout-selector.php:110
+msgid "Image category."
+msgstr "圖片類別"
+
+#: includes/class-publish-guide.php:131
+msgid "Display Publish Guide."
+msgstr "顯示發佈說明。"
+
+#: includes/class-site-design.php:344
+msgid "Error processing your request."
+msgstr "處理要求時發生錯誤。"
+
+#: includes/class-site-design.php:368
+msgid "A design_style must be passed."
+msgstr "須通過design_style。"
+
+#: includes/class-site-design.php:380
+msgid "An available design_style must be passed."
+msgstr "須通過可供使用的design_style。"
+
+#. translators: %s: GoDaddy.
+#: includes/class-wp-admin.php:91
+msgid "Go by %s"
+msgstr "%s 的 Go"
+
+#: build/common.js:1 packages/common/src/tooltip/index.js:28
+msgid "Info"
+msgstr "資訊"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:17
+msgid "Would you like to keep using the GoDaddy Site Editor?"
+msgstr "您想繼續使用 GoDaddy 網站編輯工具嗎？"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:20
+msgid ""
+"We want to make sure you have the right tools to build your site. You are "
+"currently using the GoDaddy Site editor, which gives you all of WordPress "
+"plus a way to customize your design, edit your pages, and manage your pages, "
+"all from one place."
+msgstr ""
+"我們想確定您得以使用合適的工具製作網站。您目前正在使用 GoDaddy 網站編輯工具，"
+"此工具提供 WordPress 所有功能，還能讓您集中自訂設計內容、編輯頁面，並管理頁"
+"面。"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:25
+#: packages/editor-preference-modal/src/workflows/feedback.js:24
+msgid "Yes, keep using it"
+msgstr "是，繼續使用"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:29
+#: packages/editor-preference-modal/src/workflows/feedback.js:28
+msgid "No, I want to see other options"
+msgstr "否，我想查看其他選項"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:37
+msgid "We’re sorry this wasn’t the right fit for you"
+msgstr "我們很遺憾得知本工具無法滿足您的需求"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:40
+msgid "Could you tell us why?"
+msgstr "您願意分享理由嗎？"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:43
+msgid "Tell us why this wasn’t the right fit for you…"
+msgstr "請說明您認為本工具不適合您的理由……"
+
+#: build/editorPreferenceModal.js:1 build/wpAdmin.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:52
+#: packages/editor-preference-modal/src/workflows/default.js:105
+#: packages/editor-preference-modal/src/workflows/default.js:136
+#: packages/editor-preference-modal/src/workflows/default.js:165
+#: packages/editor-preference-modal/src/workflows/default.js:198
+#: packages/editor-preference-modal/src/workflows/default.js:225
+#: packages/editor-preference-modal/src/workflows/feedback.js:40
+#: packages/wp-admin/src/themes-optout-modal/index.js:68
+msgid "Go Back"
+msgstr "返回"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:59
+msgid "Skip"
+msgstr "略過"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:66
+msgid "Continue"
+msgstr "繼續"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:78
+msgid "Let’s find you a better fit"
+msgstr "讓我們為您找到更好的選擇"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:80
+msgid "Here are some other options to explore:"
+msgstr "以下這些其他選項可供您參考："
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:84
+msgid "Switch to the default WordPress editor"
+msgstr "切換為預設 WordPress 編輯工具"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:89
+msgid "Switch to a 3rd party page builder"
+msgstr "切換為第三方網頁製作工具"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:94
+msgid "Talk to someone about my options"
+msgstr "和專人討論我的選項"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:99
+msgid "Hire our experts to build your site for you"
+msgstr "聘請我們的專家為您製作網站"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:109
+#: packages/editor-preference-modal/src/workflows/default.js:232
+msgid "Learn More"
+msgstr "瞭解更多資訊"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:119
+msgid "Switching to the default WordPress editor"
+msgstr "正在切換為預設 WordPress 編輯工具"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:122
+msgid "You should switch to the default WordPress editor if:"
+msgstr "如果您符合以下情形，則應切換為預設 WordPress 編輯工具："
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:124
+msgid "You want to use a different theme"
+msgstr "您想使用其他主題"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:125
+msgid "You are familiar with and/or prefer to use default WordPress"
+msgstr "您熟悉並/或偏好使用預設的 WordPress"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:129
+#: packages/editor-preference-modal/src/workflows/default.js:158
+msgid ""
+"Once you switch, this site will no longer work with the GoDaddy Site Editor, "
+"so you won’t be able to come back."
+msgstr ""
+"切換後，網站即無法搭配 GoDaddy 網站編輯工具使用，因此您將無法回來使用本工具。"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:131
+msgid "Ready to switch this site to the default WordPress editor?"
+msgstr "您準備好將網站切換為預設 WordPress 編輯工具了嗎？"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:140
+msgid "Switch to Default"
+msgstr "切換為預設"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:152
+msgid "Switching to a 3rd Party Page Builder"
+msgstr "正在切換為第三方網頁製作工具"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:155
+msgid ""
+"A 3rd party page builder is a WordPress plugin that you install on your "
+"site, that allows you to build and design pages."
+msgstr ""
+"第三方網頁製作工具是您安裝在網站內的 WordPress 外掛，您可以使用該工具建立並設"
+"計頁面。"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:160
+msgid "Ready to switch this site to a 3rd party page builder?"
+msgstr "您準備好將網站切換為第三方網頁製作工具了嗎？"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:169
+msgid "View Plugins"
+msgstr "檢視外掛"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:184
+msgid "Expert help is on the way"
+msgstr "專家即將為您提供服務"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:193
+msgid "Contact our GoDaddy guides to get started."
+msgstr "請洽 GoDaddy 客戶顧問瞭解如何開始使用。"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:202
+msgid "Contact Us"
+msgstr "與我們聯絡"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:219
+msgid ""
+"We'll build a stunning professional website, custom tailored to your business"
+msgstr "我們可以專門為您的企業量身打造出令人印象深刻的專業網站"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:247
+msgid "Redirecting you to the WordPress Admin…"
+msgstr "正在為您重新導向至 WordPress 管理員……"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/default.js:257
+msgid "Redirecting you to WordPress plugins…"
+msgstr "正在為您重新導向至 WordPress 外掛……"
+
+#: build/editorPreferenceModal.js:1
+#: packages/editor-preference-modal/src/workflows/feedback.js:19
+msgid ""
+"We appreciate your feedback and want to make sure you have the right tools "
+"to build your site. You are currently using the GoDaddy Site editor, which "
+"gives you all of WordPress plus a way to customize your design, edit your "
+"pages, and manage your pages, all from one place."
+msgstr ""
+"我們非常感謝您提供的回饋意見，並想確定您得以使用合適的工具製作網站。您目前正"
+"在使用 GoDaddy 網站編輯工具，此工具提供 WordPress 所有功能，還能讓您集中自訂"
+"設計內容、編輯頁面，並管理頁面。"
+
+#. translators: Default label for the Document sidebar tab, not selected.
+#: build/editSite.js:16
+#: packages/edit-site/src/components/sidebar/settings-header/index.js:33
+msgid "Document"
+msgstr "文件"
+
+#. translators: ARIA label for the Document sidebar tab, selected. %s Document label.
+#: build/editSite.js:17
+#: packages/edit-site/src/components/sidebar/settings-header/index.js:40
+msgid "%s (selected)"
+msgstr "%s (已點選)"
+
+#. translators: ARIA label for the Block Settings Sidebar tab, selected.
+#: build/editSite.js:18
+#: packages/edit-site/src/components/sidebar/settings-header/index.js:47
+msgid "Block (selected)"
+msgstr "封鎖 (已點選)"
+
+#. translators: ARIA label for the Block Settings Sidebar tab, not selected.
+#. translators: Text label for the Block Settings Sidebar tab.
+#. translators: Data label for the Block Settings Sidebar tab.
+#: build/editSite.js:19 build/editSite.js:20
+#: packages/edit-site/src/components/sidebar/settings-header/index.js:49
+#: packages/edit-site/src/components/sidebar/settings-header/index.js:70
+#: packages/edit-site/src/components/sidebar/settings-header/index.js:74
+msgid "Block"
+msgstr "區塊"
+
+#. translators: Text label for the Block Settings Sidebar tab.
+#: build/editSite.js:20
+#: packages/edit-site/src/components/sidebar/post-visibility/index.js:17
+msgid "Visibility"
+msgstr "能見度"
+
+#: build/editSite.js:20
+#: packages/edit-site/src/components/sidebar/post-schedule/index.js:16
+msgid "Publish"
+msgstr "發佈"
+
+#: build/editSite.js:20 build/siteContent.js:15
+#: packages/edit-site/src/components/sidebar/post-trash/index.js:60
+#: packages/site-content/src/post-menu-actions.js:122
+msgid "Really delete?"
+msgstr "您確定要刪除嗎？"
+
+#: build/editSite.js:20
+#: packages/edit-site/src/components/sidebar/post-trash/index.js:65
+msgid "Delete this page"
+msgstr "刪除此頁面"
+
+#: build/editSite.js:20
+#: packages/edit-site/src/components/sidebar/post-title/index.js:37
+msgid "Title"
+msgstr "標題"
+
+#: build/editSite.js:20
+#: packages/edit-site/src/components/sidebar/post-title/index.js:42
+msgid "Display on page"
+msgstr "在頁面內顯示"
+
+#: build/editSite.js:20
+#: packages/edit-site/src/components/sidebar/post-status/index.js:23
+msgid "Page details"
+msgstr "頁面詳細資料"
+
+#: build/editSite.js:20
+#: packages/edit-site/src/components/sidebar/featured-image/index.js:31
+msgid "Featured image"
+msgstr "特色圖片"
+
+#: build/editSite.js:20 packages/edit-site/src/components/sidebar/index.js:49
+#: packages/edit-site/src/components/sidebar/index.js:50
+#: packages/edit-site/src/components/sidebar/index.js:54
+msgid "Settings"
+msgstr "設定"
+
+#: build/editSite.js:20 packages/edit-site/src/components/sidebar/index.js:57
+msgid "Close settings"
+msgstr "關閉設定"
+
+#: build/editSite.js:20
+#: packages/edit-site/src/components/header/more-menu/index.js:36
+msgid "Plugins"
+msgstr "外掛程式"
+
+#: build/editSite.js:20
+#: packages/edit-site/src/components/header/more-menu/index.js:54
+#: packages/edit-site/src/components/header/more-menu/index.js:76
+#: packages/edit-site/src/components/header/more-menu/index.js:77
+#: packages/edit-site/src/components/header/more-menu/index.js:87
+msgid "More"
+msgstr "更多"
+
+#: build/editSite.js:20
+#: packages/edit-site/src/components/header/more-menu/index.js:57
+msgid "More tools & options"
+msgstr "更多工具及選項"
+
+#: build/editSite.js:20
+#: packages/edit-site/src/components/mobile-nav/index.js:40
+msgid "Add"
+msgstr "新增"
+
+#: build/feedbackModal.js:1
+#: packages/feedback-modal/src/feedback-modal-comment.js:25
+msgid "Tell us about your experience… (optional)"
+msgstr "請描述您的使用體驗……(選填)"
+
+#: build/feedbackModal.js:1
+#: packages/feedback-modal/src/feedback-modal-comment.js:32
+msgid "Send"
+msgstr "傳送"
+
+#: build/feedbackModal.js:1
+#: packages/feedback-modal/src/feedback-modal-success.js:15
+msgid "Thank you for sharing your feedback with us"
+msgstr "感謝您分享回饋意見"
+
+#: build/feedbackModal.js:1
+#: packages/feedback-modal/src/feedback-modal-success.js:21
+msgid "Close"
+msgstr "關閉"
+
+#. translators: %1$s is a placeholder for the site's url.
+#: build/feedbackModal.js:1 build/publishGuide.js:16
+#: packages/feedback-modal/src/index.js:113
+#: packages/feedback-modal/src/index.js:124
+#: packages/publish-guide/src/success-view.js:120
+msgid "Give feedback"
+msgstr "提出回饋意見"
+
+#: build/feedbackModal.js:1 packages/feedback-modal/src/index.js:125
+msgid "How would you rate your experience?"
+msgstr "您會為使用體驗打幾分？"
+
+#: build/layoutSelector.js:1
+#: packages/layout-selector/src/image-category-defaults.js:5
+msgid "Fashion"
+msgstr "時尚"
+
+#: build/layoutSelector.js:1
+#: packages/layout-selector/src/image-category-defaults.js:9
+msgid "Home Decor"
+msgstr "家飾"
+
+#: build/layoutSelector.js:1
+#: packages/layout-selector/src/image-category-defaults.js:13
+msgid "Coffee"
+msgstr "咖啡"
+
+#: build/layoutSelector.js:1
+#: packages/layout-selector/src/image-category-defaults.js:17
+msgid "Construction"
+msgstr "建設"
+
+#: build/layoutSelector.js:1
+#: packages/layout-selector/src/image-category-defaults.js:21
+msgid "Art"
+msgstr "藝術"
+
+#: build/layoutSelector.js:1
+#: packages/layout-selector/src/image-category-defaults.js:25
+msgid "Baking"
+msgstr "烘焙"
+
+#: build/layoutSelector.js:1
+#: packages/layout-selector/src/image-category-defaults.js:29
+msgid "Fitness"
+msgstr "健身"
+
+#: build/layoutSelector.js:1
+#: packages/layout-selector/src/image-category-defaults.js:33
+msgid "Landscaping"
+msgstr "景觀設計"
+
+#: build/layoutSelector.js:1 packages/layout-selector/src/search.js:171
+msgid "Search"
+msgstr "搜尋"
+
+#: build/layoutSelector.js:1
+#: packages/layout-selector/src/image-categories.js:23
+msgid "My site is about:"
+msgstr "我的網站主題是："
+
+#. translators: accessibility text for the footer landmark region.
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:65
+msgid "Cache cleared"
+msgstr "已清除快取"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:86
+msgid "Site Editor"
+msgstr "網站編輯工具"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:116
+msgid "Main menu"
+msgstr "主選單"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:154
+msgid "WordPress Management"
+msgstr "WordPress 管理"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:159
+msgid "Manage Plugins"
+msgstr "管理外掛程式"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:165
+msgid "Manage Site Menus"
+msgstr "管理網站選單"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:171
+msgid "Customize Site Design"
+msgstr "自訂網站設計"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:177
+msgid "Manage Users"
+msgstr "管理使用者"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:183
+msgid "Manage Comments"
+msgstr "管理評論"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:190
+msgid "WordPress Admin"
+msgstr "WordPress 管理員"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:196
+msgid "Hosting"
+msgstr "主機服務"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:203
+msgid "Hosting Overview"
+msgstr "主機概覽"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:212
+msgid "Hosting Settings"
+msgstr "主機設定"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:218
+msgid "Tools"
+msgstr "工具"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:227
+msgid "Editor Preference"
+msgstr "編輯工具喜好設定"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:231
+msgid "Is this editor right for you?"
+msgstr "這個編輯工具適合您使用嗎？"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:232
+msgid "Learn about other WordPress site building options here."
+msgstr "您可至此處進一步瞭解製作 WordPress 網站的各種選項。"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:240
+msgid "Flush Cache"
+msgstr "清除快取"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:247
+msgid "Connection Management"
+msgstr "連線管理"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:251
+msgid "Support"
+msgstr "支援中心"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:260
+msgid "Give Feedback"
+msgstr "提出回饋意見"
+
+#: build/logoMenu.js:15 packages/logo-menu/src/index.js:269
+msgid "Help & Support"
+msgstr "說明與支援"
+
+#. translators: accessibility text for the footer landmark region.
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-design.js:20
+msgid "Make the design your own"
+msgstr "為設計增添個人風格"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-design.js:21
+msgid "Update the colors, fonts and change the look and feel of your site."
+msgstr "更新色彩、字型，並變更網站外觀及氛圍。"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-design.js:31
+msgid "Customize"
+msgstr "自訂"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-content.js:20
+msgid "Review and add pages"
+msgstr "查看並新增頁面"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-content.js:21
+msgid "We got you started with a few. Add more pages and content."
+msgstr "我們已為您加入一些內容，以助您開始操作。請加入更多頁面及內容。"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-content.js:32
+msgid "Manage pages"
+msgstr "管理頁面"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-info.js:131
+msgid "website logo"
+msgstr "網站標誌"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-info.js:136
+msgid "Add your site info & brand"
+msgstr "加入網站資訊及品牌"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-info.js:137
+msgid ""
+"What’s the name of your site and what’s it’s purpose? Add a logo if you have "
+"one."
+msgstr "您的網站名稱及設立目標是？如果您有標誌，也可以在此加入。"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-info.js:147
+msgid "Edit"
+msgstr "編輯"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-info.js:153
+msgid "Site title"
+msgstr "網站標題"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-info.js:159
+msgid "Site description"
+msgstr "撰寫描述"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-info.js:169
+#: packages/publish-guide/src/publish-guide-items/site-info.js:183
+#: packages/publish-guide/src/publish-guide-items/site-info.js:187
+#: packages/publish-guide/src/publish-guide-items/site-info.js:200
+msgid "Upload site logo"
+msgstr "上傳網站標誌"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-info.js:205
+msgid "Replace Logo"
+msgstr "替換標誌"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-info.js:215
+msgid "Remove Logo"
+msgstr "移除標誌"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-info.js:237
+msgid "Save"
+msgstr "儲存"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/site-info.js:244
+msgid "Do this later"
+msgstr "以後再說"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/add-domain.js:27
+msgid "Add your domain"
+msgstr "新增網域"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/add-domain.js:28
+msgid ""
+"Look more professional and make it easier for customers to find your website."
+msgstr "更顯專業風範，也能讓客戶更容易找到您的網站。"
+
+#: build/publishGuide.js:15
+#: packages/publish-guide/src/publish-guide-items/add-domain.js:47
+msgid "Add domain"
+msgstr "新增網域"
+
+#: build/publishGuide.js:15 packages/publish-guide/src/success-view.js:44
+msgid "Your site is live on"
+msgstr "網站已在下列網域運作中："
+
+#: build/publishGuide.js:15 packages/publish-guide/src/success-view.js:57
+msgid "Time to celebrate and"
+msgstr "您現在可以慶祝一番並"
+
+#: build/publishGuide.js:15 packages/publish-guide/src/success-view.js:57
+msgid "share the great news."
+msgstr "分享這個大好消息了。"
+
+#: build/publishGuide.js:15 packages/publish-guide/src/success-view.js:70
+#: packages/publish-guide/src/success-view.js:84
+#: packages/publish-guide/src/success-view.js:99
+msgid "Check out my new website!"
+msgstr "來看看我的新網站！"
+
+#. translators: %1$s is a placeholder for the site's url.
+#: build/publishGuide.js:16 packages/publish-guide/src/success-view.js:102
+msgid ""
+"I just published my website at %1$s, come check it out and let me know what "
+"you think!"
+msgstr "我剛剛已經在 %1$s 發佈網站，快來瞧瞧，然後跟我分享有什麼看法吧！"
+
+#: build/publishGuide.js:16 packages/publish-guide/src/success-view.js:129
+msgid "Hide this guide"
+msgstr "隱藏此說明"
+
+#: build/publishGuide.js:16
+msgid "Design Customizer"
+msgstr "設計自訂工具"
+
+#: build/publishGuide.js:16
+msgid "Click here to update your colors, fonts and feel of your site."
+msgstr "按一下此處即可更新色彩、字型及網站氛圍。"
+
+#: build/publishGuide.js:16
+msgid "Site Contents"
+msgstr "網站內容"
+
+#: build/publishGuide.js:16
+msgid "Click here to add and manage the pages for your site."
+msgstr "按一下此處即可新增並管理網站頁面。"
+
+#: build/publishGuide.js:16
+msgid "Getting Started Guide"
+msgstr "入門指南"
+
+#: build/publishGuide.js:16
+msgid ""
+"Once you're done selecting your site style and colors, click here to "
+"continue publishing your site."
+msgstr "點選網站樣式及色彩後，按一下此處即可繼續發佈網站。"
+
+#: build/publishGuide.js:16
+msgid "Publish Guide"
+msgstr "發佈說明"
+
+#. translators: accessibility text for the footer landmark region.
+#: build/siteContent.js:15 packages/site-content/src/post-menu-actions.js:51
+msgid "Select an action"
+msgstr "點選操作內容"
+
+#: build/siteContent.js:15 packages/site-content/src/post-menu-actions.js:68
+msgid "Rename"
+msgstr "重新命名"
+
+#: build/siteContent.js:15 packages/site-content/src/post-menu-actions.js:80
+msgid "Really set as homepage?"
+msgstr "您確定要設為首頁嗎？"
+
+#: build/siteContent.js:15 packages/site-content/src/post-menu-actions.js:91
+msgid "Set as homepage"
+msgstr "設為首頁"
+
+#: build/siteContent.js:15 packages/site-content/src/post-menu-actions.js:101
+msgid "Unpin post"
+msgstr "取消釘選文章"
+
+#: build/siteContent.js:15 packages/site-content/src/post-menu-actions.js:101
+msgid "Pin post"
+msgstr "釘選文章"
+
+#: build/siteContent.js:15 packages/site-content/src/post-menu-actions.js:111
+msgid "Duplicate"
+msgstr "複製"
+
+#: build/siteContent.js:15 packages/site-content/src/post-menu-actions.js:133
+msgid "Delete Page"
+msgstr "刪除頁面"
+
+#: build/siteContent.js:15 packages/site-content/src/post-menu-actions.js:133
+msgid "Delete Post"
+msgstr "刪除貼文"
+
+#. translators: %s is the page title.
+#: build/siteContent.js:16
+msgid "\"%s\" set as the homepage."
+msgstr "「%s」已設為首頁。"
+
+#. translators: %s is the page title.
+#: build/siteContent.js:16
+msgid "(no title)"
+msgstr "(無標題)"
+
+#. translators: %s is the post title.
+#: build/siteContent.js:17
+msgid "\"%s\" has been deleted."
+msgstr "系統已刪除「%s」。"
+
+#. translators: %s is the post title.
+#: build/siteContent.js:17
+msgid "Undo"
+msgstr "復原"
+
+#: build/siteContent.js:17
+msgid "Trashing failed"
+msgstr "刪除失敗"
+
+#. translators: %s is the post title.
+#: build/siteContent.js:18
+msgid "\"%s\" has been duplicated."
+msgstr "系統已複製「%s」。"
+
+#. translators: %s is the post title.
+#: build/siteContent.js:18
+msgid "Duplication failed"
+msgstr "複製失敗"
+
+#. translators: %s is the post type's name.
+#: build/siteContent.js:19
+msgid "A new %s has been created."
+msgstr "已建立新%s。"
+
+#. translators: %s is the post type's name.
+#: build/siteContent.js:20
+msgid "Could not create a new %s."
+msgstr "無法建立新%s。"
+
+#. translators: %s is the post type's name.
+#: build/siteContent.js:20
+msgid "Drafts"
+msgstr "草稿"
+
+#: build/siteContent.js:20
+msgid "Site contents"
+msgstr "網站內容"
+
+#: build/siteContent.js:20
+msgid "Site"
+msgstr "網站"
+
+#. translators: accessibility text for the footer landmark region.
+#: build/siteDesign.js:15 packages/site-design/src/color-palette-preview.js:86
+msgid "Colors"
+msgstr "顏色"
+
+#: build/siteDesign.js:15 packages/site-design/src/color-palette-preview.js:98
+msgid "Color Palettes"
+msgstr "色彩配置"
+
+#: build/siteDesign.js:15 packages/site-design/src/color-palette-preview.js:103
+#: packages/site-design/src/font-preview.js:85
+msgid "Custom"
+msgstr "自訂"
+
+#: build/siteDesign.js:15 packages/site-design/src/design-preview.js:58
+msgid "Design Styles"
+msgstr "設計樣式"
+
+#: build/siteDesign.js:15 packages/site-design/src/design-preview.js:62
+msgid ""
+"Easily explore curated design styles, then customize your colors and fonts "
+"to get the perfect fit."
+msgstr "輕鬆瀏覽各種精心設計的樣式，然後自訂色彩和字型，打造您的完美風格。"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-size-picker.js:38
+msgid "Small"
+msgstr "小"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-size-picker.js:43
+msgid "Normal"
+msgstr "一般"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-size-picker.js:48
+msgid "Large"
+msgstr "大"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-size-picker.js:93
+msgid "Base size"
+msgstr "基準大小"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-size-picker.js:98
+msgid "Font size"
+msgstr "字型大小"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-size-picker.js:125
+msgid "Heading Scale"
+msgstr "標題縮放"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-advanced.js:50
+msgid "Custom Font Options"
+msgstr "自訂字型選項"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-advanced.js:57
+msgid "HEADING"
+msgstr "標題"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-advanced.js:59
+#: packages/site-design/src/font-advanced.js:101
+msgid "Font"
+msgstr "字型"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-advanced.js:72
+#: packages/site-design/src/font-advanced.js:115
+msgid "Weight"
+msgstr "權數"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-advanced.js:85
+#: packages/site-design/src/font-advanced.js:128
+msgid "Size"
+msgstr "大小"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-advanced.js:98
+msgid "Heading font size"
+msgstr "標題字型大小"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-advanced.js:99
+msgid "BODY"
+msgstr "內文"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-preview.js:123
+msgid "The quick brown fox jumped over the lazy dog."
+msgstr "嘈嘈切切錯雜彈，大珠小珠落玉盤。"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-preview.js:131
+msgid "Hide font sizes"
+msgstr "隱藏字型大小"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-preview.js:131
+msgid "Edit font sizes"
+msgstr "編輯字型大小"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-preview.js:43
+msgid "Fonts"
+msgstr "字型"
+
+#: build/siteDesign.js:15 packages/site-design/src/font-preview.js:49
+msgid "Font Pairings"
+msgstr "字型搭配"
+
+#: build/siteDesign.js:15 packages/site-design/src/index.js:154
+msgid "Site design"
+msgstr "網站設計"
+
+#: build/siteDesign.js:15 packages/site-design/src/index.js:165
+msgid "Design"
+msgstr "設計"
+
+#: build/updateDependency.js:1
+#: packages/update-dependency/src/hooks/useWorkflow.js:52
+msgid "Update completed."
+msgstr "更新完成。"
+
+#: build/updateDependency.js:1 packages/update-dependency/src/index.js:28
+msgid "Updating to the latest and greatest"
+msgstr "正在更新為最新且最強大的版本"
+
+#: build/updateDependency.js:1 packages/update-dependency/src/index.js:31
+msgid "Please wait while we apply the latest update to your editor."
+msgstr "請稍候，我們正在為編輯工具套用最新更新內容。"
+
+#: build/updateDependency.js:1 packages/update-dependency/src/index.js:32
+msgid "This shouldn't take long."
+msgstr "應該不需要太久的時間。"
+
+#: build/wpAdmin.js:1 packages/wp-admin/src/themes-optout-modal/index.js:52
+msgid "This will change your site editor, too"
+msgstr "這樣做也會變更您的網站編輯工具。"
+
+#: build/wpAdmin.js:1 packages/wp-admin/src/themes-optout-modal/index.js:54
+msgid ""
+"You are currently using the GoDaddy Site Editor with the Go theme, which "
+"gives you all of WordPress plus a way to customize your design, edit your "
+"pages and manage your pages, all from one place."
+msgstr ""
+"您目前正在使用 GoDaddy 網站編輯工具以及 Go 主題，此工具提供 WordPress 所有功"
+"能，還能讓您集中處理自訂設計內容、編輯頁面、管理頁面等作業。"
+
+#: build/wpAdmin.js:1 packages/wp-admin/src/themes-optout-modal/index.js:58
+msgid ""
+"Once you activate a new theme, this site will no longer work with the "
+"GoDaddy Site Editor. Your site will switch to the default WordPress Editor "
+"instead."
+msgstr ""
+"啟用新主題後，您將無法使用 GoDaddy 網站編輯工具編輯此網站。您的網站將會切換為"
+"預設 WordPress 編輯工具。"
+
+#: build/wpAdmin.js:1 packages/wp-admin/src/themes-optout-modal/index.js:61
+msgid ""
+"Ready to activate a new theme and switch to the default WordPress editor?"
+msgstr "您準備要啟用新主題，並切換為預設 WordPress 編輯工具了嗎？"
+
+#: build/wpAdmin.js:1 packages/wp-admin/src/themes-optout-modal/index.js:74
+msgid "Activate"
+msgstr "啟用"

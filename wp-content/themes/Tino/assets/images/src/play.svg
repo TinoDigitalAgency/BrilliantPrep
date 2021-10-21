@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="110px" height="110px" viewBox="0 0 110 110" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>play</title>
+    <desc>Created with Sketch.</desc>
+    <g id="UI-Final" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bp-ui-home" transform="translate(-665.000000, -5853.000000)">
+            <g id="Youtube" transform="translate(162.000000, 5456.000000)">
+                <g id="play" transform="translate(503.000000, 397.000000)">
+                    <circle id="Oval" fill="#FFFFFF" cx="55" cy="55" r="55"></circle>
+                    <path d="M67.4526768,52.3999531 L51.9205945,41.7524871 C51.2032939,41.260424 50.4805609,41 49.8798301,41 C48.7184324,41 48,41.933356 48,43.4956734 L48,66.5079531 C48,68.0684572 48.717527,69 49.8762085,69 C50.4778447,69 51.1890339,68.7393493 51.907919,68.2459263 L67.4472444,57.598687 C68.4465761,56.9128358 69,55.9899059 69,54.9987534 C69.0002263,54.0082809 68.4531403,53.0855776 67.4526768,52.3999531 Z" id="Path" fill="#383373" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

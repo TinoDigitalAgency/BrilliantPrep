@@ -1,0 +1,27 @@
+.subscribe-input input {
+    /*padding: 20px;*/
+}
+
+.chart-block .chart-values {
+    max-width: calc(100% - 295px);
+}
+.section-hero .overlay-image {
+    z-index: 3;
+}
+.search-form input:-ms-input-placeholder {
+    opacity: 1;
+    /*position: relative;*/
+    /*z-index: 3;*/
+}
+.search-form .search-btn {
+    overflow: hidden;
+}
+.search-blog,
+.section-hero-blog .h1  {
+    position: relative;
+    z-index: 4;
+}
+
+.styled-list.styled-list__two-col li {
+    width: calc(50% - 30px);
+}

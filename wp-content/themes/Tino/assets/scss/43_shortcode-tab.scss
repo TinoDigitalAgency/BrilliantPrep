@@ -1,0 +1,13 @@
+.section-shortcode-tab {
+  .section-inner {
+    padding: 60px 0;
+  }
+}
+
+.shortcode-tab-content {
+  .shortcode-tab-content-item {
+    &:not(.show) {
+      display: none;
+    }
+  }
+}

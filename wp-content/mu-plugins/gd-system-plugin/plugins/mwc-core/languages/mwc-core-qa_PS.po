@@ -1,0 +1,691 @@
+# Copyright (c) 2021 GoDaddy Operating Company, LLC. All Rights Reserved.
+msgid ""
+msgstr ""
+"Project-Id-Version: MWC Core 2.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/mwc-core\n"
+"Last-Translator: plugins@godaddy.com\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-09-27T13:13:39+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0\n"
+"X-Domain: mwc-core\n"
+
+#. Plugin Name of the plugin
+msgid "MWC Core"
+msgstr "⌠2367314⌡MWC Còré⌠2367314⌡"
+
+#: src/Client/Client.php:311
+msgid "Other"
+msgstr "⌠2389582⌡Òthér⌠2389582⌡"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:199
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:259
+msgid "The settings parameter is required."
+msgstr "⌠2400398⌡Thé séttîngs påråmétér îs réqüîréd.⌠2400398⌡"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:414
+msgid "Unique email notification ID."
+msgstr "⌠2396876⌡Ünîqüé émåîl nòtîfîcåtîòn ÎD.⌠2396876⌡"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:420
+msgid "Unique email notification name (matches the ID)."
+msgstr "⌠2396877⌡Ünîqüé émåîl nòtîfîcåtîòn nåmé (måtchés thé ÎD).⌠2396877⌡"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:426
+msgid "Email notification label."
+msgstr "⌠2396878⌡Émåîl nòtîfîcåtîòn låbél.⌠2396878⌡"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:432
+msgid "Email notification description."
+msgstr "⌠2396879⌡Émåîl nòtîfîcåtîòn déscrîptîòn.⌠2396879⌡"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:438
+msgid "ID of the template used by this email notification."
+msgstr "⌠2396880⌡ÎD òf thé témplåté üséd by thîs émåîl nòtîfîcåtîòn.⌠2396880⌡"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:444
+msgid "A list of categories that the email notification belongs to."
+msgstr "⌠2396881⌡Å lîst òf cåtégòrîés thåt thé émåîl nòtîfîcåtîòn bélòngs tò.⌠2396881⌡"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:453
+msgid "Email notification status"
+msgstr "⌠2396882⌡Émåîl nòtîfîcåtîòn ståtüs⌠2396882⌡"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:460
+msgid "Whether the email notification can only be sent manually."
+msgstr "⌠2396883⌡Whéthér thé émåîl nòtîfîcåtîòn cån ònly bé sént månüålly.⌠2396883⌡"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:466
+msgid "Whether the email notification will be sent to administrators."
+msgstr "⌠2396884⌡Whéthér thé émåîl nòtîfîcåtîòn wîll bé sént tò ådmînîstråtòrs.⌠2396884⌡"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:472
+msgid "A list of placeholders that are available for the email notification."
+msgstr "⌠2396885⌡Å lîst òf plåcéhòldérs thåt åré åvåîlåblé fòr thé émåîl nòtîfîcåtîòn.⌠2396885⌡"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:498
+msgid "Unique email notification category ID."
+msgstr "⌠2402659⌡Ünîqüé émåîl nòtîfîcåtîòn cåtégòry ÎD.⌠2402659⌡"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:504
+msgid "Email notification category name."
+msgstr "⌠2402660⌡Émåîl nòtîfîcåtîòn cåtégòry nåmé.⌠2402660⌡"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesController.php:118
+msgid "Unique email template ID."
+msgstr "⌠2402681⌡Ünîqüé émåîl témplåté ÎD.⌠2402681⌡"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesController.php:124
+msgid "Unique email template name (matches the ID)."
+msgstr "⌠2402682⌡Ünîqüé émåîl témplåté nåmé (måtchés thé ÎD).⌠2402682⌡"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesController.php:130
+msgid "Email template label."
+msgstr "⌠2402683⌡Émåîl témplåté låbél.⌠2402683⌡"
+
+#: src/Features/EmailNotifications/DataStores/EmailNotificationDataStore.php:71
+msgid "No email notification found with the ID %s."
+msgstr "⌠2397101⌡Nò émåîl nòtîfîcåtîòn fòünd wîth thé ÎD %s.⌠2397101⌡"
+
+#: src/Features/EmailNotifications/DataStores/EmailNotificationDataStore.php:80
+msgid "The class name for %s must be an instance of EmailNotificationContract"
+msgstr "⌠2397102⌡Thé clåss nåmé fòr %s müst bé ån înståncé òf ÉmåîlNòtîfîcåtîònCòntråct⌠2397102⌡"
+
+#: src/Features/EmailNotifications/DataStores/EmailTemplateDataStore.php:56
+msgid "No email notification template found with the ID %s."
+msgstr "⌠2402684⌡Nò émåîl nòtîfîcåtîòn témplåté fòünd wîth thé ÎD %s.⌠2402684⌡"
+
+#: src/Features/EmailNotifications/DataStores/EmailTemplateDataStore.php:65
+msgid "The class name for %s must be an instance of EmailTemplateContract"
+msgstr "⌠2402685⌡Thé clåss nåmé fòr %s müst bé ån înståncé òf ÉmåîlTémplåtéCòntråct⌠2402685⌡"
+
+#: src/Features/EmailNotifications/DataStores/OptionsSettingsDataStore.php:37
+msgid "Invalid option name template \"%s\": it should contain a {{setting_id}} placeholder."
+msgstr "⌠2395808⌡Învålîd òptîòn nåmé témplåté \"%s\": ît shòüld còntåîn å {{setting_id}} plåcéhòldér.⌠2395808⌡"
+
+#: src/Features/EmailNotifications/DataStores/OptionsSettingsDataStore.php:168
+msgid "Please use %1$s or %2$s to format a boolean value for reading from or saving to storage."
+msgstr "⌠2400399⌡Pléåsé üsé %1$s òr %2$s tò fòrmåt å bòòléån vålüé fòr réådîng fròm òr såvîng tò stòrågé.⌠2400399⌡"
+
+#: src/Features/EmailNotifications/DataStores/OptionsSettingsDataStore.php:241
+msgid "Cannot handle a \"%s\" type to parse a valid boolean value."
+msgstr "⌠2400400⌡Cånnòt håndlé å \"%s\" typé tò pårsé å vålîd bòòléån vålüé.⌠2400400⌡"
+
+#: src/Features/EmailNotifications/DataStores/SettingsDataStore.php:65
+msgid "No settings found with the ID %s."
+msgstr "⌠2406192⌡Nò séttîngs fòünd wîth thé ÎD %s.⌠2406192⌡"
+
+#: src/Features/EmailNotifications/DataStores/SettingsDataStore.php:74
+msgid "The class name for %s must be an instance of SettingGroupContract"
+msgstr "⌠2406193⌡Thé clåss nåmé fòr %s müst bé ån înståncé òf SéttîngGròüpCòntråct⌠2406193⌡"
+
+#: src/Features/EmailNotifications/DataStores/SettingsDataStore.php:99
+msgid "Content"
+msgstr "⌠2406194⌡Còntént⌠2406194⌡"
+
+#: src/Features/EmailNotifications/EmailNotifications.php:110
+msgid "Admin"
+msgstr "⌠2402661⌡Ådmîn⌠2402661⌡"
+
+#: src/Features/EmailNotifications/EmailNotifications.php:111
+msgid "Extensions"
+msgstr "⌠2402662⌡Éxténsîòns⌠2402662⌡"
+
+#: src/Features/EmailNotifications/EmailNotifications.php:112
+msgid "Customer"
+msgstr "⌠2402663⌡Cüstòmér⌠2402663⌡"
+
+#: src/Features/EmailNotifications/EmailNotifications.php:113
+msgid "Order"
+msgstr "⌠2402664⌡Òrdér⌠2402664⌡"
+
+#: src/Features/EmailNotifications/EmailsPage.php:32
+#: src/Features/EmailNotifications/Settings/GeneralSettings.php:34
+msgid "Email Notifications"
+msgstr "⌠2394539⌡Émåîl Nòtîfîcåtîòns⌠2394539⌡"
+
+#: src/Features/EmailNotifications/EmailsPage.php:33
+msgid "Emails"
+msgstr "⌠2394540⌡Émåîls⌠2394540⌡"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailContent.php:46
+msgid "Heading"
+msgstr "⌠2395705⌡Héådîng⌠2395705⌡"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailContent.php:54
+msgid "Additional content"
+msgstr "⌠2395706⌡Åddîtîònål còntént⌠2395706⌡"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:30
+msgctxt "name of the default email notification template"
+msgid "Default"
+msgstr "⌠2389609⌡Défåült⌠2389609⌡"
+
+#: src/Features/EmailNotifications/Models/EmailNotification.php:167
+msgid "Enabled"
+msgstr "⌠2395652⌡Énåbléd⌠2395652⌡"
+
+#: src/Features/EmailNotifications/Models/EmailNotification.php:175
+msgid "Subject"
+msgstr "⌠2395653⌡Sübjéct⌠2395653⌡"
+
+#: src/Features/EmailNotifications/Settings/GeneralSettings.php:51
+msgid "Sender name"
+msgstr "⌠2394578⌡Séndér nåmé⌠2394578⌡"
+
+#: src/Features/EmailNotifications/Settings/GeneralSettings.php:62
+msgid "Sender address"
+msgstr "⌠2394579⌡Séndér åddréss⌠2394579⌡"
+
+#: src/Features/EmailNotifications/Traits/HasRecipientsSettingTrait.php:63
+msgid "Recipients"
+msgstr "⌠2395809⌡Récîpîénts⌠2395809⌡"
+
+#: src/Pages/Plugins/IncludedWooCommerceExtensionsTab.php:71
+msgid "Included WooCommerce Extensions"
+msgstr "⌠2389584⌡Înclüdéd WòòCòmmércé Éxténsîòns⌠2389584⌡"
+
+#: src/Payments/Adapters/PaymentTransactionMessageAdapter.php:31
+msgid "We cannot process your order with the payment information that you provided. Please use a different payment account or an alternate payment method."
+msgstr "⌠2389585⌡Wé cånnòt pròcéss yòür òrdér wîth thé påymént înfòrmåtîòn thåt yòü pròvîdéd. Pléåsé üsé å dîfférént påymént åccòünt òr ån åltérnåté påymént méthòd.⌠2389585⌡"
+
+#: src/Payments/Adapters/PaymentTransactionMessageAdapter.php:33
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/PaymentForm.php:58
+#: src/WooCommerce/Payments/Integrations/SubscriptionsIntegration.php:146
+msgid "An error occurred, please try again or try an alternate form of payment."
+msgstr "⌠2389586⌡Ån érròr òccürréd, pléåsé try ågåîn òr try ån åltérnåté fòrm òf påymént.⌠2389586⌡"
+
+#. translators: Placeholders: %1$s - provider name, %2$s - transaction type, provider name, %3$s - total amount, %4$s - transaction status
+#: src/Payments/Adapters/TransactionOrderNoteAdapter.php:42
+msgid "%1$s %2$s in the amount of %3$s %4$s."
+msgstr "⌠2389587⌡%1$s %2$s în thé åmòünt òf %3$s %4$s.⌠2389587⌡"
+
+#. translators: Placeholders: %s - transaction ID
+#: src/Payments/Adapters/TransactionOrderNoteAdapter.php:51
+msgid " (Transaction ID %s)"
+msgstr "⌠2389588⌡ (Trånsåctîòn ÎD %s)⌠2389588⌡"
+
+#. translators: Placeholders: %1$s - approved result code, %2$s - approved result message
+#: src/Payments/Adapters/TransactionOrderNoteAdapter.php:59
+msgid "Result: [%1$s] %2$s"
+msgstr "⌠2389589⌡Résült: [%1$s] %2$s⌠2389589⌡"
+
+#: src/WooCommerce/Emails/ItemShippedEmail.php:32
+msgid "Item shipped"
+msgstr "⌠2389590⌡Îtém shîppéd⌠2389590⌡"
+
+#: src/WooCommerce/Emails/ItemShippedEmail.php:33
+msgid "Item shipped emails are sent to customers when tracking information is added for one or more items in their orders."
+msgstr "⌠2389591⌡Îtém shîppéd émåîls åré sént tò cüstòmérs whén tråckîng înfòrmåtîòn îs åddéd fòr òné òr mòré îtéms în théîr òrdérs.⌠2389591⌡"
+
+#: src/WooCommerce/Emails/ItemShippedEmail.php:58
+msgid "An item from {site_title} order #{order_number} has shipped!"
+msgstr "⌠2389592⌡Ån îtém fròm {site_title} òrdér #{order_number} hås shîppéd!⌠2389592⌡"
+
+#: src/WooCommerce/Emails/ItemShippedEmail.php:68
+msgid "Your package is on the way!"
+msgstr "⌠2389593⌡Yòür påckågé îs òn thé wåy!⌠2389593⌡"
+
+#: src/WooCommerce/Emails/ItemShippedEmail.php:78
+msgid "Please note that it may take some time for the carrier to update shipment tracking information."
+msgstr "⌠2389594⌡Pléåsé nòté thåt ît måy tåké sòmé tîmé fòr thé cårrîér tò üpdåté shîpmént tråckîng înfòrmåtîòn.⌠2389594⌡"
+
+#: src/WooCommerce/Pages/EditOrder/ShipmentTrackingMetabox.php:32
+msgid "Shipment Tracking"
+msgstr "⌠2389595⌡Shîpmént Tråckîng⌠2389595⌡"
+
+#: src/WooCommerce/Pages/Orders/Columns/ShipmentTrackingColumn.php:26
+msgid "Shipment tracking"
+msgstr "⌠2389596⌡Shîpmént tråckîng⌠2389596⌡"
+
+#: src/WooCommerce/Payments/Captures.php:173
+#: src/WooCommerce/Payments/Captures.php:291
+msgid "Capture Charge"
+msgstr "⌠2389597⌡Cåptüré Chårgé⌠2389597⌡"
+
+#: src/WooCommerce/Payments/Captures.php:283
+msgid "This charge has been fully captured"
+msgstr "⌠2389598⌡Thîs chårgé hås béén fülly cåptüréd⌠2389598⌡"
+
+#: src/WooCommerce/Payments/Captures.php:301
+msgid "Are you sure you wish to process this capture? The action cannot be undone."
+msgstr "⌠2389599⌡Åré yòü süré yòü wîsh tò pròcéss thîs cåptüré? Thé åctîòn cånnòt bé ündòné.⌠2389599⌡"
+
+#: src/WooCommerce/Payments/Captures.php:302
+msgid "Something went wrong, and the capture could not be completed. Please try again."
+msgstr "⌠2389600⌡Sòméthîng wént wròng, ånd thé cåptüré còüld nòt bé còmplétéd. Pléåsé try ågåîn.⌠2389600⌡"
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:242
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:339
+msgid "Edit"
+msgstr "⌠2389601⌡Édît⌠2389601⌡"
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:243
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:359
+msgid "Cancel"
+msgstr "⌠2389602⌡Cåncél⌠2389602⌡"
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:244
+msgid "Oops, there was an error updating your payment method. Please try again."
+msgstr "⌠2389603⌡Òòps, théré wås ån érròr üpdåtîng yòür påymént méthòd. Pléåsé try ågåîn.⌠2389603⌡"
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:245
+msgid "Are you sure you want to delete this payment method?"
+msgstr "⌠2389604⌡Åré yòü süré yòü wånt tò délété thîs påymént méthòd?⌠2389604⌡"
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:343
+msgid "Save"
+msgstr "⌠2389605⌡Såvé⌠2389605⌡"
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:362
+msgid "Title"
+msgstr "⌠2389606⌡Tîtlé⌠2389606⌡"
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:364
+msgid "Details"
+msgstr "⌠2389607⌡Détåîls⌠2389607⌡"
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:366
+msgid "Default?"
+msgstr "⌠2389608⌡Défåült?⌠2389608⌡"
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:502
+#: src/WooCommerce/Payments/Frontend/Views/MyPaymentMethods/PaymentMethodView.php:70
+msgid "Default"
+msgstr "⌠2402686⌡Défåült⌠2402686⌡"
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:586
+msgid "Invalid token ID"
+msgstr "⌠2389610⌡Învålîd tòkén ÎD⌠2389610⌡"
+
+#: src/WooCommerce/Payments/Frontend/PaymentForm.php:191
+msgid "Manage Payment Methods"
+msgstr "⌠2389611⌡Månågé Påymént Méthòds⌠2389611⌡"
+
+#: src/WooCommerce/Payments/Frontend/PaymentForm.php:218
+msgid "Use a new card"
+msgstr "⌠2389612⌡Üsé å néw cård⌠2389612⌡"
+
+#: src/WooCommerce/Payments/Frontend/PaymentForm.php:269
+msgid "Securely Save to Account"
+msgstr "⌠2389613⌡Sécürély Såvé tò Åccòünt⌠2389613⌡"
+
+#: src/WooCommerce/Payments/Frontend/Views/MyPaymentMethods/PaymentMethodView.php:45
+msgid "Nickname"
+msgstr "⌠2389614⌡Nîcknåmé⌠2389614⌡"
+
+#. translators: Placeholders: %s - expiration date
+#: src/WooCommerce/Payments/Frontend/Views/PaymentForm/CardPaymentMethodView.php:32
+msgid "expires %s"
+msgstr "⌠2389615⌡éxpîrés %s⌠2389615⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/API/Controllers/Onboarding/OnboardingStartController.php:124
+#: src/WooCommerce/Payments/GoDaddyPayments/API/Controllers/Onboarding/OnboardingStatusController.php:86
+msgid "The GoDaddy Payments service ID"
+msgstr "⌠2389616⌡Thé GòDåddy Påyménts sérvîcé ÎD⌠2389616⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/API/Controllers/Onboarding/OnboardingStartController.php:130
+msgid "The nonce for validating the redirect after onboarding"
+msgstr "⌠2389617⌡Thé nòncé fòr vålîdåtîng thé rédîréct åftér ònbòårdîng⌠2389617⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/API/Controllers/Onboarding/OnboardingStatusController.php:71
+msgid "The GoDaddy Payments onboarding status"
+msgstr "⌠2389618⌡Thé GòDåddy Påyménts ònbòårdîng ståtüs⌠2389618⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Notices.php:67
+msgid "There was an error connecting to GoDaddy Payments. Please try again."
+msgstr "⌠2389619⌡Théré wås ån érròr cònnéctîng tò GòDåddy Påyménts. Pléåsé try ågåîn.⌠2389619⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Notices.php:81
+msgid "%1$sGoDaddy Payments successfully enabled!%2$s GoDaddy Payments is now available to your customers at checkout."
+msgstr "⌠2389620⌡%1$sGòDåddy Påyménts süccéssfülly énåbléd!%2$s GòDåddy Påyménts îs nòw åvåîlåblé tò yòür cüstòmérs åt chéckòüt.⌠2389620⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Notices.php:86
+msgid "%1$sGoDaddy Payments is now connected to your store!%2$s Enable the payment method to add it to your checkout. %3$sEnable GoDaddy Payments%4$s"
+msgstr "⌠2389621⌡%1$sGòDåddy Påyménts îs nòw cònnéctéd tò yòür stòré!%2$s Énåblé thé påymént méthòd tò ådd ît tò yòür chéckòüt. %3$sÉnåblé GòDåddy Påyménts%4$s⌠2389621⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Notices.php:97
+msgid "%1$sYour GoDaddy Payments account has been closed.%2$s The payment method has been disabled so it will not appear on your checkout. Please set up your account to resume processing payments."
+msgstr "⌠2389622⌡%1$sYòür GòDåddy Påyménts åccòünt hås béén clòséd.%2$s Thé påymént méthòd hås béén dîsåbléd sò ît wîll nòt åppéår òn yòür chéckòüt. Pléåsé sét üp yòür åccòünt tò résümé pròcéssîng påyménts.⌠2389622⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Notices.php:106
+msgid "%1$sIt looks like you didn't finish your GoDaddy Payments application. You're just a few minutes from processing payments.%2$s %3$sResume%4$s"
+msgstr "⌠2389623⌡%1$sÎt lòòks lîké yòü dîdn't fînîsh yòür GòDåddy Påyménts åpplîcåtîòn. Yòü'ré jüst å féw mînütés fròm pròcéssîng påyménts.%2$s %3$sRésümé%4$s⌠2389623⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Notices.php:116
+msgid "%1$sYour GoDaddy Payments account needs attention.%2$s The payment method has been disabled so it will not appear on your checkout. Please check your email for next steps."
+msgstr "⌠2389624⌡%1$sYòür GòDåddy Påyménts åccòünt nééds åtténtîòn.%2$s Thé påymént méthòd hås béén dîsåbléd sò ît wîll nòt åppéår òn yòür chéckòüt. Pléåsé chéck yòür émåîl fòr néxt stéps.⌠2389624⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Notices.php:125
+msgid "%1$sYour GoDaddy Payments account has been terminated.%2$s The payment method has been disabled so it will not appear on your checkout. Please check your email for more information."
+msgstr "⌠2389625⌡%1$sYòür GòDåddy Påyménts åccòünt hås béén térmînåtéd.%2$s Thé påymént méthòd hås béén dîsåbléd sò ît wîll nòt åppéår òn yòür chéckòüt. Pléåsé chéck yòür émåîl fòr mòré înfòrmåtîòn.⌠2389625⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Notices.php:151
+msgid "Congratulations! To receive your payouts, please link your bank account to GoDaddy Payments. %1$sLink Bank Account%2$s"
+msgstr "⌠2389626⌡Còngråtülåtîòns! Tò récéîvé yòür påyòüts, pléåsé lînk yòür bånk åccòünt tò GòDåddy Påyménts. %1$sLînk Bånk Åccòünt%2$s⌠2389626⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Notices.php:173
+msgid "GoDaddy Payments is available for United States-based businesses. Please %1$supdate your Store Address%2$s if you are in the U.S."
+msgstr "⌠2389627⌡GòDåddy Påyménts îs åvåîlåblé fòr Ünîtéd Ståtés-båséd büsînéssés. Pléåsé %1$süpdåté yòür Stòré Åddréss%2$s îf yòü åré în thé Ü.S.⌠2389627⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Notices.php:185
+msgid "GoDaddy Payments requires U.S. dollar transactions. Please %1$schange your Currency%2$s in order to use the payment method."
+msgstr "⌠2389628⌡GòDåddy Påyménts réqüîrés Ü.S. dòllår trånsåctîòns. Pléåsé %1$schångé yòür Cürréncy%2$s în òrdér tò üsé thé påymént méthòd.⌠2389628⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Notices.php:196
+msgid "WooCommerce charges or authorizations/captures as well as refunds and voids made in your Staging site will process normally in your GoDaddy Payments account."
+msgstr "⌠2389629⌡WòòCòmmércé chårgés òr åüthòrîzåtîòns/cåptürés ås wéll ås réfünds ånd vòîds mådé în yòür Stågîng sîté wîll pròcéss nòrmålly în yòür GòDåddy Påyménts åccòünt.⌠2389629⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Notices.php:229
+msgid "GoDaddy Payments (Poynt) is included for Managed WordPress customers without a separate plugin! Go to %1$sPayments settings%2$s to enable it."
+msgstr "⌠2389630⌡GòDåddy Påyménts (Pòynt) îs înclüdéd fòr Månågéd WòrdPréss cüstòmérs wîthòüt å sépåråté plügîn! Gò tò %1$sPåyménts séttîngs%2$s tò énåblé ît.⌠2389630⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:87
+msgid "Status"
+msgstr "⌠2389631⌡Ståtüs⌠2389631⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:114
+msgid "GoDaddy Payments"
+msgstr "⌠2389632⌡GòDåddy Påyménts⌠2389632⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:173
+msgid "Set up"
+msgstr "⌠2389633⌡Sét üp⌠2389633⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:177
+msgid "Resume"
+msgstr "⌠2389634⌡Résümé⌠2389634⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:182
+msgid "Remove"
+msgstr "⌠2389635⌡Rémòvé⌠2389635⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:186
+msgid "Manage"
+msgstr "⌠2389636⌡Månågé⌠2389636⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:203
+msgid "Recommended"
+msgstr "⌠2389637⌡Récòmméndéd⌠2389637⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:204
+msgid "2.3% + 30¢ per online store transaction."
+msgstr "⌠2406712⌡2.3% + 30¢ pér ònlîné stòré trånsåctîòn.⌠2406712⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:207
+msgid "Connected"
+msgstr "⌠2389639⌡Cònnéctéd⌠2389639⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:208
+msgid "Connected to your GoDaddy Payments account."
+msgstr "⌠2389640⌡Cònnéctéd tò yòür GòDåddy Påyménts åccòünt.⌠2389640⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:211
+msgid "Connecting"
+msgstr "⌠2389641⌡Cònnéctîng⌠2389641⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:212
+msgid "This can take a few minutes. Please refresh to check."
+msgstr "⌠2389642⌡Thîs cån tåké å féw mînütés. Pléåsé réfrésh tò chéck.⌠2389642⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:215
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:236
+msgid "Not available"
+msgstr "⌠2389643⌡Nòt åvåîlåblé⌠2389643⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:216
+msgid "Thank you for applying, but we are unable to provide payment processing for your business."
+msgstr "⌠2389644⌡Thånk yòü fòr åpplyîng, büt wé åré ünåblé tò pròvîdé påymént pròcéssîng fòr yòür büsînéss.⌠2389644⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:219
+msgid "Disconnected"
+msgstr "⌠2389645⌡Dîscònnéctéd⌠2389645⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:220
+msgid "Your account has been closed."
+msgstr "⌠2389646⌡Yòür åccòünt hås béén clòséd.⌠2389646⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:223
+msgid "Incomplete"
+msgstr "⌠2389647⌡Încòmplété⌠2389647⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:224
+msgid "Click Resume to complete your application."
+msgstr "⌠2389648⌡Clîck Résümé tò còmplété yòür åpplîcåtîòn.⌠2389648⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:228
+msgid "Needs attention"
+msgstr "⌠2389649⌡Nééds åtténtîòn⌠2389649⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:229
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:233
+msgid "Please check your email for next steps."
+msgstr "⌠2389650⌡Pléåsé chéck yòür émåîl fòr néxt stéps.⌠2389650⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:232
+msgid "Pending"
+msgstr "⌠2389651⌡Péndîng⌠2389651⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:237
+msgid "Your GoDaddy Payments account has been terminated."
+msgstr "⌠2389652⌡Yòür GòDåddy Påyménts åccòünt hås béén térmînåtéd.⌠2389652⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:337
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:360
+msgid "Set up GoDaddy Payments"
+msgstr "⌠2389653⌡Sét üp GòDåddy Påyménts⌠2389653⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:344
+msgid "You're about to open GoDaddy Payments account signup. In just a few minutes, you'll return here to enable secure payments in your checkout."
+msgstr "⌠2389654⌡Yòü'ré åbòüt tò òpén GòDåddy Påyménts åccòünt sîgnüp. În jüst å féw mînütés, yòü'll rétürn héré tò énåblé sécüré påyménts în yòür chéckòüt.⌠2389654⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:348
+msgid "Connect to GoDaddy Payments to quickly and easily accept all major credit cards with no setup fees or contracts."
+msgstr "⌠2389655⌡Cònnéct tò GòDåddy Påyménts tò qüîckly ånd éåsîly åccépt åll måjòr crédît cårds wîth nò sétüp féés òr còntråcts.⌠2389655⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:351
+msgid "2.3% + 30¢"
+msgstr "⌠2406713⌡2.3% + 30¢⌠2406713⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/PaymentMethodsListTable.php:352
+msgid "per online store transaction"
+msgstr "⌠2406714⌡pér ònlîné stòré trånsåctîòn⌠2406714⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Views/GoDaddyPaymentsPromotionBlock.php:27
+msgid "Get paid fast with GoDaddy Payments"
+msgstr "⌠2390383⌡Gét påîd fåst wîth GòDåddy Påyménts⌠2390383⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Views/GoDaddyPaymentsPromotionBlock.php:39
+msgid "Securely accept credit and debit card payments in minutes and get next-day payouts. Free setup and no hidden fees or long-term contracts."
+msgstr "⌠2390384⌡Sécürély åccépt crédît ånd débît cård påyménts în mînütés ånd gét néxt-dåy påyòüts. Fréé sétüp ånd nò hîddén féés òr lòng-térm còntråcts.⌠2390384⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Views/GoDaddyPaymentsPromotionBlock.php:63
+msgctxt "GoDaddy Payments promotion block button"
+msgid "Set up"
+msgstr "⌠2390385⌡Sét üp⌠2390385⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/PaymentForm.php:59
+msgid "Missing card details."
+msgstr "⌠2393270⌡Mîssîng cård détåîls.⌠2393270⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/PaymentForm.php:60
+msgid "Missing billing details."
+msgstr "⌠2393271⌡Mîssîng bîllîng détåîls.⌠2393271⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:184
+msgid "Manage your GoDaddy Payments account settings in the %1$sPayments Hub%2$s"
+msgstr "⌠2389658⌡Månågé yòür GòDåddy Påyménts åccòünt séttîngs în thé %1$sPåyménts Hüb%2$s⌠2389658⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:400
+msgid "Enable"
+msgstr "⌠2389659⌡Énåblé⌠2389659⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:402
+msgid "Enable to add the payment method to your checkout."
+msgstr "⌠2389660⌡Énåblé tò ådd thé påymént méthòd tò yòür chéckòüt.⌠2389660⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:407
+msgid "Title in Checkout"
+msgstr "⌠2389661⌡Tîtlé în Chéckòüt⌠2389661⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:409
+msgid "Payment method title that the customer will see during checkout."
+msgstr "⌠2389662⌡Påymént méthòd tîtlé thåt thé cüstòmér wîll séé dürîng chéckòüt.⌠2389662⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:413
+msgid "Description in Checkout"
+msgstr "⌠2389663⌡Déscrîptîòn în Chéckòüt⌠2389663⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:415
+msgid "Payment method description that the customer will see during checkout."
+msgstr "⌠2389664⌡Påymént méthòd déscrîptîòn thåt thé cüstòmér wîll séé dürîng chéckòüt.⌠2389664⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:419
+msgid "Transaction Type"
+msgstr "⌠2389665⌡Trånsåctîòn Typé⌠2389665⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:421
+msgid "Select how transactions should be processed. Charge submits all transactions for settlement, Authorization simply authorizes the order total for capture later."
+msgstr "⌠2389666⌡Séléct hòw trånsåctîòns shòüld bé pròcésséd. Chårgé sübmîts åll trånsåctîòns fòr séttlémént, Åüthòrîzåtîòn sîmply åüthòrîzés thé òrdér tòtål fòr cåptüré låtér.⌠2389666⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:424
+msgctxt "noun, credit card transaction type"
+msgid "Charge"
+msgstr "⌠2389667⌡Chårgé⌠2389667⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:425
+msgctxt "credit card transaction type"
+msgid "Authorization"
+msgstr "⌠2389668⌡Åüthòrîzåtîòn⌠2389668⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:429
+msgid "Charge Virtual-Only Orders"
+msgstr "⌠2389669⌡Chårgé Vîrtüål-Ònly Òrdérs⌠2389669⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:431
+msgid "If the order contains exclusively virtual items, enable this to immediately charge, rather than authorize, the transaction."
+msgstr "⌠2389670⌡Îf thé òrdér còntåîns éxclüsîvély vîrtüål îtéms, énåblé thîs tò îmmédîåtély chårgé, råthér thån åüthòrîzé, thé trånsåctîòn.⌠2389670⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:435
+msgid "Capture Paid Orders"
+msgstr "⌠2389671⌡Cåptüré Påîd Òrdérs⌠2389671⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:439
+msgid "Automatically capture orders when they are changed to %s."
+msgstr "⌠2389672⌡Åütòmåtîcålly cåptüré òrdérs whén théy åré chångéd tò %s.⌠2389672⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:440
+msgid "a paid status"
+msgstr "⌠2389673⌡å påîd ståtüs⌠2389673⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:444
+msgid "Accepted Card Logos"
+msgstr "⌠2389674⌡Åccéptéd Cård Lògòs⌠2389674⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:446
+msgid "These are the card logos that are displayed to customers as accepted during checkout."
+msgstr "⌠2389675⌡Thésé åré thé cård lògòs thåt åré dîsplåyéd tò cüstòmérs ås åccéptéd dürîng chéckòüt.⌠2389675⌡"
+
+#. translators: Placeholders: %1$s - <strong> tag, %2$s - </strong> tag
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:449
+msgid "This setting %1$sdoes not%2$s change which card types the gateway will accept. Accepted cards are configured from your payment processor account."
+msgstr "⌠2389676⌡Thîs séttîng %1$sdòés nòt%2$s chångé whîch cård typés thé gåtéwåy wîll åccépt. Åccéptéd cårds åré cònfîgüréd fròm yòür påymént pròcéssòr åccòünt.⌠2389676⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:460
+msgid "Saved Cards"
+msgstr "⌠2389677⌡Såvéd Cårds⌠2389677⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:462
+msgid "Enable customers to securely save their payment cards to their account for future checkout."
+msgstr "⌠2389678⌡Énåblé cüstòmérs tò sécürély såvé théîr påymént cårds tò théîr åccòünt fòr fütüré chéckòüt.⌠2389678⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:466
+msgid "Detailed Decline Messages"
+msgstr "⌠2389679⌡Détåîléd Déclîné Méssågés⌠2389679⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:468
+msgid "Enable detailed decline messages for customers during checkout rather than a generic decline message."
+msgstr "⌠2389680⌡Énåblé détåîléd déclîné méssågés fòr cüstòmérs dürîng chéckòüt råthér thån å générîc déclîné méssågé.⌠2389680⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:472
+msgid "Debug Mode"
+msgstr "⌠2389681⌡Débüg Mòdé⌠2389681⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:474
+msgid "Show Detailed Error Messages and API requests/responses on the checkout page and/or save them to the debug log"
+msgstr "⌠2389682⌡Shòw Détåîléd Érròr Méssågés ånd ÅPÎ réqüésts/réspònsés òn thé chéckòüt pågé ånd/òr såvé thém tò thé débüg lòg⌠2389682⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:477
+msgid "Off"
+msgstr "⌠2389683⌡Òff⌠2389683⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:478
+msgid "Show on Checkout Page"
+msgstr "⌠2389684⌡Shòw òn Chéckòüt Pågé⌠2389684⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:479
+msgid "Save to Log"
+msgstr "⌠2389685⌡Såvé tò Lòg⌠2389685⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:480
+msgid "Both"
+msgstr "⌠2389686⌡Bòth⌠2389686⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:539
+msgid "Pay securely with your credit/debit card."
+msgstr "⌠2389687⌡Påy sécürély wîth yòür crédît/débît cård.⌠2389687⌡"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:553
+msgid "Credit/Debit Card"
+msgstr "⌠2389688⌡Crédît/Débît Cård⌠2389688⌡"
+
+#: src/WooCommerce/Payments/Integrations/PreOrderIntegration.php:187
+msgid "Pre-Order release payment failed: %s"
+msgstr "⌠2389689⌡Pré-Òrdér réléåsé påymént fåîléd: %s⌠2389689⌡"
+
+#: src/WooCommerce/Views/Components/AbstractShipmentsTable.php:105
+msgid "Carrier"
+msgstr "⌠2389690⌡Cårrîér⌠2389690⌡"
+
+#: src/WooCommerce/Views/Components/AbstractShipmentsTable.php:106
+msgid "Tracking number"
+msgstr "⌠2389691⌡Tråckîng nümbér⌠2389691⌡"
+
+#: src/WooCommerce/Views/Components/AbstractShipmentsTable.php:110
+msgid "Items"
+msgstr "⌠2389692⌡Îtéms⌠2389692⌡"
+
+#: src/WooCommerce/Views/Components/GoDaddyBranding.php:50
+msgid "Provided by GoDaddy"
+msgstr "⌠2389583⌡Pròvîdéd by GòDåddy⌠2389583⌡"
+
+#: templates/woocommerce/emails/order/order-shipments.php:24
+#: templates/woocommerce/emails/plain/order/order-shipments.php:25
+#: templates/woocommerce/order/order-shipments.php:26
+msgid "Shipments"
+msgstr "⌠2389693⌡Shîpménts⌠2389693⌡"
+
+#. translators: Placeholders: %1$s - Shipping carrier, %2$s - Shipping provider label
+#. translators: Placeholders: %1$s - Tracking number column name, %2$s - Tracking number
+#: templates/woocommerce/emails/plain/order/order-shipments.php:30
+#: templates/woocommerce/emails/plain/order/order-shipments.php:32
+msgid "%1$s: %2$s"
+msgstr "⌠2389694⌡%1$s: %2$s⌠2389694⌡"
+
+#. translators: Placeholder: %s - tracking URL
+#: templates/woocommerce/emails/plain/order/order-shipments.php:36
+msgid "Tracking URL: %s"
+msgstr "⌠2389695⌡Tråckîng ÜRL: %s⌠2389695⌡"
+
+#. translators: Placeholder: %s - items column
+#: templates/woocommerce/emails/plain/order/order-shipments.php:41
+msgid "%s: "
+msgstr "⌠2389696⌡%s: ⌠2389696⌡"
+
+#. translators: Placeholders: %1$s - item name, %2$s - item quantity
+#: templates/woocommerce/emails/plain/order/order-shipments.php:45
+msgid "%1$s x %2$s"
+msgstr "⌠2389697⌡%1$s x %2$s⌠2389697⌡"

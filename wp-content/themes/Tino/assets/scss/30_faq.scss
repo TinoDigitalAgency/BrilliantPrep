@@ -1,0 +1,221 @@
+.section-faq {
+  border-top: 1px #EBEBEC solid;
+  border-bottom: 1px #EBEBEC solid;
+  .section-inner {
+    padding: 32px 0;
+  }
+  .title-block {
+    margin-top: 38px;
+    //margin-bottom: 4;
+  }
+}
+.section-faq-filter {
+  .section-inner {
+    padding: 80px 0;
+  }
+  .child-faq-item {
+    width: 100%;
+    &.active {
+      z-index: 5;
+    }
+  }
+  .filter-title {
+    margin-bottom: 16px;
+  }
+}
+.child-faq-item {
+  &.active {
+    z-index: 5;
+  }
+}
+
+.parent-faq {
+  .parent-faq-head {
+
+  }
+  .parent-faq-content {
+    display: none;
+    &.show-default {
+      display: block;
+    }
+  }
+  .tiger-parent-faq {
+    background: transparent;
+    border: none;
+    padding: 64px 70px 64px 0;
+    font-size: 32px;
+    color: $blackColor;
+    letter-spacing: 0;
+    line-height: 40px;
+    font-weight: 700;
+    display: block;
+    width: 100%;
+    text-align: left;
+    position: relative;
+    cursor: pointer;
+    transition: all 400ms;
+    &:hover {
+      color: $pinkColor;
+    }
+    .faq-marker {
+      position: absolute;
+      width: 24px;
+      height: 24px;
+      right: 44px;
+      top: 50%;
+      margin-top: -12px;
+      &::after,
+      &::before {
+        content: '';
+        background: $blackColor;
+        transition: all 400ms;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+      }
+      &::after {
+        width: 5px;
+        height: 100%;
+      }
+      &::before {
+        width: 100%;
+        height: 5px;
+      }
+    }
+  }
+  &.active {
+      .tiger-parent-faq {
+        .faq-marker {
+          &::after {
+            transform: translate(-50%,-50%) rotate(90deg);
+          }
+        }
+    }
+  }
+}
+.child-faq {
+  background: $whiteColor;
+  padding: 32px 48px;
+  .child-faq-head {
+
+  }
+  .tiger-child-faq {
+    width: 100%;
+    background: transparent;
+    border: none;
+    padding: 16px 20px 16px 0;
+    text-align: left;
+    font-family: CircularStd;
+    font-weight: 700;
+    position: relative;
+    font-size: 24px;
+    color: $blackColor;
+    letter-spacing: 0;
+    line-height: 32px;
+    .faq-marker {
+      position: absolute;
+      width: 16px;
+      height: 16px;
+      right: 0;
+      top: 50%;
+      margin-top: -12px;
+      &::after,
+      &::before {
+        content: '';
+        background: $blackColor;
+        transition: all 400ms;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+      }
+      &::after {
+        width: 3px;
+        height: 100%;
+      }
+      &::before {
+        width: 100%;
+        height: 3px;
+      }
+    }
+  }
+  .child-faq-content {
+    padding-bottom: 16px;
+    display: none;
+    font-size: 20px;
+    color: $blackColor;
+    letter-spacing: 0;
+    line-height: 28px;
+    p {
+      font-size: 20px;
+      color: $blackColor;
+      letter-spacing: 0;
+      line-height: 28px;
+      & + p {
+        margin-top: 16px;
+      }
+    }
+    a {
+      font-size: 20px;
+      color: #383373;
+      letter-spacing: 0;
+      line-height: 28px;
+      text-decoration: underline;
+      &:hover {
+        color: $pinkColor;
+      }
+    }
+  }
+  &.active {
+    .tiger-child-faq {
+      .faq-marker {
+        &::after {
+          transform: translate(-50%,-50%) rotate(90deg);
+        }
+      }
+    }
+  }
+}
+.child-faq-item {
+  & + .child-faq-item {
+    margin-top: 16px;
+  }
+}
+.parent-faq-content {
+  padding-bottom: 64px;
+
+}
+
+.section-hero {
+  & + .section-faq {
+    .section-inner {
+      padding-top: 130px;
+    }
+  }
+}
+.filter-faq {
+  background: $whiteColor;
+  padding: 40px;
+  .button {
+    font-weight: 700;
+    font-size: 20px;
+    color: $blueColor;
+    letter-spacing: 0;
+    line-height: 28px;
+    display: block;
+    width: 100%;
+    border: none;
+    background: 0;
+    padding: 8px 0;
+    text-align: left;
+    transition: all 400ms;
+    opacity: .3;
+    &.is-checked {
+      opacity: 1;
+    }
+    &:hover {
+      color: $pinkColor;
+    }
+  }
+}

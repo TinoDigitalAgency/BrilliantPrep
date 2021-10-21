@@ -1,0 +1,34 @@
+{
+  "name": "godaddy/mwc-url-coupons",
+  "description": "",
+  "type": "library",
+  "license": "proprietary",
+  "minimum-stability": "dev",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/skyverge/wc-plugin-framework"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:skyverge/php-coding-standards.git"
+    }
+  ],
+  "require": {
+    "skyverge/wc-plugin-framework": "5.10.2"
+  },
+  "scripts": {
+    "phpcs": [
+      "phpcs -s -p"
+    ],
+    "phpcs-diff": [
+      "git diff origin/master > diff.txt",
+      "phpcs -q --report=json > phpcs.json || true",
+      "diffFilter --phpcsStrict diff.txt phpcs.json 100"
+    ]
+  },
+  "require-dev": {
+    "exussum12/coverage-checker": "dev-master",
+    "skyverge/php-coding-standards": "dev-master"
+  }
+}
